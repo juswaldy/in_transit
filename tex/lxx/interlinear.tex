@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{expex}
+% Settings from https://tex.stackexchange.com/a/224154/
+\lingset{everygla=\footnotesize\sffamily, % formatting the numbers in the gla line
+    glwordalign=center, % center alignment within glwords
+    aboveglbskip=-0.4ex, % narrows the vertical gap between the gla and glb lines
+    glhangstyle=none, % no hanging indent
+    glspace=!0pt plus .2em, % widens the allowable space between glwords to avoid overfull lines
+    glrightskip=0pt plus .5\hsize, % widens the allowable space between the right margin and the end of the last glword on a line to avoid overfull lines
+    everyglb=\textrussian}
+
+\usepackage{polyglossia}
+\usepackage{palatino}
+%\setmainfont{Linux Libertine O}
+\setmainlanguage{english}
+\setotherlanguage{greek}
+\begin{document}
+\exdisplay
+\begingl
+\gla Now {} {the possibility} {to print} simple documents with English and Russian.//
+\glb Теперь есть возможность печатать простые документы с английскими и 
+русскими//
+\endgl
+\xe
+\exdisplay
+\begingl
+\gla {}  {to print} {} with {}//
+\glb {Теперь есть возможность} печатать {простые документы} с {английскими и 
+русскими}//
+\endgl

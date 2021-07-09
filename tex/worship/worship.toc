@@ -1,0 +1,20 @@
+\select@language {english}
+\contentsline {section}{\numberline {0.1}Amazing Grace}{3}{section.0.1}
+\contentsline {section}{\numberline {0.2}Be Thou My Vision}{4}{section.0.2}
+\contentsline {section}{\numberline {0.3}Because He Lives}{4}{section.0.3}
+\contentsline {section}{\numberline {0.4}Blessed Be Your Name}{5}{section.0.4}
+\contentsline {section}{\numberline {0.5}Breathe}{6}{section.0.5}
+\contentsline {section}{\numberline {0.6}Cornerstone}{7}{section.0.6}
+\contentsline {section}{\numberline {0.7}El Shaddai}{7}{section.0.7}
+\contentsline {section}{\numberline {0.8}Here I Am To Worship}{8}{section.0.8}
+\contentsline {section}{\numberline {0.9}How Great Thou Art}{9}{section.0.9}
+\contentsline {section}{\numberline {0.10}I Surrender All}{10}{section.0.10}
+\contentsline {section}{\numberline {0.11}In Christ Alone}{10}{section.0.11}
+\contentsline {section}{\numberline {0.12}Is He Worthy}{11}{section.0.12}
+\contentsline {section}{\numberline {0.13}It Is Well With My Soul}{12}{section.0.13}
+\contentsline {section}{\numberline {0.14}Knowing You}{13}{section.0.14}
+\contentsline {section}{\numberline {0.15}Power Of Your Love}{14}{section.0.15}
+\contentsline {section}{\numberline {0.16}The Old Rugged Cross}{15}{section.0.16}
+\contentsline {section}{\numberline {0.17}Tis So Sweet}{16}{section.0.17}
+\contentsline {section}{\numberline {0.18}You Are My All In All}{16}{section.0.18}
+\contentsline {section}{\numberline {0.19}You Raise Me Up}{17}{section.0.19}

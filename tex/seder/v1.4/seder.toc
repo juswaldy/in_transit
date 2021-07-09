@@ -1,0 +1,27 @@
+\vspace {-\cftbeforepartskip }
+\select@language {english}
+\contentsline {chapter}{\numberline {0}{Introduction}}{4}{chapter.0}
+\contentsline {section}{\numberline {0.1}{The Feast}}{6}{section.0.1}
+\contentsline {section}{\numberline {0.2}{The Rhyme}}{6}{section.0.2}
+\contentsline {section}{\numberline {0.3}{The Liturgy}}{6}{section.0.3}
+\contentsline {part}{\numberline {i}{The First Cup: I Will Bring You Out}}{9}{part.1}
+\contentsline {chapter}{\numberline {1}{Qaddesh: Sanctify}}{10}{chapter.1}
+\contentsline {chapter}{\numberline {2}{Urchatz: And Wash}}{12}{chapter.2}
+\contentsline {chapter}{\numberline {3}{Karpas: Vegetable}}{14}{chapter.3}
+\contentsline {chapter}{\numberline {4}{Yachatz: Divide}}{15}{chapter.4}
+\contentsline {part}{\numberline {ii}{The Second Cup: I Will Deliver You}}{17}{part.2}
+\contentsline {chapter}{\numberline {5}{Maggid: Telling}}{18}{chapter.5}
+\contentsline {chapter}{\numberline {6}{Rachtza: Washing}}{20}{chapter.6}
+\contentsline {chapter}{\numberline {7}{Motzi Mattza: Bringing Out Matzah}}{21}{chapter.7}
+\contentsline {chapter}{\numberline {8}{Maror: Bitter Herb}}{22}{chapter.8}
+\contentsline {chapter}{\numberline {9}{Korekh: Sandwich}}{23}{chapter.9}
+\contentsline {chapter}{\numberline {10}{Shulchan Orekh: Preparing Table}}{24}{chapter.10}
+\contentsline {chapter}{\numberline {11}{Tzafun: Hidden}}{25}{chapter.11}
+\contentsline {part}{\numberline {iii}{The Third Cup: I Will Redeem You}}{28}{part.3}
+\contentsline {chapter}{\numberline {12}{Barekh: Bless}}{29}{chapter.12}
+\contentsline {part}{\numberline {iv}{The Fourth Cup: I Will Take You}}{31}{part.4}
+\contentsline {chapter}{\numberline {13}{Hallel: Praise}}{32}{chapter.13}
+\contentsline {chapter}{\numberline {14}{Nirtza: Pleasing}}{34}{chapter.14}
+\contentsline {part}{\numberline {v}{Appendix}}{35}{part.5}
+\contentsline {chapter}{\numberline {A}{The Door}}{36}{appendix.A}
+\contentsline {chapter}{\numberline {B}{One and The Same}}{39}{appendix.B}

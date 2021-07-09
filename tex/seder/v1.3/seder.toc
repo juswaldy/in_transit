@@ -1,0 +1,27 @@
+\vspace {-\cftbeforepartskip }
+\select@language {english}
+\contentsline {chapter}{\numberline {0}\spacedlowsmallcaps {Introduction}}{4}{chapter.0}
+\contentsline {section}{\numberline {0.1}The Feast}{5}{section.0.1}
+\contentsline {section}{\numberline {0.2}The Rhyme}{6}{section.0.2}
+\contentsline {section}{\numberline {0.3}The Liturgy}{6}{section.0.3}
+\contentsline {part}{\numberline {i}\spacedlowsmallcaps {The First Cup: I Will Bring You Out}}{9}{part.1}
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Qaddesh: Sanctify}}{10}{chapter.1}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Urchatz: And Wash}}{12}{chapter.2}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Karpas: Vegetable}}{13}{chapter.3}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Yachatz: Divide}}{14}{chapter.4}
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {The Second Cup: I Will Deliver You}}{16}{part.2}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Maggid: Telling}}{17}{chapter.5}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Rachtza: Washing}}{18}{chapter.6}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Motzi Mattza: Bringing Out Matzah}}{19}{chapter.7}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Maror: Bitter Herb}}{20}{chapter.8}
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Korekh: Sandwich}}{21}{chapter.9}
+\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Shulchan Orekh: Preparing Table}}{22}{chapter.10}
+\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Tzafun: Hidden}}{23}{chapter.11}
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {The Third Cup: I Will Redeem You}}{25}{part.3}
+\contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {Barekh: Bless}}{26}{chapter.12}
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {The Fourth Cup: I Will Take You}}{28}{part.4}
+\contentsline {chapter}{\numberline {13}\spacedlowsmallcaps {Hallel: Praise}}{29}{chapter.13}
+\contentsline {chapter}{\numberline {14}\spacedlowsmallcaps {Nirtza: Pleasing}}{31}{chapter.14}
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendix}}{32}{part.5}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {The Door}}{33}{appendix.A}
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {One and The Same}}{36}{appendix.B}

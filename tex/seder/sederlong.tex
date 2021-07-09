@@ -1,0 +1,428 @@
+% Passover Seder Liturgy
+\documentclass[10pt,oneside,footinclude=true,headinclude=true]{scrbook} % KOMA-Script book
+\usepackage[LHE,T1]{fontenc}
+\usepackage{lipsum}
+%\usepackage[linedheaders,parts,a5paper]{classicthesis} % ,manychapters
+\usepackage[linedheaders,manychapters,parts]{classicthesis} % ,manychapters
+%\usepackage[osf]{libertine}
+\usepackage[paperheight=8.5in,paperwidth=5.5in,margin=0.8in]{geometry}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+
+\usepackage{paracol}
+
+%\usepackage{palatino}
+
+% Helper functions.
+\newcommand\recitwidth{7.7cm}
+\newcommand\oldrecite[2]{ \ifthenelse{\equal{#1}{All}} {\textbf{#1} : & \textbf{\small #2}} {#1 : & \small #2} }
+\newcommand\recitecol[2]{
+	\small{
+		\begin{paracol}{2}
+		\columnratio{0.15,0.85}
+			\begin{leftcolumn}
+			#1 :
+			\end{leftcolumn}
+			\begin{rightcolumn}
+			\noindent #2
+			\end{rightcolumn}
+		\end{paracol}
+	}
+}
+\newcommand\recite[2]{
+	\ifthenelse{\equal{#1}{All}}
+	{\textbf{\recitecol{#1}{#2}}}
+	{\recitecol{#1}{#2}}
+}
+
+\newcommand\quot[1]{
+	\begin{quote}\textit{\small#1}\end{quote}
+}
+
+\newcommand\pagequot[1]{
+	\newpage
+	\clearscrheadfoot
+	%\vspace*{\fill}
+	\vspace*{\stretch{2}}
+	\begin{center}
+	\begin{minipage}[c]{8cm}
+		#1
+	\end{minipage}
+	\end{center}
+	%\vspace*{\fill}
+	\vspace*{\stretch{3}}
+}
+
+\begin{document}
+
+%---------------------------------------------------------------------------------------
+%	TITLE PAGE
+%---------------------------------------------------------------------------------------
+\begin{titlepage}
+\begin{center}
+\large \hfill \vfill
+
+\begingroup
+\color{RoyalPurple}\spacedallcaps{The Jusman Family Passover Liturgy} \\ \bigskip % Title
+\endgroup
+
+\spacedlowsmallcaps{J.Jusman}
+\vfill
+\includegraphics[width=6cm]{TFZsuperellipse_bw} \\ \medskip % Picture
+
+\textit{...And when I see the blood, I will pass over you...} \\ \medskip % Subtitle
+
+April 2016\ -- version 1.0 % Time and version
+
+\vfill
+\end{center}
+\end{titlepage}
+    
+\newpage
+\clearscrheadfoot
+\null
+
+%---------------------------------------------------------------------------------------
+%	TOC
+%---------------------------------------------------------------------------------------
+\tableofcontents 
+\cleardoublepage % use \cleardoublepage here to avoid problems with pdfbookmark
+
+
+%---------------------------------------------------------------------------------------
+%	INTRODUCTION
+%---------------------------------------------------------------------------------------
+\pagequot{
+\centering
+\textit{
+Let not the foreigner who has joined himself to the LORD
+say, "The LORD will surely separate me from his people"...\\
+\smallskip
+...And the foreigners who join themselves to the LORD,
+    to minister to him, to love the name of the LORD,
+    and to be his servants,
+everyone who keeps the Sabbath and does not profane it,
+    and holds fast my covenant—
+these I will bring to my holy mountain,
+    and make them joyful in my house of prayer;
+their burnt offerings and their sacrifices
+    will be accepted on my altar;
+for my house shall be called a house of prayer
+    for all peoples.\\
+}
+\bigskip
+\spacedlowsmallcaps{Isaiah 56:3, 6-7}
+}
+
+%---------------------------------------------------------------------------------------
+\setcounter{chapter}{-1}
+\chapter{Introduction}
+
+Why?\\
+\\
+Why we Chinese/Indonesian people be doing these weird Jewish people things?\\
+\\
+A couple of reasons:
+\begin{enumerate}
+	\item{
+		Because these traditions are beautiful and they point to our savior Jesus ("Yeshua").
+		\quot{Behold, the Lamb of God, who takes away the sin of the world!} %% john1:29
+	}
+	\item{
+		Because the Exodus was experienced by non-Jewish people also.
+		\quot{A mixed multitude also went up with them...} %% exo12:38
+	}
+	\item{
+		Because it is weird even to the Jewish people.
+		\quot{And when you come to the land that the Lord will give you, as he has promised, you shall keep this service. And when your children say to you, "What do you mean by this service?" you shall say, "It is the sacrifice of the Lord's Passover, for he passed over the houses of the people of Israel in Egypt, when he struck the Egyptians but spared our houses."} %% exo12:26-27
+	}
+	\item{
+		Because the Passover is the first proper commandment of God to his people.
+		\quot{This day shall be for you a memorial day, and you shall keep it as a feast to the Lord; throughout your generations, as a statute forever, you shall keep it as a feast.} %% exo12:14
+	}
+\end{enumerate}
+
+
+\section{The Feast}
+The Passover Meal is the most commonly celebrated Jewish feast. It is called the "Seder".\\
+
+All this fun and commotion points to the coming Feast, that the Father has prepared beforehand for us to enjoy.
+
+
+
+\section{The Rhyme}
+
+The Seder liturgy is summarized in a nice little rhyme that spells out the order of the whole meal. If you knew Hebrew, you'd recognize that each of these words signifies a step in the order.\\
+\\
+Qaddesh Urchatz\\
+Karpas Yachatz\\
+\\
+Maggid Rachtza\\
+Motzi Mattza\\
+\\
+Maror Korekh\\
+Shulchan Orekh\\
+\\
+Tzafun Barekh\\
+Hallel Nirtza\\
+
+
+\section{The Liturgy}
+Let's begin the liturgy.\\
+
+\recite{Eldest Woman}{[The eldest woman in the house lights two candles.]}
+
+
+%---------------------------------------------------------------------------------------
+%	PART I
+%---------------------------------------------------------------------------------------
+\pagequot{
+\centering
+\textit{I am the LORD, and \textbf{I will bring you out} from under the burdens of the Egyptians, and \textbf{I will deliver you} from slavery to them, and \textbf{I will redeem you} with an outstretched arm and with great acts of judgment. \textbf{I will take you} to be my people, and I will be your God, and you shall know that I am the LORD your God, who has brought you out from under the burdens of the Egyptians. I will bring you into the land that I swore to give to Abraham, to Isaac, and to Jacob. I will give it to you for a possession. I am the LORD."}\\
+\bigskip
+\spacedlowsmallcaps{Exodus 6:6-8}
+}
+
+%---------------------------------------------------------------------------------------
+\part{The First Cup: I Will Bring You Out}
+
+\chapter{Qaddesh: Sanctify} 
+Sanctifying the wine.\\
+\\
+The Qiddush ("Sanctification") is a blessing recited over wine or grape juice to sanctify the Sabbath and Jewish holidays. The Shehecheyanu
+\vspace{5mm}
+\hrule
+\vspace{5mm}
+
+The Qiddush:\\
+
+\recite{Leader}{And there was evening and there was morning, the sixth day. Thus the heavens and the earth were finished, and all the host of them. And on the seventh day God finished his work that he had done, and he rested on the seventh day from all his work that he had done. So God blessed the seventh day and sanctified it, because on it God rested from all his work that he had done in creation.}
+
+\recite{All}{Blessed are you O LORD our God, king of the universe, creator of the fruit of the vine.}
+\recite{All}{[Pour a little wine for the person sitting to your left.]}
+
+\recite{Leader}{Blessed are you O LORD our God, king of the universe, who sanctified us with his commandments, and was pleased with us, and invested us with his holy Sabbath in love and favor, as a memorial of the Creation. For it is foremost among the holy festivals commemorating the exodus from Egypt. For you chose us and sanctified us, out of all the peoples, and you invested us with your holy Sabbath in love and favor. Blessed are you O LORD, who sanctifies the Sabbath.}
+
+\recite{All}{Amen.}
+
+\newpage
+The Shehecheyanu:\\
+
+\recite{Leader}{Blessed are you O LORD our God, king of the universe, who has kept us alive and sustained us and brought us to this occasion.}
+
+Drinking the first cup:\\
+\recite{Everyone}{[Drink the first cup.]}
+
+\chapter{Urchatz: And Wash}
+Washing the hands.\\
+
+\recite{All}{[Pour water over the hands of the person to your right.]}
+
+\quot{Yeshua, knowing that the Father had given all things into his hands, and that he had come from God and was going back to God, rose from supper. He laid aside his outer garments, and taking a towel, tied it around his waist. Then he poured water into a basin and began to wash the disciples' feet and to wipe them with the towel that was wrapped around him. He came to Simon Peter, who said to him, "Lord, do you wash my feet?" Yeshua answered him, "What I am doing you do not understand now, but afterward you will understand." Peter said to him, "You shall never wash my feet." Yeshua answered him, "If I do not wash you, you have no share with me." Simon Peter said to him, "Lord, not my feet only but also my hands and my head!" Yeshua said to him, "The one who has bathed does not need to wash, except for his feet, but is completely clean. And you are clean, but not every one of you." For he knew who was to betray him; that was why he said, "Not all of you are clean." When he had washed their feet and put on his outer garments and resumed his place, he said to them, “Do you understand what I have done to you?..}
+
+\spacedlowsmallcaps{John 13:3-12}
+
+
+\chapter{Karpas: Vegetable}
+Dip the vegetables.
+
+\chapter{Yachatz: Divide}
+Break the matzah.
+
+%---------------------------------------------------------------------------------------
+%	PART II
+%---------------------------------------------------------------------------------------
+
+\part{The Second Cup: I Will Deliver You}
+
+\chapter{Maggid: Telling}
+Telling the story.
+
+\chapter{Rachtza: Washing}
+Washing the hands.
+
+\chapter{Motzi Mattza: Bringing Out Matzah}
+Eating the Matzah.
+
+\chapter{Maror: Bitter Herb}
+Eating the Bitter Herb.
+
+\chapter{Korekh: Sandwich}
+Eating the Sandwich.
+
+\chapter{Shulchan Orekh: Preparing Table}
+Eating the Meal.
+
+
+
+\chapter{Tzafun: Hidden}
+Eating the afikomen.
+
+%---------------------------------------------------------------------------------------
+%	PART III
+%---------------------------------------------------------------------------------------
+
+\part{The Third Cup: I Will Redeem You}
+
+\chapter{Barech: Bless}
+Blessing.
+
+%---------------------------------------------------------------------------------------
+%	PART IV
+%---------------------------------------------------------------------------------------
+
+\part{The Fourth Cup: I Will Take You}
+
+\chapter{Hallel: Praise}
+And when they had sung a hymn, they went out to the Mount of Olives. Matt 26:30, Mark 14:26
+
+\chapter{Nirtza: Pleasing}
+Prayer that our service be pleasing and acceptable to God.
+
+Pardoned.
+
+Speak tenderly to Jerusalem,
+    and cry to her
+that her warfare is ended,
+    that her iniquity is pardoned (nirtza),
+that she has received from the Lord's hand
+    double for all her sins.
+
+
+%---------------------------------------------------------------------------------------
+%	APPENDIX
+%---------------------------------------------------------------------------------------
+
+\appendix
+\cleardoublepage
+\part{Appendix}
+
+\chapter{The Door}
+<Exodus 12:7>
+Then they shall take some of the blood and put it on the two doorposts and the lintel of the houses in which they eat it.
+
+So Jesus again said to them, "Truly, truly, I say to you, I am the door of the sheep."
+
+...the door...
+...the way...
+"I am the way, and the truth, and the life."
+
+...the life...
+For the life of every creature is its blood: its blood is its life. Therefore I have said to the people of Israel, You shall not eat the blood of any creature, for the life of every creature is its blood. Whoever eats it shall be cut off.
+
+For the life of the flesh is in the blood, and I have given it for you on the altar to make atonement for your souls, for it is the blood that makes atonement by the life.
+
+...the life...is in the blood...
+...without the blood, there is no life...
+...without the blood, there is no atonement...
+...without the blood, the door is just the door, it is not the way...
+...but with the blood, the door becomes the way, the gate...
+
+...the way...the way to where?
+Jesus said to him, “I am the way, and the truth, and the life. No one comes to the Father except through me."
+
+...the way to the Father...
+Then you shall say to Pharaoh, 'Thus says the LORD, Israel is my firstborn son,  and I say to you, “Let my son go that he may serve me.”'
+
+...that the son...may go to the Father...
+...that the sheep...may go find pasture...
+Know that the LORD, he is God!
+    It is he who made us, and we are his;
+    we are his people, and the sheep of his pasture.
+
+For he is our God,
+    and we are the people of his pasture,
+    and the sheep of his hand.
+Today, if you hear his voice,...
+
+I will surely assemble all of you, O Jacob;
+    I will gather the remnant of Israel;
+I will set them together
+    like sheep in a fold,
+like a flock in its pasture,
+    a noisy multitude of men.
+
+He who opens the breach goes up before them;
+    they break through and pass the gate,
+    going out by it.
+Their king passes on before them,
+    the LORD at their head.
+
+"To him the gatekeeper opens. The sheep hear his voice, and he calls his own sheep by name and leads them out."
+
+Moses spoke to the LORD, saying, “Let the Lord, the God of the spirits of all flesh, appoint a man over the congregation who shall go out before them and come in before them, who shall lead them out and bring them in, that the congregation of the LORD may not be as sheep that have no shepherd.”
+
+So the LORD said to Moses, “Take Joshua the son of Nun, a man in whom is the Spirit, and lay your hand on him.
+
+And he shall stand before Eleazar the priest, who shall inquire for him by the judgment of the Urim before the Lord. At his word they shall go out, and at his word they shall come in, both he and all the people of Israel with him, the whole congregation.”
+
+"I am the door. If anyone enters by me, he will be saved and will go in and out and find pasture."
+
+Only be sure that you do not eat the blood, for the blood is the life, and you shall not eat the life with the flesh. Deut 12:23
+
+So Jesus said to them, "Truly, truly, I say to you, unless you eat the flesh of the Son of Man and drink his blood, you have no life in you." John 6:53
+
+And the Word became flesh and dwelt among us...
+
+“‘Man shall not live by bread alone,
+    but by every word that comes from the mouth of God.’”
+
+"I am the living bread that came down from heaven. If anyone eats of this bread, he will live forever. And the bread that I will give for the life of the world is my flesh."
+
+They shall eat the flesh that night, roasted on the fire; with unleavened bread and bitter herbs they shall eat it.
+<Exodus 12:8>
+
+
+\chapter{The Shepherd and the Lamb}
+How can you explain He that is the Root of David, yet at the same time is the Branch?
+The Lion and the Lamb?
+The Shepherd, yet at the same time the Lamb?
+The Lord, yet the Slave?
+The Healer, yet the Wounded One?
+Son of God the Creator, yet Son of Man the Creature?
+The First and the Last? The Beginning and the End?
+
+So high and mighty, yet closer than a friend?
+The holy God of Heaven and the humble man who bore
+Who bore my shame are one, one and the same
+
+\chapter{Hebrew}
+
+וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם הַשִּׁשִּׁי׃
+
+וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל צְבָאָם׃
+
+וַיְכַל אֱלֹהִים בַּיוֹם הַשְּׁבִיעי מְלַאכְתּוֹ אֲשֶׁר עָשָׂה
+
+וַיִשְׁבֹּת בַּיּוֹם הַשְּׁבִיעי מִכָּל מְלַאכְתּוֹ אֲשֶׁר עָשָׂה׃
+
+וַיְבָרֶךְ אֱלֹהִים אֶת יוֹם הַשְּׁבִיעי וַיְקַדֵּשׁ אֹתוֹ
+
+כִּי בוֹ שָׁבַת מִכָּל מְלַאכְתּוֹ אֲשֶׁר בָּרָא אֱלֹהִים לַעֲשׂוֹת׃
+
+סַבְרִי מָרָנָן וְרַבָּנָן וְרַבּוֹתַי!
+
+בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם
+
+בּוֹרֵא פְּרִי הַגָּפֶן.
+
+בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם,
+
+אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְרַָצָה בָנוּ,
+
+וְשַׁבָּת קָדְשׁוֹ בְּאַהֲבָה וּבְרָצוֹן הִנְחִילָנוּ,
+
+זִכָּרוֹן לְמַעֲשֵׂה בְרֵאשִׁית.
+
+כִּי הוּא יוֹם תְּחִלָּה לְמִקְרָאֵי קֹדֶשׁ
+
+זֵכֶר לִיצִיאַת מִצְרָיִם.
+
+כִּי בָנוּ בָחַרְתָּ וְאוֹתָנוּ קִדַּשְׁתָּ מִכָּל הָעַמִּים
+
+וְשַׁבָּת קָדְשְׁךָ בְּאַהֲבָה וּבְרָצוֹן הִנְחַלְתָּנוּ.
+בָּרוּךְ אַתָּה יְיָ מְקַדֵּשׁ הַשַׁבָּת.
+
+
+
+\end{document}
