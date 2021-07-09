@@ -1,0 +1,602 @@
+#!/usr/bin/python
+
+from typing import Iterator, List, Tuple, Optional, Dict
+import sqlparse
+from sqlparse.sql import *
+import argparse
+import pyodbc
+import sys
+import re
+from datetime import *
+import os
+from preprocessor import *
+sys.path.insert(1, '/home/jus/bin')
+
+import dwconfig
+
+# Prepare token types.
+ignored_ttypes = ( T.Text.Whitespace, T.Text.Whitespace.Newline, T.Comment.Single, T.Comment.Multiline )
+semicolon = Token(T.Punctuation, ';')
+
+def parse_args():
+    desc = "Parse sql objects"
+    parser = argparse.ArgumentParser(description=desc)
+    parser.add_argument('--connection', type=str, default=None, help='Connection name from dwconfig.py', required=False)
+    parser.add_argument('--sqlfile', type=str, default=None, help='SQL file to parse', required=False)
+    parser.add_argument('--pattern', type=str, default=None, help='Supply a name pattern matching the objects you want to pull', required=False)
+    parser.add_argument('--skipsource', action='store_true', help='Save the definition to file?', required=False)
+    parser.add_argument('--targetfolder', type=str, default=None, help='Target folder to save the reports to', required=True)
+    return check_args(parser.parse_args())
+
+def check_args(args):
+    return args
+
+''' Get objects and definitions from sql_modules '''
+def get_objects(connection, name_pattern=None):
+	conn = pyodbc.connect(connection, autocommit=True)
+	#conn.setdecoding(pyodbc.SQL_WCHAR, encoding='utf-16le', ctype=pyodbc.SQL_WCHAR, to=str)
+	cursor = conn.cursor()
+	sql = """
+		WITH base AS (
+			SELECT
+				m.object_id id,
+				OBJECT_SCHEMA_NAME(m.object_id) schema_name,
+				OBJECT_NAME(m.object_id) name,
+				o.type,
+				o.type_desc,
+				m.definition
+			FROM sys.sql_modules m
+			JOIN sys.objects o ON m.object_id = o.object_id
+		)
+		SELECT *
+		FROM base
+	"""
+	if name_pattern:
+		sql += "WHERE name LIKE '{}'\n".format(name_pattern)
+	else:
+		sql += """
+			WHERE name LIKE 'TWU[_]%'
+			OR name LIKE 'SP[_]TWU[_]%'
+			OR name LIKE 'CUS[_]%'
+			OR name LIKE 'FAST[_]%'
+			OR name LIKE 'Jehu%'
+			OR name LIKE 'Aqueduct%'
+			OR name LIKE 'bookstore%'
+			OR name LIKE 'Moodle%'
+			OR name IN (
+				-- Views.
+				'Classifications',
+				'GL_MASTER_COMPONENT_V',
+				'SAM_STUDENTS',
+				'STUDENT_DIRECTORY_V',
+
+				-- Functions.
+				'CalculatePaymentRequired',
+				'FN_ROUTING_NO_CHECK_DIGIT',
+
+				-- Stored Procedures.
+				'IsIDOrgOrPerson',
+				'MAKE_BLANK_DEGR_HIST_ROW_NOT_CURRENT'
+			)
+		"""
+	sql += "ORDER BY name"
+	cursor.execute(sql)
+	rows = cursor.fetchall()
+	cursor.close()
+	return rows
+
+''' Get view usage info. '''
+def get_view_usage(connection):
+	conn = pyodbc.connect(connection, autocommit=True)
+	cursor = conn.cursor()
+	sql = """
+		WITH tabl AS (
+			SELECT VIEW_NAME, TABLE_NAME
+			FROM INFORMATION_SCHEMA.VIEW_TABLE_USAGE
+		),
+		col AS (
+			SELECT VIEW_NAME, CONCAT(TABLE_NAME, '.', COLUMN_NAME) TABLE_NAME
+			FROM INFORMATION_SCHEMA.VIEW_COLUMN_USAGE
+		),
+		combined AS (
+			SELECT * FROM tabl
+			UNION
+			SELECT * FROM col
+		)
+		SELECT DISTINCT VIEW_NAME, TABLE_NAME
+		FROM combined
+		ORDER BY VIEW_NAME, TABLE_NAME
+	"""
+	cursor.execute(sql)
+	rows = cursor.fetchall()
+	cursor.close()
+	view_usage = {}
+	for r in rows:
+		if r.VIEW_NAME in view_usage:
+			view_usage[r.VIEW_NAME].append(r.TABLE_NAME)
+		else:
+			view_usage[r.VIEW_NAME] = [r.TABLE_NAME]
+	return view_usage
+
+''' Get all tables from INFORMATION_SCHEMA. '''
+def get_all_tables(connection):
+	conn = pyodbc.connect(connection, autocommit=True)
+	cursor = conn.cursor()
+	sql = """
+		SELECT DISTINCT (CONCAT(TABLE_CATALOG, '.', TABLE_SCHEMA, '.', TABLE_NAME)) TableName FROM INFORMATION_SCHEMA.TABLES
+		UNION
+		SELECT DISTINCT (CONCAT(TABLE_CATALOG, '.', TABLE_SCHEMA, '.', TABLE_NAME)) TableName FROM INFORMATION_SCHEMA.ROUTINE_COLUMNS
+	"""
+	cursor.execute(sql)
+	rows = cursor.fetchall()
+	cursor.close()
+	result = []
+	for r in rows:
+		result.append(r.TableName)
+	return result
+
+''' Normalize token: convert to upper case and remove whitespaces. '''
+def normalize(token: sqlparse.sql.Token) -> str:
+	return token.value.translate(str.maketrans("", "", " \n\t\r")).upper()
+
+''' Make unique list while maintaining order. '''
+def unique(_list: List) -> List:
+	result = []
+	for item in _list:
+		if item not in result:
+			result.append(item)
+	return result
+
+''' Get flattened list of relevant tokens. '''
+def get_query_tokens(query: str) -> List[sqlparse.sql.Token]:
+	parsed = sqlparse.parse(query)
+	tokens = TokenList(parsed[0].tokens).flatten()
+	return [token for token in tokens if token.ttype not in ignored_ttypes ]
+
+''' Return table names in a database.schema.table format. '''
+def format_tablenames(tables: List[str], tokens: List[sqlparse.sql.Token], index: int, last_keyword: str) -> List[str]:
+
+	token = tokens[index]
+	last_token = tokens[index - 1].value.upper() if index > 0 else None
+	next_token = tokens[index + 1].value.upper() if index + 1 < len(tokens) else None
+
+	if (
+		last_keyword
+		in [
+			"FROM",
+			"JOIN",
+			"INNERJOIN",
+			"FULLJOIN",
+			"FULLOUTERJOIN",
+			"LEFTJOIN",
+			"RIGHTJOIN",
+			"LEFTOUTERJOIN",
+			"RIGHTOUTERJOIN",
+			"INTO",
+			"UPDATE",
+			"TABLE",
+		]
+		and last_token not in ["AS", "WITH"]
+		and token.value not in ["AS", "SELECT"]
+		and token.ttype not in [ T.Keyword ]
+	):
+		if last_token == "." and next_token != ".":
+			# we have database.table notation example
+			table_name = "{}.{}".format(tokens[index - 2], tokens[index])
+			if len(tables) > 0:
+				tables[-1] = table_name
+			else:
+				tables.append(table_name)
+
+		schema_notation_match = (T.Name, ".", T.Name, ".", T.Name)
+		schema_notation_tokens = (
+			(
+				tokens[index - 4].ttype,
+				tokens[index - 3].value,
+				tokens[index - 2].ttype,
+				tokens[index - 1].value,
+				tokens[index].ttype,
+			)
+			if len(tokens) > 4
+			else None
+		)
+		if schema_notation_tokens == schema_notation_match:
+			# we have database.schema.table notation example
+			table_name = "{}.{}.{}".format(
+				tokens[index - 4], tokens[index - 2], tokens[index]
+			)
+			if len(tables) > 0:
+				tables[-1] = table_name
+			else:
+				tables.append(table_name)
+		elif normalize(tokens[index - 1]) not in [",", last_keyword]:
+			# it's not a list of tables, e.g. SELECT * FROM foo, bar
+			# hence, it can be the case of alias without AS, e.g. SELECT * FROM foo bar
+			pass
+		else:
+			table_name = str(token.value.strip("`"))
+			tables.append(table_name)
+
+	return tables
+
+''' Get list of tables referenced in a query. '''
+def get_query_tables(query: str) -> List[str]:
+	tables = []
+	last_keyword = None
+
+	table_syntax_keywords = [
+		# SELECT queries
+		"FROM",
+		"WHERE",
+		"JOIN",
+		"INNERJOIN",
+		"FULLJOIN",
+		"FULLOUTERJOIN",
+		"LEFTOUTERJOIN",
+		"RIGHTOUTERJOIN",
+		"LEFTJOIN",
+		"RIGHTJOIN",
+		"CROSSJOIN",
+		"ON",
+		"UNION",
+		"UNIONALL",
+		# INSERT queries
+		"INTO",
+		"VALUES",
+		# UPDATE queries
+		"UPDATE",
+		"SET",
+		# Hive queries
+		"TABLE",  # INSERT TABLE
+	]
+
+	# print(query, get_query_tokens(query))
+	query = query.replace('"', "")
+	tokens = get_query_tokens(query)
+
+	for index, token in enumerate(tokens):
+		# remove whitespaces from token value and uppercase
+		token_val_norm = normalize(token)
+
+		# print([token, token_val_norm, token.ttype, last_keyword])
+
+		if token.is_keyword and token_val_norm in table_syntax_keywords:
+			# keep the name of the last keyword, the next one can be a table name
+			last_keyword = token_val_norm
+			# print('keyword', last_keyword)
+		elif str(token) == "(" and last_keyword in ["INTO", "VALUES"]:
+			# reset the last_keyword for INSERT `foo` VALUES(id, bar) ...
+			# reset the last_keyword for INSERT `foo` (col1, col2) VALUES(id, bar) ...
+			last_keyword = None
+		elif token.is_keyword and token_val_norm in ["FORCE", "ORDER", "GROUPBY"]:
+			# reset the last_keyword for queries like:
+			# "SELECT x FORCE INDEX"
+			# "SELECT x ORDER BY"
+			# "SELECT x FROM y GROUP BY x"
+			last_keyword = None
+		elif (
+			token.is_keyword
+			and token_val_norm == "SELECT"
+			and last_keyword in ["INTO", "TABLE"]
+		):
+			# reset the last_keyword for "INSERT INTO SELECT" and "INSERT TABLE SELECT" queries
+			last_keyword = None
+		elif token.ttype is T.Name or token.is_keyword:
+			tables = format_tablenames(tables, tokens, index, last_keyword)
+
+	return unique(tables)
+
+''' Get hash of alias => table. '''
+def get_query_table_aliases(query: str) -> Dict[str, str]:
+	result = dict()
+	last_keyword_token = None
+	last_last_keyword_token = None
+	last_last_keyword_token_val_norm = None
+	last_table_name = None
+
+	table_markers = [
+		"FROM",
+		"JOIN",
+		"INNERJOIN",
+		"FULLJOIN",
+		"FULLOUTERJOIN",
+		"LEFTOUTERJOIN",
+		"RIGHTOUTERJOIN",
+		"LEFTJOIN",
+		"RIGHTJOIN",
+		"CROSSJOIN"
+	]
+
+	tokens = iter(get_query_tokens(query))
+	for t in tokens:
+		val = normalize(t)
+		if val in table_markers:
+			table_name = next(tokens)
+			if table_name.ttype != T.Punctuation:
+				alias = None
+				try:
+					as_alias_on = next(tokens)
+					x = normalize(as_alias_on)
+					if x == 'AS':
+						alias = next(tokens).value
+					elif x in table_markers or x in [ 'ON', 'WHERE', 'GROUPBY', 'UNION', 'UNIONALL', 'EXCEPT', 'INTERSECT' ] or as_alias_on.ttype == T.Punctuation:
+						alias = table_name.value
+					else:
+						alias = as_alias_on.value
+				except StopIteration:
+					alias = ''
+
+				result[alias] = table_name.value
+
+	# Add missed tables.
+	for table in get_query_tables(query):
+		if table not in result.keys() and table not in result.values():
+			result[table] = table
+
+	return result
+
+''' Get referenced column names. '''
+def get_query_columns(query: str) -> List[str]:
+	columns = []
+	last_keyword = None
+	last_token = None
+
+	# these keywords should not change the state of a parser
+	# and not "reset" previously found SELECT keyword
+	keywords_ignored = [
+		"AS",
+		"AND",
+		"OR",
+		"IN",
+		"IS",
+		"NULL",
+		"NOT",
+		"NOT NULL",
+		"LIKE",
+		"CASE",
+		"WHEN",
+		"DISTINCT",
+		"UNIQUE",
+	]
+
+	# these keywords are followed by columns reference
+	keywords_before_columns = ["SELECT", "WHERE", "ORDER BY", "ON"]
+
+	# these function should be ignored
+	# and not "reset" previously found SELECT keyword
+	functions_ignored = [
+		"COUNT",
+		"MIN",
+		"MAX",
+		"FROM_UNIXTIME",
+		"DATE_FORMAT",
+		"CAST",
+		"CONVERT",
+	]
+
+	tables_aliases = get_query_table_aliases(query)
+
+	def resolve_table_alias(_table_name: str) -> str:
+		if _table_name in tables_aliases:
+			return tables_aliases[_table_name]
+		return _table_name
+
+	for token in get_query_tokens(query):
+		if token.is_keyword and token.value.upper() not in keywords_ignored:
+			# keep the name of the last keyword, e.g. SELECT, FROM, WHERE, (ORDER) BY
+			last_keyword = token.value.upper()
+		elif token.ttype is T.Name:
+			# analyze the name tokens, column names and where condition values
+			if (
+				last_keyword in keywords_before_columns
+				and last_token.value.upper() not in ["AS"]
+			):
+				if token.value.upper() not in functions_ignored:
+					if str(last_token) == ".":
+						# print('DOT', last_token, columns[-1])
+
+						# we have table.column notation example
+						# append column name to the last entry of columns
+						# as it is a table name in fact
+						table_name = resolve_table_alias(columns[-1])
+
+						columns[-1] = "{}.{}".format(table_name, token)
+					else:
+						columns.append(str(token.value)) if token.ttype != T.Keyword else None
+			elif last_keyword in ["INTO"] and last_token.ttype is T.Punctuation:
+				# INSERT INTO `foo` (col1, `col2`) VALUES (..)
+				#  print(last_keyword, token, last_token)
+				columns.append(str(token.value).strip("`"))
+		elif token.ttype is T.Wildcard:
+			# handle * wildcard in SELECT part, but ignore count(*)
+			# print(last_keyword, last_token, token.value)
+			if last_keyword == "SELECT" and last_token.value != "(":
+
+				if str(last_token) == ".":
+					# handle SELECT foo.*
+					table_name = resolve_table_alias(columns[-1])
+					columns[-1] = "{}.{}".format(table_name, str(token))
+				else:
+					columns.append(str(token.value)) if token.ttype != T.Keyword else None
+
+		last_token = token
+
+	return unique(columns)
+
+''' Make human readable format. '''
+def humanize(num, suffix='B'):
+    for unit in ['', 'k', 'M', 'G', 'T', 'P', 'E', 'Z']:
+        if abs(num) < 1024.0:
+            return "%3.1f %s%s" % (num, unit, suffix)
+        num /= 1024.0
+    return "%.1f%s%s" % (num, 'Yi', suffix)
+
+main_template = """<head><title>{}</title>
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+<h1>{}</h1>
+<h2>Summary</h2>
+<table>
+<tr><td>Type</td><td>{}</td></tr>
+<tr><td>Source</td><td>{} characters</td></tr>
+<tr><td>Parsed</td><td>{} characters<br/>{} tokens</td></tr>
+<tr><td>Whitespace removed</td><td>{} tokens</td></tr>
+<tr><td>Parsed time</td><td>{}</td></tr>
+<tr><td>Tables/Views</td><td>{}</td></tr>
+{}
+</table>
+{}
+<h2>Detail<h2>
+<table style="table-layout: fixed; width: 1500px;">
+<thead><td width="2%">#</td><td width="73%">Segment</td><td width="25%">Prelim</td></thead>
+{}
+</table>
+</body>
+"""
+
+source_template = """
+<h2>Source vs Parsed</h2>
+<table>
+<thead><td>Source</td><td>Parsed</td></thead>
+<tr><td><pre>{}</pre></td><td><pre>{}</pre></td></tr>
+</table>
+"""
+
+row_template = '<tr><td>{}</td><td style="overflow: hidden;"><pre>{}</pre></td><td>{}</td></tr>'
+
+def html_list(items, listtype='ul'):
+	result = ""
+	if len(items) > 0:
+		result = "<{}>".format(listtype)
+		for i in items:
+			result += "<li>{}</li>".format(i)
+		result += "</{}>".format(listtype)
+	return result
+		
+def html_hash(items, listtype='ul'):
+	result = ""
+	if len(items) > 0:
+		result = "<{}>".format(listtype)
+		for k, v in items.items():
+			result += "<li>{} = {}</li>".format(k, v) if k != v else ""
+		result += "</{}>".format(listtype)
+	return result
+
+"""main"""
+def main():
+
+	## Parse arguments.
+	args = parse_args()
+	if args is None:
+		print("Problem!")
+		exit()
+
+	# Print it.
+	types_dict = {}
+	current_timestamp = datetime.now().strftime('%a, %d %b %Y %H:%M')
+	if args.sqlfile:
+		_, _, defn, _ = preprocess(open(args.sqlfile).read())
+		print(sqlparse.format(defn, strip_comments=True, reindent=True))
+		exit()
+		p = sqlparse.parse(defn)
+		for x in p:
+			tables = get_query_tables(x.value)
+			if tables:
+				print('#'*80)
+				print(x)
+				print('-'*40)
+				print('Tables: {}'.format(tables))
+				print('Aliases: {}'.format(get_query_table_aliases(x.value)))
+				print('Columns: {}'.format(get_query_columns(x.value)))
+	else:
+		objects = get_objects(getattr(dwconfig, args.connection), args.pattern)
+		view_usage = get_view_usage(getattr(dwconfig, args.connection))
+		all_tables = get_all_tables(getattr(dwconfig, args.connection))
+
+		# Normalize all_tables for lookup later.
+		all_tables_normalized = list(map(str.upper, all_tables))
+		all_tables_normalized.extend(list(map(lambda x: x.split('.')[1:-1], all_tables)))
+		all_tables_normalized.extend(list(map(lambda x: x.split('.')[-1], all_tables)))
+
+		parsed_tables = []
+		for o in objects:
+			print(o.name)
+
+			_, _, defn, _ = preprocess(o.definition)
+			p = sqlparse.parse(defn)
+
+			i = 0
+			rows = []
+			table_names = []
+			for x in p:
+				prelim = ""
+				tables = get_query_tables(x.value)
+				if tables:
+					i += 1
+					statement_type = Statement(x).get_type()
+					prelim = "Type:{}<br/><br/>Tables/Views:<br/>{}<br/>Aliases:<br/>{}<br/>Columns:<br/>{}".format(statement_type, html_list(tables), html_hash(get_query_table_aliases(x.value)), html_list(get_query_columns(x.value)))
+					rows.append(row_template.format(i, x.value, prelim))
+
+					# Gather table names for summary.
+					for t in tables:
+						if t[0] not in ['#', '@'] and t not in table_names and (t.count('.') in [0, 2] or 'dbo' in t):
+							normalized = (t if t.count('.') == 0 else t.split('.')[-1].strip('[]').upper())
+							dbname = (None if t.count('.') < 2 else t.split('.')[0].strip('[]').upper())
+							if (
+								normalized in all_tables_normalized
+								or dbname in [
+									'AQUEDUCT',
+									'EPISUITE6',
+									'ICS_NET',
+									'KANCARD',
+									'MASTER',
+									'MSDB'
+								]
+							):
+								table_names.append(t) if t not in table_names else None
+								parsed_tables.append(t) if t not in parsed_tables else None
+							
+
+			# Prepare summary.
+			source_chars = len(o.definition)
+			parsed_chars = len(defn)
+			parsed_tokens = sum(1 for token in TokenList(p).flatten())
+			parsed_tokens_nowhitespace = sum(1 for token in TokenList(p).flatten() if token.ttype not in [ T.Whitespace, T.Newline ])
+			current_timestamp = datetime.now().strftime('%a, %d %b %Y %H:%M')
+			table_names = html_list(table_names, listtype='ol')
+			from_infoschema = ""
+			if o.type_desc == 'VIEW':
+				from_infoschema = "<tr><td>From INFORMATION_SCHEMA</td><td>{}</td></tr>".format(html_list(sorted(view_usage[o.name]), 'ol')) if o.name in view_usage else None
+
+			# Write the output file.
+			source_portion = ("" if args.skipsource else source_template.format(o.definition, defn.replace(';', ";\n")))
+			outfile = open('{}/{}.html'.format(args.targetfolder, o.name), 'w')
+			outfile.write(main_template.format(o.name, o.name, o.type_desc, source_chars, parsed_chars, parsed_tokens, parsed_tokens_nowhitespace, current_timestamp, table_names, from_infoschema, source_portion, "\n".join(rows)))
+			outfile.close()
+
+		# Write all tables from source INFORMATION_SCHEMA. Write parsed tables.
+		outfile = open('{}/0.all_tables.txt'.format(args.targetfolder), 'w')
+		outfile.write("\n".join(all_tables))
+		outfile.close()
+		outfile = open('{}/0.parsed_tables.txt'.format(args.targetfolder), 'w')
+		outfile.write("\n".join(sorted(parsed_tables)))
+		outfile.close()
+
+	# Make index.html.
+	current_timestamp = datetime.now().strftime('%a, %d %b %Y %H:%M')
+	outfile = open('{}/index.html'.format(args.targetfolder), 'w')
+	listing = '<head><link rel="stylesheet" href="css.css"></head><h1>SQLParser v2 preliminary outputs {}</h1>'.format(current_timestamp)
+	listing += '<table><thead><td>Name</td><td>Modified</td><td>Size</td></thead>{}</table>'
+	fileinfo = []
+	for f in sorted(os.listdir(args.targetfolder)):
+		fullpath = os.path.join(args.targetfolder, f)
+		if os.path.isfile(fullpath) and f not in [ 'index.html', 'css.css' ]:
+			size = os.path.getsize(fullpath)
+			mtime = os.path.getmtime(fullpath)
+			fileinfo.append('<tr><td><a href="{}">{}</a></td><td>{}</td><td>{}</td></tr>'.format(f, f, datetime.fromtimestamp(mtime).strftime('%Y-%m-%d %H:%M:%S'), humanize(size)))
+	outfile.write(listing.format(''.join(fileinfo)))
+	outfile.close()
+
+if __name__ == '__main__':
+    main()

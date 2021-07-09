@@ -1,0 +1,1 @@
+"C:\Users\Juswaldy.Jusman\azuredatastudio-python\0.0.1\python.exe" "c:\Users\Juswaldy.Jusman\AppData\Local\Programs\Azure Data Studio\resources\app\extensions\notebook\resources\pythonScripts\startNotebook.py" --no-browser --no-mathjax --notebook-dir "c:\github" --NotebookApp.token=06a310109d51f67b06b0193928f97bdc7cabb2a54cf45ab8

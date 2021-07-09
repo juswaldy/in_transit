@@ -1,0 +1,25 @@
+img.thumb {
+	max-height: 200px;
+	max-width: 200px;
+	height: auto;
+	width: auto;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #dfdfdf;
+	text-align: center;
+}
+
+video {
+	position: fixed;
+	top: 10;
+	right: 10;
+	max-height: 600px;
+	max-width: 800px;
+	height: auto;
+	width: auto;
+}

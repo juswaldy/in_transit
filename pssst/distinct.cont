@@ -1,0 +1,2757 @@
+--------------------------------------------------------------------------------
+0    9176
+1      37
+Name: Aboriginal_Student__c, dtype: int64
+--------------------------------------------------------------------------------
+0    9191
+1      22
+Name: Attended_Individual_Visit__c, dtype: int64
+--------------------------------------------------------------------------------
+2000-07-18 00:00:00    7
+2000-08-25 00:00:00    7
+2000-06-29 00:00:00    6
+2000-05-10 00:00:00    6
+2000-05-18 00:00:00    6
+2000-03-08 00:00:00    6
+2000-02-11 00:00:00    5
+2000-07-26 00:00:00    5
+2000-02-19 00:00:00    5
+2000-06-14 00:00:00    5
+2000-04-06 00:00:00    5
+2000-06-21 00:00:00    5
+2000-06-28 00:00:00    5
+2000-02-10 00:00:00    5
+2000-09-15 00:00:00    5
+1999-08-24 00:00:00    4
+2000-11-04 00:00:00    4
+2000-02-12 00:00:00    4
+2000-08-01 00:00:00    4
+1999-10-26 00:00:00    4
+2000-05-06 00:00:00    4
+2000-08-16 00:00:00    4
+2000-01-25 00:00:00    4
+2000-06-23 00:00:00    4
+2000-07-24 00:00:00    4
+2000-07-05 00:00:00    4
+2000-08-30 00:00:00    4
+2000-03-15 00:00:00    4
+2000-08-26 00:00:00    4
+1999-11-03 00:00:00    4
+                      ..
+1993-12-29 00:00:00    1
+1991-07-19 00:00:00    1
+2001-02-03 00:00:00    1
+1998-10-05 00:00:00    1
+1990-02-12 00:00:00    1
+1992-05-12 00:00:00    1
+1982-05-29 00:00:00    1
+1997-07-26 00:00:00    1
+1952-11-04 00:00:00    1
+2001-12-07 00:00:00    1
+1999-02-17 00:00:00    1
+1979-11-26 00:00:00    1
+1989-07-06 00:00:00    1
+2001-08-17 00:00:00    1
+1991-08-08 00:00:00    1
+1996-02-05 00:00:00    1
+1973-01-06 00:00:00    1
+1985-03-08 00:00:00    1
+1998-06-01 00:00:00    1
+1988-01-10 00:00:00    1
+1999-06-21 00:00:00    1
+1968-06-05 00:00:00    1
+1992-12-06 00:00:00    1
+1996-02-26 00:00:00    1
+1980-02-18 00:00:00    1
+1977-09-04 00:00:00    1
+1999-04-03 00:00:00    1
+1994-11-07 00:00:00    1
+1997-09-11 00:00:00    1
+1975-12-02 00:00:00    1
+Name: Birthdate, Length: 1875, dtype: int64
+--------------------------------------------------------------------------------
+I currently do not live in Canada              430
+I am living in Canada with a study visa        136
+I am a Canadian Citizen                         81
+Citizen                                         56
+Not a Resident                                  53
+I am a permanent resident, living in Canada     44
+Study Permit                                    27
+Permanent Resident                              14
+I am living in Canada with a work visa           7
+I am living in Canada with a visitor visa        6
+Visitor VISA                                     2
+I have dual citizenship with Canada              2
+Work VISA                                        2
+Name: Canada_Status__c, dtype: int64
+--------------------------------------------------------------------------------
+0    9213
+Name: Candidate_Disqualified__c, dtype: int64
+--------------------------------------------------------------------------------
+2018-02-06 08:00:00    159
+2018-02-13 08:00:00     97
+2018-02-07 08:00:00     83
+2018-02-12 08:00:00     82
+2018-02-08 08:00:00     65
+2018-02-14 08:00:00     61
+2018-02-05 08:00:00     47
+2018-02-20 08:00:00     36
+2018-02-16 08:00:00     34
+2018-07-02 07:00:00     28
+2017-12-12 08:00:00     22
+2018-01-31 08:00:00     20
+2018-02-02 08:00:00     19
+2018-02-09 08:00:00     18
+2018-02-19 08:00:00     16
+2017-12-15 08:00:00     14
+2018-02-23 08:00:00     13
+2018-02-11 08:00:00     13
+2017-12-14 08:00:00     13
+2017-12-05 08:00:00     12
+2018-02-15 08:00:00     12
+2018-03-27 07:00:00      9
+2018-02-01 08:00:00      9
+2017-02-12 08:00:00      8
+2017-12-27 08:00:00      7
+2018-03-26 07:00:00      6
+2017-12-11 08:00:00      6
+2018-01-30 08:00:00      6
+2018-03-22 07:00:00      5
+2018-02-22 08:00:00      5
+                      ... 
+2017-08-25 01:07:59      1
+2017-10-27 00:20:29      1
+2018-01-23 03:40:34      1
+2017-06-15 02:24:52      1
+2017-10-24 00:30:48      1
+2017-06-26 22:55:37      1
+2018-01-30 04:20:53      1
+2018-01-25 00:10:54      1
+2017-09-30 20:02:59      1
+2017-11-09 03:00:07      1
+2017-11-11 20:11:44      1
+2017-11-04 00:33:01      1
+2017-11-17 02:57:37      1
+2017-05-08 21:31:31      1
+2017-06-16 23:41:17      1
+2017-11-17 02:06:48      1
+2017-07-26 01:41:48      1
+2017-11-11 20:17:24      1
+2018-02-02 23:46:50      1
+2018-02-03 19:51:24      1
+2017-11-17 03:09:38      1
+2017-08-17 19:56:57      1
+2017-05-25 22:29:45      1
+2017-11-14 02:15:54      1
+2016-11-08 03:29:28      1
+2017-12-08 23:03:31      1
+2017-04-26 01:47:35      1
+2017-07-05 23:17:32      1
+2017-05-11 00:25:20      1
+2018-02-01 03:52:45      1
+Name: Candidate_call_time__c, Length: 3901, dtype: int64
+--------------------------------------------------------------------------------
+Outcry Ontario CA August 15 2017                    66
+Creation NW July 2017                               60
+Bloom June 2017                                     53
+Outcry San Antonio August 21 2017                   42
+Outcry Houston August 22 2017                       38
+Outcry San Diego August 16 2017                     37
+MercyMe Abbotsford May 11 2017                      33
+Outcry Orlando May 5 2017                           30
+Rend Liverpool Sunday February 4 2018               30
+Outcry Jackson August 25 2017                       27
+Outcry Concord August 14 2017                       27
+Outcry Miami May 7 2017                             27
+Outcry Denver August 19 2017                        26
+Outcry Spokane August 11 2017                       22
+MercyMe Kennewick May 10 2017                       22
+Outcry Phoenix August 17 2017                       20
+Outcry Baton Rouge August 24 2017                   20
+Rend Kelowna October 26 2017                        19
+Outcry Amarillo August 20 2017                      19
+RW Spokane March 19 2017                            18
+MercyMe Phoenix April 22 2017                       18
+RW Houston March 25 2017                            18
+Outcry Seattle August 12 2017                       17
+Rend Winnipeg October 20 2017                       17
+Rend New Berlin Nov 12 2017                         16
+MercyMe Everett May12 2017                          16
+Rend Southampton February 16 2018                   15
+Rend Huddersfield Saturday February 10 2018         15
+Rend Newcastle Upon Tyne Tuesday February 9 2018    14
+Outcry Minneapolis April 20 2017                    14
+                                                    ..
+MercyMe Kansas City July 7 2017                      6
+MercyMe Stockton May 5 2017                          5
+RW Kent March 17 2017                                5
+RW Cedar Rapids March 3 2017                         5
+Outcry Charlotte May 3 2017                          5
+RW Indianapolis March 31 2017                        5
+Rend Raleigh Nov 16 2017                             5
+RW Fresno March 12 2017                              5
+Dan Bremnes Calgary March 19 2017                    4
+MercyMe Albuquerque April 21 2017                    4
+AYOC 2017                                            4
+RW Boise March 16 2017                               4
+Rend Folkstone Sunday February 18                    3
+Rend St Cloud Nov 4 2017                             3
+Dan Bremnes Abbotsford April 23 2017                 3
+MercyMe Los Angeles April 27 2017                    3
+RW Baltimore April 2 2017                            3
+Outcry Washington April 27 2017                      3
+RW Stockton March 9 2017                             3
+MercyMe Nashville July 6 2017                        2
+Rend Calgary October 22 2017                         2
+Dan Bremnes Red Deer March 15 2017                   2
+MercyMe Indianapolis July 8 2017                     2
+Rend Louisville Nov 9 2017                           2
+RW Witchita March 2 2017                             2
+Rend Guildford Thursday February 15                  1
+Rend Seattle/Portland                                1
+Rend Danville Nov 10 2017                            1
+RW Huntsville March 30 2017                          1
+MercyMe Rochester July 9 2017                        1
+Name: Concert_Name__c, Length: 106, dtype: int64
+--------------------------------------------------------------------------------
+Canada                      885
+China                       597
+United States of America    181
+India                       147
+Nigeria                      47
+South Korea                  27
+Iran                         24
+Ghana                        14
+Philippines                  10
+Japan                        10
+Vietnam                       9
+Bangladesh                    9
+Pakistan                      8
+Colombia                      7
+Kenya                         7
+Taiwan                        7
+Brazil                        6
+Zimbabwe                      5
+Cameroon                      5
+Mexico                        5
+Jamaica                       5
+Ethiopia                      5
+United Kingdom                5
+Iraq                          5
+El Salvador                   4
+Hong Kong                     3
+Sri Lanka                     3
+Turkey                        3
+Indonesia                     3
+Liberia                       3
+                           ... 
+Austria                       1
+Benin                         1
+Armenia                       1
+Jordan                        1
+Palestine                     1
+Malawi                        1
+Togo                          1
+Botswana                      1
+Burkina Faso                  1
+Haiti                         1
+Uzbekistan                    1
+Yemen                         1
+Fiji                          1
+Burundi                       1
+Cote D'Ivoire                 1
+Syrian Arab Republic          1
+Australia                     1
+Georgia                       1
+Barbados                      1
+Dominican Republic            1
+Algeria                       1
+Viet Nam                      1
+Tajikistan                    1
+Bermuda                       1
+Congo                         1
+Sierra Leone                  1
+Paraguay                      1
+Saint Kitts & Nevis           1
+Mozambique                    1
+Qatar                         1
+Name: Country_of_Citizenship__c, Length: 86, dtype: int64
+--------------------------------------------------------------------------------
+0    9213
+Name: Create_Portal_User2__c, dtype: int64
+--------------------------------------------------------------------------------
+0    9213
+Name: Create_Portal_User__c, dtype: int64
+--------------------------------------------------------------------------------
+0    9144
+1      69
+Name: DoNotCall, dtype: int64
+--------------------------------------------------------------------------------
+0    8950
+1     263
+Name: ERx_Forms__Create_Portal_User__c, dtype: int64
+--------------------------------------------------------------------------------
+26621.0    1
+26314.0    1
+26334.0    1
+26328.0    1
+26325.0    1
+26324.0    1
+26323.0    1
+26322.0    1
+26319.0    1
+26316.0    1
+26313.0    1
+26337.0    1
+26312.0    1
+26306.0    1
+26304.0    1
+26303.0    1
+26302.0    1
+26785.0    1
+26300.0    1
+26280.0    1
+26336.0    1
+26340.0    1
+26620.0    1
+26386.0    1
+26413.0    1
+26397.0    1
+26396.0    1
+25371.0    1
+26392.0    1
+26390.0    1
+          ..
+26464.0    1
+26457.0    1
+26455.0    1
+26441.0    1
+26438.0    1
+26437.0    1
+26436.0    1
+26435.0    1
+26480.0    1
+26481.0    1
+26484.0    1
+26485.0    1
+26520.0    1
+26518.0    1
+26517.0    1
+26516.0    1
+26511.0    1
+26510.0    1
+26509.0    1
+26506.0    1
+26505.0    1
+26503.0    1
+26502.0    1
+26500.0    1
+26498.0    1
+26496.0    1
+26495.0    1
+26491.0    1
+26490.0    1
+26625.0    1
+Name: ESLI_Student_Number__c, Length: 172, dtype: int64
+--------------------------------------------------------------------------------
+jeanidevilliers@gmail.com      3
+canada@astolinks.net           2
+wendymycousin@icloud.com       2
+669896985@qq.com               2
+982855112@qq.com               2
+bev@robwilton.com              2
+fanxin2895@163.com             2
+thaonguyen@edupath.org.vn      2
+dawn.kellington@gmail.com      2
+369846502@qq.com               2
+zw205@yahoo.com                2
+hyunyounglindsay@gmail.com     2
+mwangari15@gmail.com           2
+zoeyzaboo713@gmail.com         2
+ellaurie@outlook.com           2
+caitlynmarple@gmail.com        1
+san077123@gmail.com            1
+dkuhn@northview.org            1
+glu.0730@gmail.com             1
+rbenieal@gmail.com             1
+flynt.erika@yahoo.com          1
+sugarsugar9876@gmail.com       1
+kathy18yhtak@gmail.com         1
+christian@semple.com           1
+kearrakehler@icloud.com        1
+epadillazavala@yahoo.com       1
+lex89@hotmail.com              1
+rebecca.rlg@comcast.net        1
+laurynstover@gmail.com         1
+baorining@gmail.com            1
+                              ..
+kahlon12hill@gmail.com         1
+nickiwats22@gmail.com          1
+evan21scott@gmail.com          1
+footballplyr7@gmail.com        1
+amitoj.deep.singh@gmail.com    1
+brittanybeacham@outlook.com    1
+abetker1@gmail.com             1
+srcamplese@gmail.com           1
+maisha.timmerman@gmail.com     1
+plambier@hotmail.ca            1
+sophia.sabatino@gmail.com      1
+timerialh@gmail.com            1
+janselver@hotmail.com          1
+945782641@qq.com               1
+ppvillamor68@gmail.com         1
+spencergolden123@gmail.com     1
+rachel.159@hotmail.co.uk       1
+loewengabriella@gmail.com      1
+abeddome@outlook.com           1
+wirikazima2017@gmail.com       1
+juliusnglass@gmail.com         1
+lisarenzullo@gmail.com         1
+abailey786@gmail.com           1
+dsloves2fly@gmail.com          1
+mia.rojas@scisk12.org          1
+applecore1011@gmail.com        1
+somysolisdragon@hotmail.com    1
+cylemcnabb@outlook.com         1
+tinadang6614@gmail.com         1
+jf4179@gmail.com               1
+Name: Email, Length: 9184, dtype: int64
+--------------------------------------------------------------------------------
+2017-09-14 23:08:29    9
+2018-10-18 21:50:02    6
+2018-10-18 21:50:11    6
+2018-10-18 21:50:05    6
+2018-10-18 21:50:09    6
+2018-02-13 18:45:13    5
+2018-10-18 21:50:00    5
+2017-11-03 17:41:20    5
+2017-07-05 22:24:46    5
+2018-10-18 21:19:17    4
+2017-07-05 22:24:00    4
+2018-02-05 18:44:25    4
+2017-07-05 22:24:09    4
+2017-07-05 23:24:09    4
+2018-10-18 21:50:10    4
+2017-07-05 22:24:40    4
+2017-09-14 23:08:24    4
+2018-10-18 21:49:57    4
+2018-08-15 19:14:07    4
+2017-10-02 17:45:43    4
+2017-07-05 22:24:45    4
+2017-11-16 18:33:40    3
+2017-07-05 22:24:26    3
+2018-10-18 21:49:59    3
+2017-07-05 22:24:02    3
+2017-07-05 22:24:01    3
+2018-10-18 21:50:06    3
+2017-07-05 22:24:33    3
+2017-07-05 23:24:08    3
+2017-12-28 18:25:20    3
+                      ..
+2017-10-27 00:39:26    1
+2017-10-30 23:24:45    1
+2017-09-30 19:50:16    1
+2017-07-31 22:44:46    1
+2017-10-09 18:21:05    1
+2018-01-24 03:33:44    1
+2017-09-14 22:38:15    1
+2018-09-05 17:36:08    1
+2018-11-14 18:18:56    1
+2017-12-22 18:16:41    1
+2018-07-05 17:32:52    1
+2017-11-16 18:33:41    1
+2018-11-06 14:29:17    1
+2018-02-01 00:41:15    1
+2017-09-14 23:08:22    1
+2018-02-09 23:36:17    1
+2018-01-30 23:37:47    1
+2017-09-28 02:05:23    1
+2017-11-24 02:07:16    1
+2017-11-04 00:32:57    1
+2017-10-11 02:52:25    1
+2018-05-01 14:53:09    1
+2018-07-17 17:29:27    1
+2018-05-30 16:44:11    1
+2017-10-19 22:47:47    1
+2017-10-21 19:37:36    1
+2017-10-09 18:21:04    1
+2018-09-10 17:51:07    1
+2017-10-23 17:42:51    1
+2017-10-25 22:54:45    1
+Name: EmailBouncedDate, Length: 348, dtype: int64
+--------------------------------------------------------------------------------
+Hard bounce - User Unknown [5.1.1 (bad destination mailbox address) The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. Learn more at https://support.google.c    164
+550-5.1.1 The email account that you tried to reach does not exist. Please try                                                                                                                                                                                     85
+Hard bounce - User Unknown [5.0.0 (undefined status) Requested action not taken: mailbox unavailable]                                                                                                                                                              23
+Hard bounce - Domain Unknown [5.1.2 (bad destination system: no such domain) ]                                                                                                                                                                                     22
+550 Requested action not taken: mailbox unavailable                                                                                                                                                                                                                 9
+Hard bounce - Unknown [5.5.0 (unknown protocol-related status) Requested action not taken: mailbox unavailable. [VE1EUR03FT005.eop-EUR03.prod.protection.outlook.com]]                                                                                              2
+Hard bounce - User Unknown [5.0.0 (undefined status) Mailbox not found. http://service.exmail.qq.com/cgi-bin/help?subtype=1&amp;&amp;id=20022&amp;&amp;no=1000728]                                                                                                  2
+Hard bounce - User Unknown [5.5.0 Requested action not taken: mailbox unavailable (-566323385:4278:-2147467259)]                                                                                                                                                    2
+Technical/Other bounce - Other [5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup]                                                                                                                                                  2
+Block bounce - Blocked [5.7.1 (delivery not authorized) The user or domain that you are sending to (or from) has a policy that prohibited the mail that you sent. Please contact your domain administrator for further details. For more information, please v      2
+Hard bounce - User Unknown [5.0.0 (undefined status) No Such User Here]                                                                                                                                                                                             2
+Hard bounce - User Unknown [5.1.1 RESOLVER.ADR.RecipNotFound; not found]                                                                                                                                                                                            2
+Hard bounce - User Unknown [5.0.0 (undefined status) delivery error: dd This user doesn't have a yahoo.ca account (bertontsung7438@yahoo.ca) [0] - mta1210.mail.ne1.yahoo.com]                                                                                      1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser c7-v6si8370588ywe.358 - gsmtp]                                1
+Hard bounce - User Unknown [5.1.1 (bad destination mailbox address) User Unknown]                                                                                                                                                                                   1
+Hard bounce - Unknown [5.5.0 (unknown protocol-related status) Requested action not taken: mailbox unavailable. [SN1NAM04FT035.eop-NAM04.prod.protection.outlook.com]]                                                                                              1
+554 delivery error: dd This user doesn't have a yahoo.com account (ashley.gaher@yahoo.com) [0] - mta1339.mail.bf1.yahoo.com                                                                                                                                         1
+Hard bounce - User Unknown [5.0.0 (undefined status) delivery error: dd This user doesn't have a yahoo.com account (ajpinkdragaon@yahoo.com) [0] - mta1216.mail.bf1.yahoo.com]                                                                                      1
+Hard bounce - User Unknown [5.0.0 (undefined status) delivery error: dd This user doesn't have a yahoo.com account (ilisu0701@yahoo.com) [0] - mta1283.mail.ne1.yahoo.com]                                                                                          1
+550 5.5.0 Requested action not taken: mailbox unavailable. [DB5EUR03FT003.eop-EUR03.prod.protection.outlook.com]                                                                                                                                                    1
+550 5.1.1 <ameerkhan9678@gamil.com>: Recipient address rejected: User unknown in virtual alias table                                                                                                                                                                1
+Hard bounce - Inactive Account [5.5.0 (unknown protocol-related status) Requested action not taken: mailbox unavailable. [DB5EUR03FT012.eop-EUR03.prod.protection.outlook.com]]                                                                                     1
+Hard bounce - Unknown [5.5.0 (unknown protocol-related status) Requested action not taken: mailbox unavailable. [VE1EUR03FT032.eop-EUR03.prod.protection.outlook.com]]                                                                                              1
+554 delivery error: dd This user doesn't have a yahoo.com account (marymargarette_mancha@yahoo.com) [0] - mta1327.mail.ne1.yahoo.com                                                                                                                                1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser i65-v6si8366198ywb.344 - gsmtp]                               1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser s5-v6si9272421ywe.116 - gsmtp]                                1
+Block bounce - Content [5.7.1 (delivery not authorized) Service unavailable; client [13.111.3.109] blocked using spam.dnsbl.sorbs.net For assistance, see http://www.scrolloutf1.com or contact your administrator. Please provide the following information i      1
+550 5.5.0 Requested action not taken: mailbox unavailable. [SN1NAM01FT022.eop-nam01.prod.protection.outlook.com]                                                                                                                                                    1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser u14-v6si9598331ywf.182 - gsmtp]                               1
+Hard bounce - User Unknown [5.1.1 (bad destination mailbox address) unknown or illegal alias: renzdz@icloud.com]                                                                                                                                                    1
+                                                                                                                                                                                                                                                                 ... 
+550 5.1.1 <jcheerios@icould.com>: Recipient address rejected: User unknown in relay recipient table                                                                                                                                                                 1
+Hard bounce - User Unknown [5.1.1 (bad destination mailbox address) &lt;gsdraayen@telus.net&gt; recipient rejected]                                                                                                                                                 1
+Block bounce - Blocked [5.7.1 TRANSPORT.RULES.RejectMessage; the message was rejected by organization policy]                                                                                                                                                       1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser y184-v6si8602228ywe.387 - gsmtp]                              1
+Hard bounce - User Unknown [5.1.1 (bad destination mailbox address) &lt;mia.rojas@scisk12.org&gt;: Email address could not be found, or was misspelled (G8)&quot;]                                                                                                  1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser h10-v6si9110907ybj.1 - gsmtp]                                 1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser s9-v6si8360164ybp.23 - gsmtp]                                 1
+550 5.1.1 unknown or illegal alias: laurenf1020@icloud.com                                                                                                                                                                                                          1
+554 delivery error: dd This user doesn't have a yahoo.com account (crecie99@yahoo.com) [0] - mta1190.mail.gq1.yahoo.com                                                                                                                                             1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser b6-v6si9434105ywl.433 - gsmtp]                                1
+Hard bounce - User Unknown [5.1.1 The email account that you tried to reach does not exist. Please try550-5.1.1 double-checking the recipient's email address for typos or550-5.1.1 unnecessary spaces. Learn more at550 5.1.1 https://support.google.com/mail      1
+550 5.1.1 Not our Customer                                                                                                                                                                                                                                          1
+550 5.5.0 Requested action not taken: mailbox unavailable. [HE1EUR01FT063.eop-EUR01.prod.protection.outlook.com]                                                                                                                                                    1
+Hard bounce - User Unknown [5.1.1 (bad destination mailbox address) &lt;thuraya@myaccess.ca&gt;... Access Communications customer mailbox does not exist]                                                                                                           1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser c7-v6si8371905ywe.358 - gsmtp]                                1
+Hard bounce - User Unknown [5.0.0 (undefined status) delivery error: dd This user doesn't have a yahoo.com account (tammymehafgey@yahoo.com) [0] - mta4096.mail.gq1.yahoo.com]                                                                                      1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser y136-v6si3431218ybe.285 - gsmtp]                              1
+Hard bounce - Inactive Account [5.0.0 (undefined status) delivery error: dd Requested mail action aborted - mta4055.mail.gq1.yahoo.com]                                                                                                                             1
+Hard bounce - User Unknown [5.1.1 (bad destination mailbox address) &lt;micahd@telus.net&gt; recipient rejected]                                                                                                                                                    1
+550 5.1.1 <ashleyweeks1@cox.net> invalid recipient - Refer to Error Codes section at http://postmaster.cox.net/confluence/display/postmaster/Error+Codes for more information.                                                                                      1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser l123-v6si8740210ywg.238 - gsmtp]                              1
+Hard bounce - User Unknown [5.1.1 (undefined status) permanent failure for one or more recipients (boyscout@sptc.net:550 cuda_nsu 5.1.1 &lt;boyscout@sptc.net&gt;: Recipient address rejected: User unknown in virtual mailbox...)]                                 1
+554 delivery error: dd This user doesn't have a yahoo.ca account (chloemitchell5@yahoo.ca) [-5] - mta4072.mail.bf1.yahoo.com                                                                                                                                        1
+Hard bounce - User Unknown [5.0.0 (undefined status) delivery error: dd This user doesn't have a yahoo.com account (oheoleraezeokoli@yahoo.com) [0] - mta4148.mail.ne1.yahoo.com]                                                                                   1
+Unknown bounce - Unknown [5.4.14 Hop count exceeded - possible mail loop ATTR34 [QB1CAN01FT010.eop-CAN01.prod.protection.outlook.com]]                                                                                                                              1
+Hard bounce - User Unknown [5.0.0 ** Message not delivered ** There was a problem delivering your message to s.gill26@share.epsb.ca. See the technical details below. ]                                                                                             1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser x64-v6si1550082ybh.348 - gsmtp]                               1
+Hard bounce - Inactive Account [5.2.1 (mailbox disabled, not accepting messages) The email account that you tried to reach is disabled. Learn more at https://support.google.com/mail/?p=DisabledUser w125-v6si8733659ywa.252 - gsmtp]                              1
+Hard bounce - Inactive Account [5.5.0 (unknown protocol-related status) Requested action not taken: mailbox unavailable. [CO1NAM05FT053.eop-nam05.prod.protection.outlook.com]]                                                                                     1
+554 delivery error: dd This user doesn't have a yahoo.com account (chrishauff@yahoo.com) [0] - mta4216.mail.ne1.yahoo.com                                                                                                                                           1
+Name: EmailBouncedReason, Length: 230, dtype: int64
+--------------------------------------------------------------------------------
+0    8181
+1    1032
+Name: Email_Opt_In__c, dtype: int64
+--------------------------------------------------------------------------------
+Yes    912
+No     642
+Name: English_Primary_Language__c, dtype: int64
+--------------------------------------------------------------------------------
+a0H1C00000m7itkUAA    1
+a0H1500000N38uqEAB    1
+a0H1C00000aUFYaUAO    1
+a0H1C00000bLGIHUA4    1
+a0H1C00000crDvhUAE    1
+a0H1500000OCkjHEAT    1
+a0H1C00000hNLkoUAG    1
+a0H1C00000XvOOcUAN    1
+a0H1500000PavROEAZ    1
+a0H1C00000aUC2UUAW    1
+a0H1C00000lavzfUAA    1
+a0H1C00000FfyOIUAZ    1
+a0H1C00000SJLMiUAP    1
+a0H1C00000kRffjUAC    1
+a0H1C00000SJdq2UAD    1
+a0H1C00000eIZBRUA4    1
+a0H1C00000Fev8XUAR    1
+a0H1500000MJa2nEAD    1
+a0H1C00000hK1kcUAC    1
+a0H1C00000aUFZsUAO    1
+a0H1500000Jiot3EAB    1
+a0H1500000MHMPOEA5    1
+a0H1C00000XGdJ2UAL    1
+a0H1500000ShBjnEAF    1
+a0H1C00000Xu93BUAR    1
+a0H1C00000hK0CcUAK    1
+a0H1500000QVueXEAT    1
+a0H1C00000ldg3aUAA    1
+a0H1500000JiooNEAR    1
+a0H1C00000Xvqp1UAB    1
+                     ..
+a0H1C00000eHXu6UAG    1
+a0H1C00000aUFPdUAO    1
+a0H1C00000XwVsWUAV    1
+a0H1C00000UckFrUAJ    1
+a0H1C00000XxMpCUAV    1
+a0H1500000OAUUvEAP    1
+a0H1500000MGl5oEAD    1
+a0H1C00000eItJvUAK    1
+a0H1C00000UbPaxUAF    1
+a0H1C00000SlSd9UAF    1
+a0H1C00000bLxQvUAK    1
+a0H1500000N4krNEAR    1
+a0H1C00000SJeDGUA1    1
+a0H1C00000UanwvUAB    1
+a0H1C00000SIoqzUAD    1
+a0H1500000N1vCEEAZ    1
+a0H1C00000XHCIpUAP    1
+a0H1C00000FeR7LUAV    1
+a0H1C00000kTXvvUAG    1
+a0H1C00000UcfLHUAZ    1
+a0H1C00000kSz2DUAS    1
+a0H1C00000eI7jOUAS    1
+a0H1C00000lcaZqUAI    1
+a0H1C00000VokL7UAJ    1
+a0H1C00000FgfWhUAJ    1
+a0H1500000JhDODEA3    1
+a0H1C00000SJ04hUAD    1
+a0H1500000MJr7VEAT    1
+a0H1500000RL5uXEAT    1
+a0H1C00000SJeRzUAL    1
+Name: EnrollmentrxRx__Active_Enrollment_Opportunity__c, Length: 9199, dtype: int64
+--------------------------------------------------------------------------------
+Female    3198
+Male      1554
+F          381
+M          235
+Name: EnrollmentrxRx__Gender__c, dtype: int64
+--------------------------------------------------------------------------------
+a0R1500000V46ZzEAJ    345
+a0R1500000V46aDEAR    184
+a0R1500000V46YwEAJ    157
+a0R1500000V46Z9EAJ    133
+a0R1500000V46a9EAB    118
+a0R1500000V46YmEAJ    116
+a0R1500000V46YlEAJ     89
+a0R1500000V46aQEAR     88
+a0R1500000V46YsEAJ     84
+a0R1500000V46YyEAJ     83
+a0R1500000V46ZxEAJ     82
+a0R1500000V46aPEAR     74
+a0R1500000V46a8EAB     71
+a0R1500000V46YgEAJ     67
+a0R1500000V46YzEAJ     65
+a0R1500000V46ZZEAZ     62
+a0R1500000V46Z5EAJ     60
+a0R1500000V46YnEAJ     57
+a0R1500000V46YiEAJ     49
+a0R1500000V46YeEAJ     48
+a0R1500000V46ZKEAZ     47
+a0R1500000V46YrEAJ     43
+a0R1500000VyV1cEAF     43
+a0R1500000V46ZyEAJ     43
+a0R1500000V46aOEAR     39
+a0R1500000V46ZAEAZ     33
+a0R1500000V46a6EAB     32
+a0R1500000V46ZWEAZ     32
+a0R1500000V46YTEAZ     27
+a0R1500000V46YoEAJ     26
+                     ... 
+a0R1500000V46Z4EAJ      3
+a0R1500000V46aNEAR      3
+a0R1500000V46ZwEAJ      3
+a0R1500000V46a0EAB      3
+a0R1500000V46aSEAR      3
+a0R1500000V46YZEAZ      2
+a0R1500000V46YLEAZ      2
+a0R1500000V46ZFEAZ      2
+a0R1500000V46ZSEAZ      2
+a0R1500000V46ZLEAZ      2
+a0R1500000V46ZpEAJ      2
+a0R1500000YKhvoEAD      1
+a0R1500000V46YQEAZ      1
+a0R1500000V46YvEAJ      1
+a0R1500000V46YjEAJ      1
+a0R1500000V46aFEAR      1
+a0R1500000V46aCEAR      1
+a0R1500000V46YEEAZ      1
+a0R1500000YKhvyEAD      1
+a0R1500000V46YuEAJ      1
+a0R1500000V46YxEAJ      1
+a0R1500000YKhqDEAT      1
+a0R1500000YKhqLEAT      1
+a0R1500000V46Z3EAJ      1
+a0R1500000V46YPEAZ      1
+a0R1500000V46ZsEAJ      1
+a0R1500000YKhq8EAD      1
+a0R1500000YKhvxEAD      1
+a0R1500000V46YNEAZ      1
+a0R1500000V46aHEAR      1
+Name: EnrollmentrxRx__Program_of_Interest__c, Length: 106, dtype: int64
+--------------------------------------------------------------------------------
+606207.0    1
+609024.0    1
+609031.0    1
+609032.0    1
+609033.0    1
+609034.0    1
+609041.0    1
+609042.0    1
+609044.0    1
+609045.0    1
+609048.0    1
+609049.0    1
+609050.0    1
+609051.0    1
+609052.0    1
+543519.0    1
+609056.0    1
+609057.0    1
+609058.0    1
+609059.0    1
+609065.0    1
+609107.0    1
+609112.0    1
+609027.0    1
+609023.0    1
+609120.0    1
+609022.0    1
+608970.0    1
+608972.0    1
+468335.0    1
+           ..
+603552.0    1
+603556.0    1
+554407.0    1
+554408.0    1
+587179.0    1
+603449.0    1
+603444.0    1
+603442.0    1
+603382.0    1
+603317.0    1
+603340.0    1
+537814.0    1
+537821.0    1
+603359.0    1
+603371.0    1
+603375.0    1
+603379.0    1
+603381.0    1
+603383.0    1
+537905.0    1
+603384.0    1
+603401.0    1
+603405.0    1
+603410.0    1
+603412.0    1
+603435.0    1
+603436.0    1
+603438.0    1
+603439.0    1
+204803.0    1
+Name: EnrollmentrxRx__SIS_ID__c, Length: 1585, dtype: int64
+--------------------------------------------------------------------------------
+2017-08-14 00:04:50    19
+2018-03-06 00:16:15     3
+2017-11-08 17:47:44     3
+2018-02-08 00:14:45     3
+2017-10-04 21:27:59     3
+2018-03-14 02:42:24     3
+2018-02-23 03:47:42     2
+2016-09-22 01:38:05     2
+2017-10-04 18:08:50     2
+2017-10-19 21:29:41     2
+2017-09-29 16:39:06     2
+2016-09-21 23:46:25     2
+2018-05-03 16:56:38     2
+2018-05-28 22:15:16     2
+2017-10-04 20:03:38     2
+2017-10-31 22:40:38     2
+2016-09-22 01:36:46     2
+2018-02-13 21:20:43     2
+2018-07-21 03:08:03     2
+2017-10-20 13:24:04     2
+2016-09-22 01:07:32     2
+2017-10-23 18:17:34     2
+2018-03-19 00:14:32     2
+2018-06-13 22:04:39     2
+2017-11-21 00:13:14     2
+2017-11-07 13:17:00     2
+2016-09-22 01:32:25     2
+2018-02-02 00:45:11     2
+2017-10-20 15:14:01     2
+2016-09-22 00:51:29     2
+                       ..
+2017-10-07 16:49:56     1
+2016-12-13 05:02:43     1
+2017-10-17 16:16:21     1
+2018-04-05 13:59:35     1
+2018-03-05 01:26:51     1
+2018-04-17 23:53:14     1
+2017-09-16 17:55:11     1
+2018-04-05 22:10:48     1
+2018-06-13 15:52:24     1
+2018-06-22 10:37:56     1
+2016-12-13 04:59:45     1
+2017-05-11 17:22:41     1
+2017-10-12 03:14:03     1
+2017-03-30 17:01:51     1
+2018-03-12 05:42:27     1
+2018-03-07 00:21:24     1
+2017-10-31 04:39:16     1
+2018-05-24 05:03:31     1
+2018-04-26 04:02:55     1
+2017-10-17 16:19:36     1
+2018-03-07 00:24:51     1
+2016-12-06 03:56:57     1
+2018-04-02 15:19:28     1
+2016-11-25 16:28:45     1
+2018-02-13 05:21:39     1
+2017-10-12 03:18:07     1
+2018-02-17 23:39:20     1
+2018-03-12 05:20:38     1
+2018-03-07 15:55:06     1
+2018-05-01 03:37:18     1
+Name: EnrollmentrxRx__Status_Modified_Date__c, Length: 9127, dtype: int64
+--------------------------------------------------------------------------------
+a3p1C000000XZNuQAO    7946
+a3p1C000000XZO0QAO     608
+a3p1C000000XZO2QAO     440
+a3p1C000000XZNyQAO     217
+a3p1C000000XZO1QAO       2
+Name: Entrance_Term_HEDA__c, dtype: int64
+--------------------------------------------------------------------------------
+Fall 2018      7943
+Spring 2018     608
+Summer 2018     440
+Fall 2017       216
+Fall 2019         2
+Spring 2019       2
+Summer 2017       2
+Name: Entrance_Term_Inquiry__c, dtype: int64
+--------------------------------------------------------------------------------
+Emily             67
+Hannah            62
+Sarah             53
+Jessica           51
+Emma              46
+Rachel            46
+Daniel            43
+David             39
+Megan             37
+Joshua            34
+Rebecca           33
+Michael           32
+Andrew            32
+John              32
+Anna              30
+Nicole            30
+Lauren            29
+Samantha          29
+Ashley            29
+Taylor            28
+Matthew           28
+Elizabeth         27
+Jonathan          26
+Jordan            26
+Abigail           26
+Madison           26
+Alyssa            25
+Jacob             25
+James             25
+Jennifer          23
+                  ..
+Xiaoling           1
+Drue               1
+Mary Albertine     1
+Liana              1
+Abdi               1
+Trinita            1
+Wei                1
+Zhema              1
+Nia                1
+Auntro             1
+Jaya               1
+Khalid             1
+Darriel            1
+Raissa             1
+maral              1
+France             1
+Amrit Kaur         1
+Shuo               1
+Tahtyana           1
+Charltte           1
+Auva               1
+Tayla              1
+Chardanay          1
+Jiang              1
+Melodey            1
+Sheridyn           1
+Simranjot          1
+Aadhya             1
+Simona             1
+Phaedra            1
+Name: FirstName, Length: 4637, dtype: int64
+--------------------------------------------------------------------------------
+Grade 12                                        1588
+Grade 11                                        1469
+College or university completed                  149
+Some college or university courses complete       96
+Some college or university courses completed      91
+High school complete                              59
+Graduate/masters completed                        34
+High school completed                             25
+College or university complete                    19
+Graduate/master's completed                        7
+Grade 10                                           5
+Lower than Grade 10                                4
+2 or more years undergraduate                      2
+Some college or university classes                 1
+12                                                 1
+Name: Grade_Level__c, dtype: int64
+--------------------------------------------------------------------------------
+0    7766
+1    1447
+Name: HasOptedOutOfEmail, dtype: int64
+--------------------------------------------------------------------------------
+No application                           5512
+Assigned a room                           176
+Withdrawn from housing                     45
+Completed application                       5
+No application, requested as roommate       4
+Waitlisted                                  1
+Name: Housing_Status__c, dtype: int64
+--------------------------------------------------------------------------------
+0031500001uGgPTAA0    1
+0031C00002K7k46QAB    1
+0031C0000267jW7QAI    1
+0031C00002AVT3uQAH    1
+0031C000028Y5lCQAS    1
+00315000024WN12AAG    1
+0031C00002KArsuQAD    1
+0031C000028bSYAQA2    1
+0031C00002FhkqSQAR    1
+0031C00002EijuqQAB    1
+0031C00002Ek6zDQAR    1
+0031C000026GU3PQAW    1
+0031500001oWgvqAAC    1
+0031C000028Y5mZQAS    1
+0031C00002His9tQAB    1
+0031C000028ZXuVQAW    1
+0031C00002EjpBkQAJ    1
+0031C00002MyRIAQA3    1
+0031500001oZrNRAA0    1
+0031C000026jYuSQAU    1
+0031C00002DqL6ZQAV    1
+0031C000027c6YwQAI    1
+0031C000026gugMQAQ    1
+0031C00002MzENMQA3    1
+00315000024XuBJAA0    1
+0031C000028Y5TDQA0    1
+00315000024X4G7AAK    1
+0031C00002JLjh4QAD    1
+0031C000026jMWpQAM    1
+0031C000027cHPlQAM    1
+                     ..
+0031C00002Hgh4BQAR    1
+0031500001vHlL8AAK    1
+0031500001xeVmgAAE    1
+0031C00002LqOGTQA3    1
+0031C0000286jczQAA    1
+0031500001zUxOUAA0    1
+0031500001xgabSAAQ    1
+0031C00002Pdsz0QAB    1
+0031C00002MycWiQAJ    1
+0031C0000285A37QAE    1
+0031C00002Dpjy5QAB    1
+0031500001mTgOyAAK    1
+0031C00002Fhcc1QAB    1
+0031C00002JLj5RQAT    1
+0031C00002CbOFoQAN    1
+0031500001xgUgfAAE    1
+0031500001wI3r6AAC    1
+0031500001xCHkDAAW    1
+0031C00002N17wtQAB    1
+0031C00002K7hDOQAZ    1
+0031C00002FhpAyQAJ    1
+0031C00002Dowv9QAB    1
+0031500001xfnf8AAA    1
+0031C00002SXO2fQAH    1
+0031500001qOoAUAA0    1
+0031500001xAwjbAAC    1
+0031C00002Hgf9PQAR    1
+0031C00002HjWGyQAN    1
+0031C00002KtZjFQAV    1
+0031C0000287QdNQAU    1
+Name: Id, Length: 9213, dtype: int64
+--------------------------------------------------------------------------------
+2016-09-21 00:00:00    222
+Name: Import_Date__c, dtype: int64
+--------------------------------------------------------------------------------
+0    9123
+1      90
+Name: Is_Locked_By_Agent__c, dtype: int64
+--------------------------------------------------------------------------------
+Zhang               65
+Wang                62
+Smith               51
+Liu                 43
+Li                  41
+Singh               37
+Chen                35
+Lee                 34
+Johnson             31
+Yang                25
+Kaur                24
+Williams            24
+Wu                  24
+Martinez            22
+NLN                 22
+Kim                 22
+Gill                21
+Nguyen              21
+Brown               20
+Wilson              20
+Zhou                19
+Miller              18
+Garcia              17
+Martin              17
+Ma                  16
+Park                15
+White               15
+Taylor              15
+Young               14
+Hernandez           14
+                    ..
+Cabusao              1
+Dee                  1
+Sanko                1
+Stahovich            1
+Ferraz de Barros     1
+Ruggles              1
+Viner                1
+Kasoa                1
+Floritto             1
+Erezi                1
+Ingalla              1
+Lussier              1
+Amer                 1
+A.Azari              1
+Szliske              1
+Kaarre               1
+Clieespody           1
+Delapaz              1
+Ratzliff             1
+Pankratz             1
+Hough                1
+Meng                 1
+McQueen              1
+Khor                 1
+HE                   1
+Adami                1
+Nagtegaal            1
+Hebbard              1
+Morales Mencia       1
+Creech               1
+Name: LastName, Length: 6193, dtype: int64
+--------------------------------------------------------------------------------
+The student didn't answer        1132
+DNQ: 2nd msg left                 640
+No Contact - Left Message         615
+No Contact - 2nd try              558
+No Contact - 3rd try, no msg      391
+Contact - Student                 315
+Student didn't answer             234
+Student is gen. int.              140
+Student wants a call back         108
+No Contact - Other                 95
+Other                              80
+Error - Queue                      68
+No Contact - Hang-Up               65
+Contact - Call back requested      63
+Contact - Parent/Influencer        58
+DNQ: Queue Error                   57
+Student is Int.in PW               54
+Student is uncertain               45
+Error - Contact Info               35
+DNQ: Contact Error                 14
+DNQ: Withdraw                      14
+DNQ: Hang-up                       13
+Student is going to Apply          12
+Student did not answer              5
+Student in gen. int.                5
+Training (No Call)                  4
+DNQ: Second message left            4
+Queue Error                         3
+SE Tickets Accept                   2
+Student Int.in Pre Wkd              2
+WRONG NUMBER                        2
+No Contact- Left Message            2
+Error - Contact Information         1
+wants cc first 2 years              1
+Contact- Student                    1
+Will attend all in one!             1
+Student plans to deposit            1
+pick up - hang up                   1
+Student wants to wtihdraw           1
+Requested to be withdrawn           1
+Duplicate account                   1
+3rd Repeat                          1
+Contact-Student                     1
+Student wants to withdraw           1
+No Contact- Left message            1
+No Call - Contacted by Tim          1
+SE Ticket Decline                   1
+Student did not pickup              1
+The student is gen. int.            1
+Name: Last_Wrap_Up_Code__c, dtype: int64
+--------------------------------------------------------------------------------
+Google Natural Search     988
+Stealth Application       283
+ADS                       170
+TWU RFI                    81
+Charisma_Media             65
+Bing Natural Search        30
+Yahoo! Natural Search      22
+Facebook                    9
+Preview Weekend             8
+Wikipedia                   8
+High School Visit           6
+Baidu Natural Search        6
+ACTS RFI Form               5
+Self-Initiated              3
+Education Fair              2
+Info Night                  2
+enewsletter                 2
+Google Ad                   2
+Ask.com Natural Search      1
+homepage                    1
+PRweb                       1
+TWU RFI Form                1
+Twitter                     1
+Name: LeadSource, dtype: int64
+--------------------------------------------------------------------------------
+Interested         2166
+Very Interested    1220
+Uncertain           432
+Name: Level_of_Interest__c, dtype: int64
+--------------------------------------------------------------------------------
+a0F1500000GJ5zVEAT    605
+a0F1500000GJ5zUEAT    313
+a0F1500000GJ5zWEAT     52
+a0F1C00000MJlSOUA1     25
+a0F1C00000MJlSJUA1      8
+a0F1C00000MJlSdUAL      6
+a0F1500000GJ5zTEAT      2
+Name: Location_Campus__c, dtype: int64
+--------------------------------------------------------------------------------
+ 48.428550    79
+ 49.191650    28
+ 51.506430    22
+ 45.421790    21
+ 49.260390    18
+ 49.163360    17
+ 49.244550    17
+ 49.106349    11
+ 49.051620    11
+ 49.321080     9
+ 50.675900     9
+ 49.157490     8
+ 49.104360     8
+ 49.144660     8
+ 25.058228     8
+ 42.387262     7
+ 49.082969     7
+ 39.759999     6
+ 49.284930     6
+ 30.267590     6
+ 49.140375     5
+ 49.229160     5
+ 47.610030     5
+ 49.262430     5
+ 25.014087     5
+ 49.314395     4
+ 49.886980     4
+ 49.282967     4
+ 49.170027     4
+ 54.227240     4
+              ..
+-33.901920     1
+ 49.338080     1
+ 49.265279     1
+ 32.693442     1
+ 49.293559     1
+ 26.653560     1
+ 49.935610     1
+ 52.157872     1
+ 49.146730     1
+ 34.010950     1
+ 39.688110     1
+ 47.789740     1
+ 44.139300     1
+ 49.041390     1
+ 49.250390     1
+ 49.237420     1
+ 47.007802     1
+ 26.162614     1
+ 32.816396     1
+ 49.037220     1
+ 49.116571     1
+ 21.482550     1
+ 49.284745     1
+ 49.156290     1
+ 49.270440     1
+ 49.158112     1
+ 48.485040     1
+ 49.205060     1
+ 33.090653     1
+ 35.742910     1
+Name: MailingLatitude, Length: 5600, dtype: int64
+--------------------------------------------------------------------------------
+-123.364450    79
+-122.850020    28
+-0.127210      22
+-75.691190     21
+-122.973000    19
+-123.113360    18
+-123.136640    16
+-122.329300    11
+-122.825090    11
+-123.075210     9
+-120.338980     9
+-122.656520     8
+-122.668070     8
+-121.951720     8
+-77.343058      8
+-122.585887     7
+-78.153267      7
+-97.742990      6
+-122.781540     6
+-122.794390     6
+-98.499996      6
+-123.004480     5
+-77.395651      5
+-122.187850     5
+-122.607314     5
+-119.496610     4
+-123.136827     4
+-97.000486      4
+-123.099121     4
+-125.760100     4
+               ..
+-116.970540     1
+-122.811000     1
+-122.447470     1
+-123.108740     1
+-121.384337     1
+-121.916900     1
+-114.176759     1
+-122.818065     1
+-122.863850     1
+-122.615570     1
+-123.341910     1
+-122.780130     1
+-119.630750     1
+-123.126609     1
+-122.667311     1
+-88.167290      1
+-122.118630     1
+-122.627447     1
+-123.145690     1
+-83.444290      1
+-3.126617       1
+-122.785170     1
+-112.124120     1
+-122.973344     1
+-123.048460     1
+-157.725590     1
+-101.830460     1
+-2.911954       1
+-82.350850      1
+-84.587893      1
+Name: MailingLongitude, Length: 5605, dtype: int64
+--------------------------------------------------------------------------------
+Series([], Name: Middle_Initial__c, dtype: int64)
+--------------------------------------------------------------------------------
+Singh                  21
+Kaur                   17
+Marie                   8
+Joy                     7
+Anne                    6
+James                   6
+Elizabeth               6
+Jane                    5
+Nicole                  5
+Kumar                   4
+John                    4
+Michelle                4
+Robert                  3
+Lynn                    3
+Grace                   3
+Patricia                3
+Leigh                   3
+Ann                     3
+Andrew                  3
+Jean                    3
+Victor                  3
+Danielle                3
+Louise                  3
+Dawn                    3
+Carl                    2
+Rose                    2
+Ruth                    2
+Taylor                  2
+Katherine               2
+Salem                   2
+                       ..
+Aaliyah                 1
+R                       1
+Jackson                 1
+Netaniada               1
+Woodbridge              1
+Stephanie Alexandra     1
+Wing Ho                 1
+Chinyere                1
+Cassidy                 1
+Emile                   1
+Thandiwe                1
+Demas                   1
+Mary Hope               1
+Alexander               1
+Georgia Grace           1
+Lydia-Reece             1
+leslie rebekah          1
+J. G.                   1
+Arthur George           1
+Lea                     1
+Hanif                   1
+Erin                    1
+Kailie                  1
+Kathranne               1
+Fafa                    1
+Christine               1
+Roger                   1
+Jezenia                 1
+Rutherford              1
+Rodrick                 1
+Name: Middle_Name__c, Length: 356, dtype: int64
+--------------------------------------------------------------------------------
+Canadian         4128
+International    2475
+American          654
+Name: National_Student_Status__c, dtype: int64
+--------------------------------------------------------------------------------
+0    9211
+1       2
+Name: On_Scotts_List__c, dtype: int64
+--------------------------------------------------------------------------------
+UG Western USA                                          130
+Surrey 1                                                117
+International UG                                         98
+UG GVRD North of Fraser                                  74
+UG California                                            72
+UG Washington South                                      72
+UG Vancouver                                             68
+UG Ontario                                               68
+UG Langley                                               66
+UG Richmond                                              66
+UG Greater BC 5                                          60
+UG Washington North                                      59
+UG Eastern USA                                           53
+UG Greater BC 3                                          52
+UG Abbotsford                                            52
+South Island City                                        45
+UG Burnaby                                               42
+Surrey 2                                                 40
+UG Eastern Fraser Valley                                 36
+UG Greater BC 2                                          34
+UG Alberta                                               31
+UG Greater BC                                            29
+UG Hawaii                                                28
+UG Saskatchewan                                          27
+UG North Island Cities                                   22
+UG Manitoba                                              19
+UG Surrey                                                18
+UG Oregon                                                15
+ACTS Seminaries                                          14
+UG Canada Other                                          12
+                                                       ... 
+UG Washington                                             5
+UG Vancouver\r\nUG Vancouver                              4
+South Island City\r\nSouth Island City                    4
+UG Greater BC 2\r\nUG Greater BC 2                        4
+TriCityArea                                               4
+UG Asia Pacific                                           4
+UG Western USA\r\nUG Western USA                          4
+UG GVRD North of Fraser\r\nUG GVRD North of Fraser        4
+Adult, Degree Completion and Online                       3
+South Island PC                                           3
+UG Quebec                                                 3
+UG Langley\r\nUG Langley                                  2
+UG Richmond\r\nUG Richmond                                2
+UG California\r\nUG California                            2
+Surrey 1\r\nSurrey 1                                      2
+UG Abbotsford\r\nUG Abbotsford                            2
+UG Alberta\r\nUG Alberta                                  2
+UG Greater BC 3\r\nUG Greater BC 3                        2
+UG Hawaii\r\nUG Hawaii                                    1
+International UG\r\nSurrey 1                              1
+UG Eastern Fraser Valley\r\nUG Eastern Fraser Valley      1
+International UG\r\nUG Richmond                           1
+School of Graduate Studies                                1
+UG Burnaby\r\nUG Burnaby                                  1
+UG Greater BC\r\nUG Greater BC\r\nUG Greater BC           1
+International UG\r\nUG Langley                            1
+UG Greater BC 5\r\nUG Greater BC 5                        1
+UG GVRD North of Fraser\r\nInternational UG               1
+UG Washington South\r\nUG Washington South                1
+UG Eastern USA\r\nInternational UG                        1
+Name: Original_Region__c, Length: 62, dtype: int64
+--------------------------------------------------------------------------------
+No     729
+Yes     77
+Name: Other_Relatives_Attend_TWU__c, dtype: int64
+--------------------------------------------------------------------------------
+Cousin               43
+Aunt                  9
+Uncle                 8
+Aunt;Cousin           6
+Aunt;Uncle            4
+Uncle;Cousin          3
+Grandparent;Aunt      2
+Aunt;Uncle;Cousin     2
+Grandparent           2
+Name: Other_Relatives_TWU_Relationships__c, dtype: int64
+--------------------------------------------------------------------------------
+Yes    311
+No     119
+Name: Parents_Info_Provided__c, dtype: int64
+--------------------------------------------------------------------------------
+0    9004
+1     209
+Name: Payment_Received__c, dtype: int64
+--------------------------------------------------------------------------------
+Alex         8
+James        7
+Jessica      7
+Ben          6
+Jack         5
+Emily        5
+Eric         5
+David        5
+Amy          4
+Victor       4
+Nicole       4
+Sarah        4
+Josh         4
+Sam          3
+Vincent      3
+Joey         3
+Mary         3
+Grace        3
+Hannah       3
+Daniel       3
+Melanie      3
+Jess         3
+Joseph       3
+Adam         3
+Jayden       3
+Dave         3
+Jay          3
+Kevin        3
+Matt         3
+Christina    3
+            ..
+Natalie      1
+Ange         1
+Ally         1
+Arnel        1
+Tracy        1
+Katherine    1
+Emy          1
+Korman       1
+Vicky        1
+ADAH         1
+Janelle      1
+Unity        1
+Geraldine    1
+Yining       1
+Lance        1
+Kandra       1
+Solomon      1
+Tel          1
+Prabhjit     1
+Janey        1
+Tinu         1
+Naadia       1
+Wally        1
+Jo Bro       1
+Jehdi        1
+Anmol        1
+Nolan        1
+Teddy        1
+robin        1
+Avery        1
+Name: Preferred_First_Name__c, Length: 556, dtype: int64
+--------------------------------------------------------------------------------
+Attended     270
+No Show       49
+Cancelled     44
+Attending      7
+Name: Preview_Weekend_Status__c, dtype: int64
+--------------------------------------------------------------------------------
+guard     2
+Keeper    1
+Lock      1
+Name: Primary_Position__c, dtype: int64
+--------------------------------------------------------------------------------
+0011C00001uWdOjQAK    516
+0011C00001uWdNIQA0    358
+0011C00001uWdNWQA0    352
+0011C00001uWdNFQA0    336
+0011C00001uWdOxQAK    248
+0011C00001uWdNgQAK    231
+0011C00001uWdNDQA0    196
+0011C00001uWdNtQAK    194
+0011C00001uWdOtQAK    167
+0011C00001uWdNVQA0    154
+0011C00001uWdNcQAK    126
+0011C00001uWdNjQAK    118
+0011C00001uWdO4QAK    117
+0011C00001uWdNSQA0    116
+0011C00001uWdNOQA0    114
+0011C00001uWdNpQAK    112
+0011C00001uWdMtQAK    108
+0011C00001uWdNiQAK    108
+0011C00001uWdOhQAK    107
+0011C00001uWdOJQA0     94
+0011C00001uWdNXQA0     87
+0011C00001uWdOsQAK     86
+0011C00001uWdMuQAK     85
+0011C00001uWdNQQA0     85
+0011C00001uWdMqQAK     73
+0011C00001uWdNuQAK     58
+0011C00001uWdNbQAK     57
+0011C00001uWdMsQAK     55
+0011C00001uWdNGQA0     52
+0011C00001uWdNCQA0     49
+                     ... 
+0011C00001uWdO7QAK      1
+0011C000025FTUvQAO      1
+0011C00001uWc89QAC      1
+0011C00001uWdNEQA0      1
+0011C00001uWc8MQAS      1
+0011C00001uWdNLQA0      1
+0011C00001uWdNfQAK      1
+0011C00001uWc8QQAS      1
+0011C00001uWdO1QAK      1
+0011C00001uWdN1QAK      1
+0011C00001uWc8IQAS      1
+0011C00001uWdN3QAK      1
+0011C00001uWc7vQAC      1
+0011C00001uWdOWQA0      1
+0011C00001uWc9fQAC      1
+0011C00001uWc7jQAC      1
+0011C00001uWdNBQA0      1
+0011C00001uWc76QAC      1
+0011C00001uWc8dQAC      1
+0011C00001uWdNnQAK      1
+0011C00001uWc8UQAS      1
+0011C00001uWc9VQAS      1
+0011C00001uWdP1QAK      1
+0011C00001uWdOVQA0      1
+0011C00001uWc7VQAS      1
+0011C00001uWc7uQAC      1
+0011C00001uWc74QAC      1
+0011C00001uWc7oQAC      1
+0011C00001uWc7iQAC      1
+0011C00001uWdNeQAK      1
+Name: Program_of_Interest_HEDA__c, Length: 155, dtype: int64
+--------------------------------------------------------------------------------
+Nursing                                                        516
+Certificates                                                   358
+MBA                                                            355
+International                                                  336
+Psychology                                                     249
+Business Administration (B.A.)                                 231
+MA in Counselling Psychology                                   204
+Degree Completion                                              196
+Elementary Education                                           195
+Pre-Medicine                                                   167
+MA in TESOL                                                    154
+Undecided                                                      137
+Biology                                                        125
+Business Administration (B.B.A.)                               118
+Education - concurrent program (Secondary)                     117
+MA in Leadership                                               117
+Computing Science                                              111
+Music                                                          107
+Art and Design                                                 106
+Human Kinetics (Kinesiology)                                    94
+MS in Nursing                                                   88
+MA in Educational Studies                                       85
+Pre-Engineering                                                 84
+Worship Arts                                                    70
+Biblical Studies / Theology                                     63
+English                                                         58
+Theatre                                                         56
+Partners                                                        52
+Natural & Applied Sciences                                      48
+ESLI GR MBA                                                     47
+                                                              ... 
+PreEng/Architecture                                              1
+Political Science/Law                                            1
+Business / Ministry                                              1
+International Business                                           1
+Area, Ethnic, Cultural, and Gender Studies, Other                1
+Clinical psychology                                              1
+Broadcasting Communications                                      1
+Art/Art Studies, General                                         1
+Business/Computer Sci                                            1
+ESLI GR MA in TESOL                                              1
+Accounting and related services                                  1
+Criminology - Law                                                1
+Microbiological Sciences and Immunology, Other                   1
+Environmental studies                                            1
+Medicine, Education                                              1
+Sports Management                                                1
+(International) Nursing                                          1
+Geology/Earth Science, General                                   1
+Arts & Design                                                    1
+Wildlife & Wildlands Management                                  1
+Aviation, Bio-Techonology                                        1
+Food Science / Chemistry                                         1
+Ethnic, Cultural Minority, Gender, and Group Studies, Other      1
+Theology, Religious Studies                                      1
+Pre Med                                                          1
+English Language and Literature, General                         1
+Sign Language                                                    1
+Nursing, Biology                                                 1
+Game Design/Comp Science                                         1
+Pre-Physical Therapy                                             1
+Name: Program_of_Interest_Text__c, Length: 478, dtype: int64
+--------------------------------------------------------------------------------
+Yes    735
+Name: Receive_Texts__c, dtype: int64
+--------------------------------------------------------------------------------
+01215000001CNij    9206
+0121C000001Dak5       1
+Name: RecordTypeId, dtype: int64
+--------------------------------------------------------------------------------
+3 - Interested but did not commit to an action step    142
+5 - Requested to be withdrawn                          101
+1 - Likely to apply                                     87
+2 - Likely to attend preview weekend                    83
+6 - I don't know anything about this student            81
+4 - Uninterested but does not want to be removed        30
+Name: SE_Student_Rating__c, dtype: int64
+--------------------------------------------------------------------------------
+Program Availability    53
+Distance                50
+Other                   44
+Financial               39
+Gap                     15
+Faith Fit                6
+Parental Influences      5
+Academic Reputation      3
+Name: SE_Student_Top_Barrier__c, dtype: int64
+--------------------------------------------------------------------------------
+Mr.     140
+Ms.     116
+Ms       29
+Mr       28
+Mrs.     15
+Miss      2
+Mrs       2
+Name: Salutation, dtype: int64
+--------------------------------------------------------------------------------
+0011C00001uWbFBQA0    1860
+0011C00001uWbFAQA0     942
+0011C00001uWbF9QAK     498
+0011C00001uWbF8QAK     162
+0011C00001uWbFCQA0     161
+0011C00001uWbF6QAK      64
+0011C00001uWbF7QAK       1
+Name: School_HEDA__c, dtype: int64
+--------------------------------------------------------------------------------
+Resurrection Christian High School                       35
+Homeschool                                               30
+Carson Graham Secondary School                           29
+Seaquam Secondary School                                 27
+Burnaby South Secondary School                           26
+Queen Elizabeth Secondary                                23
+Princess Margaret Secondary School                       21
+Abbotsford Senior Secondary                              19
+Woodland Christian High School                           18
+Fleetwood Park Secondary School                          18
+Kwantlen Park Secondary School                           18
+Lions Gate Christian Academy                             17
+Clayton Heights Secondary                                17
+WJ Mouat Secondary School                                17
+Home Schooled                                            17
+Langley Secondary School                                 17
+Burnaby Central Secondary School                         17
+Surrey Christian School                                  16
+North Surrey Secondary School                            16
+Valley Christian Academy                                 16
+R.E. Mountain Secondary                                  16
+Eric Hamber Secondary School                             16
+Moscrop Secondary School                                 16
+Lord Tweedsmuir Secondary School                         15
+Walnut Grove Secondary School                            15
+Panorama Ridge Secondary                                 15
+Penticton High School                                    15
+Pacific Academy                                          15
+Dr. Charles Best                                         14
+Toronto District Christian High School                   14
+                                                         ..
+San Diego Met                                             1
+Southridge High School                                    1
+Canterbury College                                        1
+ALBERT MOROKA HIGH SCHOOL*                                1
+Fast track high school                                    1
+Edmonton Christian                                        1
+Ofarrell Charter School, San Diego, CA                    1
+South Bend Career Academy                                 1
+Saint Thomas More High School                             1
+Robert Bateman School                                     1
+Mt Spokane High School                                    1
+Falls City High School                                    1
+Paul Kane                                                 1
+Gitwe girls                                               1
+CSU Stanislavs                                            1
+CNPP                                                      1
+Central Memorial                                          1
+Highland Secondary School                                 1
+University of New Mexico                                  1
+Kwantlen                                                  1
+Hillsborough Community College                            1
+Colegiul National Alexandru  Ioan Cuza                    1
+Primavera Online                                          1
+William B Travis High School                              1
+Milton District High School                               1
+Queen of the Holy Rose Secondary School, Sierra Leone     1
+Morden Collegiate Institute                               1
+St Mary's High School                                     1
+Chief Sealth International High School                    1
+WP Wagner High School                                     1
+Name: School_Name_Text__c, Length: 2046, dtype: int64
+--------------------------------------------------------------------------------
+a0Q1500000FgqhgEAB    4615
+a0Q1500000FgqheEAB     629
+a0Q1500000FgqhfEAB      33
+a0Q1500000FgqhdEAB       5
+a0Q1500000FgqhhEAB       2
+Name: School_RFI_Prog_Catalog__c, dtype: int64
+--------------------------------------------------------------------------------
+Undergraduate                                                              6287
+Graduate                                                                   1035
+Extension                                                                   949
+ACTS                                                                        167
+ESLI                                                                        161
+Graduate and Professional Studies                                            95
+TLC                                                                          64
+Adult and International Degree Completion Online and Continuing Studies       5
+Business Administration (B.A.)                                                3
+Psychology                                                                    3
+Music                                                                         2
+Pre-Medicine                                                                  2
+PARENT                                                                        1
+Human Kinetics (Kinesiology)                                                  1
+Nursing                                                                       1
+MA in TESOL                                                                   1
+Elementary Education                                                          1
+Religious Studies                                                             1
+School of Education                                                           1
+ACTS Seminaries                                                               1
+Adult & International Degree Completion, Online and Continuing Studies        1
+General Studies                                                               1
+Name: School_RFI__c, dtype: int64
+--------------------------------------------------------------------------------
+"    1
+Name: Secondary_Position__c, dtype: int64
+--------------------------------------------------------------------------------
+0    8694
+1     519
+Name: SendAdmissionsTwupassPasswordResetEmail__c, dtype: int64
+--------------------------------------------------------------------------------
+No     654
+Yes     58
+Name: Siblings_Attended_TWU__c, dtype: int64
+--------------------------------------------------------------------------------
+Yes    712
+No      94
+Name: Siblings__c, dtype: int64
+--------------------------------------------------------------------------------
+***-***-637    5
+***-***-470    3
+***-***-203    3
+***-***-191    3
+***-***-680    3
+***-***-148    3
+***-***-714    2
+***-***-082    2
+***-***-423    2
+***-***-463    2
+***-***-926    2
+***-***-609    2
+***-***-779    2
+***-***-601    2
+***-***-178    2
+***-***-845    2
+***-***-220    2
+***-***-008    2
+***-***-973    2
+***-***-766    2
+***-***-517    2
+***-***-101    2
+***-***-411    2
+***-***-007    2
+***-***-966    2
+***-***-575    2
+***-***-542    2
+***-***-807    2
+***-***-226    2
+***-***-268    2
+              ..
+***-***-994    1
+***-***-041    1
+***-***-612    1
+***-***-252    1
+***-***-693    1
+***-***-471    1
+***-***-429    1
+***-***-735    1
+***-***-091    1
+***-***-309    1
+***-***-932    1
+***-***-344    1
+***-***-438    1
+***-***-720    1
+***-***-095    1
+***-***-739    1
+***-***-535    1
+***-***-273    1
+***-***-328    1
+***-***-771    1
+***-***-076    1
+***-***-941    1
+***-***-866    1
+***-***-799    1
+***-***-891    1
+***-***-347    1
+***-***-914    1
+***-***-015    1
+***-***-990    1
+***-***-158    1
+Name: Social_Insurance_Number__c, Length: 327, dtype: int64
+--------------------------------------------------------------------------------
+***-**-3322    2
+***-**-1306    1
+***-**-1476    1
+***-**-0381    1
+***-**-7745    1
+***-**-9777    1
+***-**-3090    1
+***-**-4072    1
+***-**-2277    1
+***-**-8380    1
+***-**-7180    1
+***-**-1421    1
+***-**-8040    1
+***-**-8262    1
+***-**-4521    1
+***-**-5061    1
+***-**-1802    1
+***-**-4742    1
+***-**-6111    1
+***-**-1765    1
+***-**-4229    1
+***-**-4392    1
+***-**-9735    1
+***-**-8321    1
+***-**-0574    1
+***-**-4183    1
+***-**-5680    1
+***-**-8038    1
+***-**-1015    1
+***-**-9416    1
+              ..
+***-**-3203    1
+***-**-3815    1
+***-**-0999    1
+***-**-7397    1
+***-**-2992    1
+***-**-2958    1
+***-**-5614    1
+***-**-2143    1
+***-**-8353    1
+***-**-2145    1
+***-**-8282    1
+***-**-4808    1
+***-**-3449    1
+***-**-8491    1
+***-**-9911    1
+***-**-3589    1
+***-**-6845    1
+***-**-3161    1
+***-**-4447    1
+***-**-7857    1
+***-**-0409    1
+***-**-3401    1
+***-**-1159    1
+***-**-3801    1
+***-**-8799    1
+***-**-9607    1
+***-**-0792    1
+***-**-7602    1
+***-**-4882    1
+***-**-6171    1
+Name: Social_Security_Number__c, Length: 114, dtype: int64
+--------------------------------------------------------------------------------
+TWU RFI                                        1753
+PSIBC                                          1017
+Christian College Connector                     614
+High School Visit                               572
+Outcry Concert Series 2017                      508
+Stealth Application                             329
+RFI Christian Leadership                        236
+Cappex                                          207
+Canadian University Event                       194
+NACCAP Fair                                     181
+Rend Collective Tour 2017                       178
+RW Roadshow 2017                                157
+NACAC Fair                                      150
+Lifer Tour 2017                                 140
+Youth For Christ - Colorado Purchased Names     135
+Rend Tour UK 2018                               109
+Canadian Christian University Tour              103
+Facebook                                         96
+Rend Tour 2018                                   94
+EXT RFI                                          91
+Colleges and Universities Event                  87
+Preview Weekend                                  78
+Bloom                                            75
+Raiseme                                          75
+ACTS Online Inquiry Form                         61
+Creationfest                                     55
+Phil Wickham Tour 2016                           53
+SK Universities and Tech Inst. Liason            52
+Student Initiated Email                          45
+InspirED                                         43
+                                               ... 
+Colorado Christian College Fair                   2
+Hume Lake Camp visit                              2
+ASCI Student Leadership Retreat                   2
+Church Referral                                   2
+UG Campus Visit                                   2
+ACTS Student-Initiated Campus Visit               2
+Agent                                             2
+Re-enrolement Form                                2
+Challenge Conference                              2
+University/College Visit                          2
+Toby Mac Tour 2016                                2
+ACTS Current Student Referral                     1
+Kamloops Citywide 2017                            1
+Overflow Youth Conference                         1
+BC Worship Tour                                   1
+Greenlight                                        1
+NASSAU College Fair                               1
+SGS Info Session                                  1
+Info Night                                        1
+Friend Referral                                   1
+Transcript Received                               1
+ACT                                               1
+Online presentation                               1
+Ontario Camp Visit                                1
+Dan Bremnes 2031                                  1
+ACTS Church/Pastoral Referral                     1
+Everett College Fair                              1
+Family Member                                     1
+Grad Fair - UBC                                   1
+Ashley Blake reffered him                         1
+Name: Source_Code_Text__c, Length: 128, dtype: int64
+--------------------------------------------------------------------------------
+a1O15000004ZvLbEAK    1751
+a1O15000004hhHvEAI    1017
+a1O15000004ZrVNEA0     614
+a1O15000004ZrViEAK     577
+a1O15000004aIMAEA2     508
+a1O15000004ZvLREA0     329
+a1O15000004uq92EAA     236
+a1O15000004ZrVKEA0     207
+a1O1C000003nMUKUA2     196
+a1O15000004ZuNqEAK     194
+a1O15000004hhIJEAY     181
+a1O1C000003nHGwUAM     178
+a1O15000004aI0sEAE     157
+a1O15000004hhIIEAY     150
+a1O15000004aK8zEAE     140
+a1O1C000003nPCsUAM     135
+a1O15000004hhHDEAY     104
+a1O1C000003nKNxUAM      96
+a1O1C000004pxmwUAA      91
+a1O15000004hhHIEAY      87
+a1O15000004ZrWCEA0      78
+a1O1C000003nONzUAM      75
+a1O15000004hhGdEAI      75
+a1O15000004hhGqEAI      61
+a1O15000004hhGnEAI      56
+a1O15000004Zy3QEAS      53
+a1O15000004hhI5EAI      52
+a1O15000004ZrWTEA0      45
+a1O1C000003nI3YUAU      43
+a1O15000004hhHrEAI      42
+                      ... 
+a1O15000004ZrVvEAK       2
+a1O15000004hhHJEAY       2
+a1O15000004hhHFEAY       2
+a1O15000004Zy3GEAS       2
+a1O15000004ZyVyEAK       2
+a1O15000004ZrXJEA0       2
+a1O15000004aBVmEAM       2
+a1O15000004aGP0EAM       2
+a1O1C000003nJ7yUAE       2
+a1O15000004Zy3LEAS       2
+a1O15000004ZrVPEA0       2
+a1O15000004ZrVlEAK       1
+a1O15000004hhHsEAI       1
+a1O15000004hhGrEAI       1
+a1O15000004a2ePEAQ       1
+a1O15000004ZrVEEA0       1
+a1O15000004hhGuEAI       1
+a1O15000004ZrVaEAK       1
+a1O15000004hhHCEAY       1
+a1O15000004ZrVMEA0       1
+a1O15000004hhHnEAI       1
+a1O15000004hhGVEAY       1
+a1O15000004hhHNEAY       1
+a1O15000004aGOgEAM       1
+a1O15000004ZrV5EAK       1
+a1O15000004hhHMEAY       1
+a1O15000004umnpEAA       1
+a1O15000004aBWzEAM       1
+a1O15000004ZrVdEAK       1
+a1O15000004ZrWYEA0       1
+Name: Source_Code__c, Length: 122, dtype: int64
+--------------------------------------------------------------------------------
+566.0    358
+522.0    204
+523.0    121
+468.0    113
+528.0     92
+143.0     78
+485.0     40
+540.0     37
+482.0     15
+486.0     12
+481.0     10
+504.0      8
+501.0      7
+570.0      4
+465.0      4
+526.0      4
+503.0      3
+484.0      3
+141.0      3
+505.0      3
+519.0      2
+32.0       2
+534.0      2
+464.0      2
+149.0      1
+470.0      1
+142.0      1
+514.0      1
+22.0       1
+520.0      1
+549.0      1
+25.0       1
+495.0      1
+Name: Stream_AQ_ID__c, dtype: int64
+--------------------------------------------------------------------------------
+0011C00001uWdRcQAK    356
+0011C00001uWdRKQA0    198
+0011C00001uWdRMQA0    115
+0011C00001uWdR9QAK    111
+0011C00001uWdQfQAK     92
+0011C00001uWdQhQAK     75
+0011C00001uWdRWQA0     40
+0011C00001uWdQEQA0     37
+0011C00001uWdSAQA0     15
+0011C00001uWdS0QAK     12
+0011C00001uWdRTQA0     12
+0011C00001uWdSBQA0      8
+0011C00001uWdS9QAK      7
+0011C00001uWdS5QAK      6
+0011C00001uWdRvQAK      5
+0011C00001uWdQFQA0      5
+0011C00001uWdSLQA0      5
+0011C00001uWdS4QAK      5
+0011C00001uWdRaQAK      4
+0011C00001uWdQJQA0      4
+0011C00001uWdRIQA0      4
+0011C00001uWdRdQAK      3
+0011C00001uWdQKQA0      3
+0011C00001uWdRfQAK      3
+0011C00001uWdQIQA0      3
+0011C00001uWdQcQAK      3
+0011C00001uWdQsQAK      2
+0011C00001uWdQgQAK      2
+0011C00001uWdQQQA0      2
+0011C00001uWdQaQAK      1
+0011C00001uWdQrQAK      1
+0011C00001uWdPuQAK      1
+0011C00001uWdQZQA0      1
+0011C00001uWdRrQAK      1
+0011C00001uWdRoQAK      1
+0011C00001uWdQdQAK      1
+0011C00001uWdQiQAK      1
+0011C00001uWdQ7QAK      1
+0011C00001uWdR3QAK      1
+0011C00001uWdRAQA0      1
+Name: Stream_HEDA__c, dtype: int64
+--------------------------------------------------------------------------------
+a1P15000004Fly8EAC    17
+a1P15000003VqVoEAK     8
+a1P15000004FlxzEAC     7
+a1P15000003VqVeEAK     4
+a1P15000004FlyqEAC     3
+a1P15000004FlyAEAS     2
+a1P15000003VqVkEAK     2
+a1P15000003VqVaEAK     2
+a1P15000004FlyrEAC     2
+a1P15000004Flz1EAC     1
+a1P15000003VqVnEAK     1
+Name: Stream_Inquiry__c, dtype: int64
+--------------------------------------------------------------------------------
+Series([], Name: Suffix__c, dtype: int64)
+--------------------------------------------------------------------------------
+Yes    52
+No     14
+Name: Text_Okay__c, dtype: int64
+--------------------------------------------------------------------------------
+Female                  4210
+Male                    2263
+F                         46
+M                         29
+Prefer Not to Answer       1
+NB                         1
+Name: hed__Gender__c, dtype: int64
+--------------------------------------------------------------------------------
+2017-09-19 18:03:09    11
+2017-09-19 18:03:05     9
+2017-09-19 18:04:17     8
+2017-09-19 18:03:25     8
+2017-09-19 18:03:06     7
+2017-09-19 18:04:12     7
+2017-09-19 18:03:20     7
+2017-09-19 18:03:02     6
+2017-09-19 18:03:30     6
+2017-09-19 18:03:27     6
+2017-09-19 18:03:28     6
+2017-09-19 18:03:52     6
+2017-09-19 18:04:16     6
+2017-09-19 18:03:29     5
+2017-09-19 18:03:10     5
+2017-09-19 18:04:07     5
+2017-09-19 18:03:48     4
+2017-09-19 18:03:44     4
+2017-09-19 18:03:23     4
+2017-09-19 18:04:09     4
+2017-09-19 18:04:18     4
+2017-09-19 18:04:13     4
+2017-09-19 18:04:04     4
+2017-09-19 18:03:17     4
+2017-09-19 18:03:59     4
+2017-09-19 18:03:04     4
+2017-09-19 18:04:11     4
+2018-03-07 16:37:24     3
+2017-09-19 18:03:11     3
+2017-09-19 18:04:14     3
+                       ..
+2018-09-01 19:21:58     1
+2018-06-25 19:41:03     1
+2018-06-14 18:48:35     1
+2018-02-20 12:24:50     1
+2018-05-21 18:25:03     1
+2018-03-08 17:36:31     1
+2018-07-18 16:28:13     1
+2018-02-06 18:50:52     1
+2018-04-25 18:06:01     1
+2018-07-03 02:38:14     1
+2018-06-26 14:18:52     1
+2018-01-01 18:41:32     1
+2018-04-05 05:18:59     1
+2018-04-24 19:22:31     1
+2017-11-23 00:43:16     1
+2018-08-22 06:19:08     1
+2018-04-02 14:31:07     1
+2018-02-21 06:55:09     1
+2017-12-26 04:40:43     1
+2018-05-13 12:18:28     1
+2018-04-07 17:35:38     1
+2018-06-12 18:57:13     1
+2018-03-08 13:44:05     1
+2018-07-05 19:01:13     1
+2018-06-12 17:40:27     1
+2018-08-21 08:33:46     1
+2018-07-09 00:58:51     1
+2018-05-10 00:58:28     1
+2018-08-16 23:22:16     1
+2017-08-07 02:33:39     1
+Name: pi__Pardot_Last_Scored_At__c, Length: 3397, dtype: int64
+--------------------------------------------------------------------------------
+Email Plug-in                5134
+Salesforce                   1723
+Website Tracking             1093
+Extension Website             372
+UG Redirects                  302
+Undergraduate Website         273
+Graduate Website              245
+RFI Upload                     40
+Website Tracking Campaign       3
+ACTS Website                    2
+Name: pi__campaign__c, dtype: int64
+--------------------------------------------------------------------------------
+2018-05-21 23:00:47 (PDT) INTERNATIONAL BSUINESS                                                                                                                                                                                                                                                                                                                                                                                                                                     1
+2018-03-15 13:40:17 (PDT) Courses in Education                                                                                                                                                                                                                                                                                                                                                                                                                                       1
+2018-08-29 17:50:30 (PDT) MCOM281                                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+2018-03-07 06:32:17 (PST) Physics                                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+2018-08-26 00:17:53 (PDT) knowledge based practice and ethical practice                                                                                                                                                                                                                                                                                                                                                                                                              1
+2018-09-24 05:40:32 (PDT) Project Management Professional Program                                                                                                                                                                                                                                                                                                                                                                                                                    1
+2018-10-11 06:06:56 (PDT) What is the total cost for undergraduate?                                                                                                                                                                                                                                                                                                                                                                                                                  1
+2018-09-20 07:57:11 (PDT) Hello! I was directed to ACTS Seminary by TWU Learning Commons in my search for information about the speed reading seminar. It is my understanding that it will be run by and ACTS student. If you have any more information that might help me find the details for this session I would be incredibly thankful. Cheers, Sara                                                                                                                            1
+2018-12-20 08:42:57 (PST) EDUC  540  EDUC  545  EDUC  569                                                                                                                                                                                                                                                                                                                                                                                                                            1
+2018-12-20 10:22:24 (PST) Spanish                                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+2018-03-13 07:48:10 (PDT) BA Leadership                                                                                                                                                                                                                                                                                                                                                                                                                                              1
+2018-03-31 02:48:55 (PDT) Anatomy summer 3 week course                                                                                                                                                                                                                                                                                                                                                                                                                               1
+2018-05-29 11:01:35 (PDT) Hello! I was wondering if you offered a one year program that focused on experiential missions                                                                                                                                                                                                                                                                                                                                                             1
+2018-03-21 12:14:53 (PDT) French                                                                                                                                                                                                                                                                                                                                                                                                                                                     1
+2018-06-12 10:53:06 (PDT) Looking into completing one of my degrees.                                                                                                                                                                                                                                                                                                                                                                                                                 1
+2018-03-13 15:43:04 (PDT) Old Testament Survey, New Testament Survey, Curriculum design, Pedagogy                                                                                                                                                                                                                                                                                                                                                                                    1
+2018-09-12 11:10:51 (PDT) Bus 426, Bus 428                                                                                                                                                                                                                                                                                                                                                                                                                                           1
+2018-08-17 07:21:32 (PDT) Math for elementary teachers                                                                                                                                                                                                                                                                                                                                                                                                                               1
+2018-04-10 17:52:34 (PDT) 2nd year and 3rd year level - Computer Science AND Science courses                                                                                                                                                                                                                                                                                                                                                                                         1
+2018-09-10 15:04:50 (PDT) Hello!\n\nI am looking at entering an MDiv program. I have been on the fence about this for some time... I recently found out that my employer, The Salvation Army, will cover up to $2,800 per year in course fees so long as they directly relate to my current position (Children and Youth Ministry Coordinator). I would like to get a list of available online courses that might meet this criteria and begin working toward completing my MDiv.    1
+2018-04-27 15:41:00 (PDT) Business Administration                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+2018-07-03 22:44:51 (PDT) Pedagogy of Education                                                                                                                                                                                                                                                                                                                                                                                                                                      1
+2018-10-31 15:29:09 (PDT) see comments2018-10-31 15:29:27 (PDT) see comments                                                                                                                                                                                                                                                                                                                                                                                                         1
+2018-04-18 13:29:55 (PDT) TWU School of Law                                                                                                                                                                                                                                                                                                                                                                                                                                          1
+2018-04-24 12:35:54 (PDT) History of Christianity or Intro to literature                                                                                                                                                                                                                                                                                                                                                                                                             1
+Name: pi__comments__c, dtype: int64
+--------------------------------------------------------------------------------
+2018-02-23 00:57:23    1
+2018-06-27 22:30:29    1
+2018-03-05 14:22:42    1
+2018-04-04 03:54:04    1
+2018-05-22 06:31:49    1
+2017-11-07 23:21:40    1
+2017-10-06 20:05:34    1
+2018-07-07 12:14:11    1
+2018-04-22 17:45:41    1
+2018-06-30 14:16:19    1
+2017-12-27 20:21:34    1
+2018-07-28 18:48:51    1
+2018-06-25 23:15:57    1
+2018-08-29 21:55:36    1
+2018-02-12 08:36:37    1
+2018-06-29 08:34:08    1
+2018-03-13 05:04:05    1
+2017-07-09 21:41:22    1
+2018-08-26 07:17:53    1
+2017-10-28 03:15:29    1
+2018-04-04 17:24:23    1
+2018-08-29 17:52:05    1
+2018-02-25 11:45:54    1
+2018-04-05 20:48:18    1
+2018-07-18 17:49:49    1
+2018-02-10 09:22:56    1
+2018-05-22 09:05:10    1
+2017-07-23 07:30:14    1
+2018-06-14 04:45:10    1
+2017-10-04 15:25:04    1
+                      ..
+2017-12-19 16:19:30    1
+2018-02-08 00:11:44    1
+2018-07-12 04:33:46    1
+2017-09-26 19:22:21    1
+2018-05-25 02:15:25    1
+2017-12-11 20:15:44    1
+2018-03-26 02:47:43    1
+2018-05-22 21:57:13    1
+2018-05-02 23:03:23    1
+2018-07-23 21:39:40    1
+2018-05-23 20:02:51    1
+2018-08-27 15:55:37    1
+2018-03-01 18:26:51    1
+2017-07-14 02:20:40    1
+2018-01-10 22:00:59    1
+2018-02-07 05:59:46    1
+2018-05-28 21:59:04    1
+2018-05-21 18:17:33    1
+2018-03-09 16:31:05    1
+2018-03-07 20:17:47    1
+2018-05-29 19:48:51    1
+2017-10-19 21:31:58    1
+2017-11-02 21:34:36    1
+2017-10-04 21:27:18    1
+2018-02-22 23:20:54    1
+2018-05-24 09:39:07    1
+2018-06-13 19:27:26    1
+2018-03-14 01:44:22    1
+2018-06-04 06:30:12    1
+2017-08-07 02:33:39    1
+Name: pi__conversion_date__c, Length: 2307, dtype: int64
+--------------------------------------------------------------------------------
+RFI - Undergraduate (Landing Page)                    764
+RFI - Graduate - (No longer active)                   341
+RFI -Graduate (Landing Page)                          305
+Christian Leadership                                  273
+Internal Admissions RFI Landing Page                  266
+RFI - Undergraduate - (No longer active)              174
+Extension - Main RFI                                   84
+Internal International Admissions RFI Landing Page     33
+RFI - Athletics                                        25
+Adventure Unbounce Page                                20
+RFI - Undergraduate (Athletics)                         5
+RFI - Graduate Full                                     4
+UG Re-Enrollee Application Form                         3
+You Got This                                            3
+UG: Live Event Short Code Landing Page                  3
+Christian Leadership - Charisma Magazine                2
+UG: When do you want to start?                          1
+trinitywestern.edu - US                                 1
+Name: pi__conversion_object_name__c, dtype: int64
+--------------------------------------------------------------------------------
+landing page    1739
+form             548
+form handler      20
+Name: pi__conversion_object_type__c, dtype: int64
+--------------------------------------------------------------------------------
+2017-05-16 18:06:15    150
+2017-05-16 18:06:24     97
+2017-05-16 18:06:36     94
+2017-05-16 18:06:29     94
+2017-05-16 18:06:26     84
+2017-05-16 18:06:32     81
+2017-05-16 18:06:19     78
+2017-05-16 18:06:38     73
+2017-05-16 18:06:08     67
+2017-05-16 18:06:35     62
+2017-05-16 18:06:31     56
+2017-05-16 18:06:25     53
+2017-05-16 18:06:33     46
+2017-05-16 18:06:28     44
+2017-05-16 18:06:27     43
+2017-05-16 18:06:17     42
+2017-05-16 18:06:22     42
+2017-05-16 18:06:12     37
+2017-05-16 18:06:21     34
+2017-05-16 18:06:05     32
+2017-05-16 18:06:30     29
+2017-05-16 18:06:39     24
+2017-05-16 18:05:36     24
+2017-05-16 18:05:52     24
+2017-05-16 18:05:44     23
+2017-05-16 18:05:45     21
+2017-08-14 00:01:09     19
+2017-05-16 18:06:09     18
+2017-05-16 18:05:56     17
+2017-05-16 18:06:41     17
+                      ... 
+2018-05-10 05:48:49      1
+2017-11-05 03:46:37      1
+2018-06-29 18:47:47      1
+2017-10-23 01:18:20      1
+2018-04-23 15:34:53      1
+2018-02-02 22:35:58      1
+2018-05-25 22:14:30      1
+2017-10-26 03:42:36      1
+2018-09-14 20:52:09      1
+2017-11-28 06:53:45      1
+2018-03-10 00:53:24      1
+2018-08-28 18:36:58      1
+2018-08-07 16:17:13      1
+2018-02-14 18:38:51      1
+2017-03-30 17:02:06      1
+2017-05-12 21:01:14      1
+2018-02-26 16:04:17      1
+2018-09-05 15:28:31      1
+2018-03-01 14:46:30      1
+2018-03-16 03:49:44      1
+2018-02-05 15:19:09      1
+2018-03-20 00:15:30      1
+2018-06-25 23:15:56      1
+2018-01-05 19:30:14      1
+2018-03-08 19:15:09      1
+2018-03-01 22:38:03      1
+2018-10-23 18:04:10      1
+2018-02-07 21:46:00      1
+2018-03-16 16:35:15      1
+2018-04-30 05:40:45      1
+Name: pi__created_date__c, Length: 6278, dtype: int64
+--------------------------------------------------------------------------------
+2018-03-07 16:34:55    2
+2018-05-31 07:37:25    2
+2017-09-14 23:23:51    2
+2017-08-07 15:06:18    2
+2018-03-07 15:54:49    2
+2018-10-18 21:04:24    2
+2018-04-01 04:23:29    1
+2018-04-11 08:08:59    1
+2018-10-18 22:24:11    1
+2018-03-16 14:18:03    1
+2017-10-19 21:31:58    1
+2018-05-17 17:12:39    1
+2018-06-19 22:07:44    1
+2018-05-07 13:34:06    1
+2018-03-16 16:55:52    1
+2017-09-27 19:14:37    1
+2017-11-06 21:27:28    1
+2018-01-29 05:06:41    1
+2017-11-04 21:30:48    1
+2018-03-02 20:03:50    1
+2018-03-14 02:21:20    1
+2017-08-03 22:02:42    1
+2018-07-12 03:46:21    1
+2018-05-29 18:13:32    1
+2018-02-08 00:11:44    1
+2018-02-03 12:05:51    1
+2017-10-16 23:41:50    1
+2018-05-25 02:15:25    1
+2018-04-04 18:15:45    1
+2018-07-05 22:01:46    1
+                      ..
+2018-02-12 01:19:24    1
+2018-05-22 03:05:28    1
+2017-09-14 23:46:53    1
+2017-09-19 17:28:21    1
+2018-04-03 23:12:31    1
+2018-02-21 15:45:43    1
+2018-04-19 03:24:56    1
+2017-11-27 16:22:51    1
+2018-01-15 13:08:26    1
+2018-01-22 19:41:25    1
+2018-02-05 20:32:45    1
+2018-06-13 20:46:03    1
+2018-02-21 17:32:59    1
+2017-09-19 05:06:36    1
+2018-05-14 08:39:19    1
+2017-09-05 17:43:58    1
+2018-04-05 07:47:32    1
+2018-10-31 22:29:10    1
+2018-12-13 02:53:14    1
+2017-09-19 18:31:32    1
+2017-11-03 22:13:06    1
+2018-03-07 19:40:59    1
+2018-07-17 04:11:56    1
+2018-02-16 20:06:13    1
+2017-11-10 03:21:54    1
+2017-10-17 15:59:18    1
+2018-10-15 12:08:30    1
+2017-09-29 00:24:20    1
+2017-09-25 22:33:46    1
+2018-06-23 07:01:31    1
+Name: pi__first_activity__c, Length: 4522, dtype: int64
+--------------------------------------------------------------------------------
+//m.facebook.com                                                          36
+trinity western university                                                 6
+id-app://m.facebook.com                                                    2
+ma tesol trinity western university                                        1
+twu application                                                            1
+trinity university vancouver                                               1
+north west university in canada                                            1
+http://go.twu.ca/e/334791/duate-international-applicants/d7gq/21483094     1
+trinity university abbotsford bc                                           1
+https://www.twu.ca/financial-aid/apply-financial-aid                       1
+http://go.twu.ca/e/334791/undergraduate/yf2v/23190866                      1
+trinity western                                                            1
+Trinity Western University                                                 1
+https://go.twu.ca/e/334791/2BgRAPt/5zy5v/36620611                          1
+http://go.twu.ca/e/334791/apply-twu/yp3v/9303907                           1
+phd computer science offers trinity western university                     1
+https://www.twu.ca/admissions-aid/financial-aid                            1
+Name: pi__first_search_term__c, dtype: int64
+--------------------------------------------------------------------------------
+Google Natural Search     1312
+Facebook                   152
+Bing Natural Search         41
+Yahoo! Natural Search       30
+LinkedIn                    15
+Wikipedia                   10
+Baidu Natural Search         9
+Twitter                      1
+Google Ad                    1
+Ask.com Natural Search       1
+PRweb                        1
+Name: pi__first_search_type__c, dtype: int64
+--------------------------------------------------------------------------------
+https://www.google.ca/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        721
+https://www.google.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       258
+android-app://com.google.android.gm                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           113
+https://www.google.co.in/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      87
+https://l.facebook.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        59
+https://www.bing.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          38
+http://m.facebook.com                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          36
+https://outlook.live.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      35
+http://m.facebook.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         34
+http://www.google.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         31
+android-app://com.google.android.googlequicksearchbox                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          30
+http://www.google.ca/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          17
+https://www.linkedin.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      15
+https://www.google.co.uk/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      13
+https://www.actsseminaries.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                12
+https://www.google.com.ng/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     12
+http://www.studyincanada.com.ng/universities-and-colleges/universities-in-canada.html                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          12
+https://search.yahoo.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      11
+http://www.teslontario.org/accreditation/tesl-training-programs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                10
+https://www.google.ae/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          9
+https://mail.yahoo.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         8
+https://www.facebook.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       7
+https://www.tesl.ca/training/tesl-canada-recognized-teacher-training-programs/standard-three-programs.html                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      7
+https://www.google.com.br/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      6
+http://www.webometrics.info/en/North_america/Canada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             6
+android-app://com.google.android.googlequicksearchbox/https/www.google.com                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      6
+https://ca.search.yahoo.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    6
+http://us.trinitywestern.edu/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   6
+https://en.wikipedia.org/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       5
+https://www.google.com.pk/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      5
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ... 
+https://www.google.nl/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          1
+https://www.google.ht/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          1
+http://webmail.astolinks.net/email/scripts/view.pl?EV1=15181690054840182                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        1
+https://www.google.ca/search?q=trinity+western&hl=en-US&gws_rd=cr,ssl&dcr=0&ei=WA8uWtmEI8fEjAPGhb3ABQ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           1
+https://int.search.myway.com/search/GGmain.jhtml?p2=%5EAW6%5Exdm225%5ETTAB02%5Eng&ptb=418EF9BC-B42E-4278-AED8-8E4C21E8EB6F&n=784864be&cn=NG&ln=en&si=EAIaIQobChMI69DQ6fW72AIVChfgCh0nngFxEAEYASAAEgInGPD_BwE&tpr=hpsb&trs=wtt&brwsid=18425ec6-da18-4696-b52c-a1f7252aa83c&searchfor=university%20that%20offers%20master%20degree%20in%20leadership%20in%20Canada&st=tab                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         1
+http://www.canadian-universities.net/Universities/Programs/Graduate-Studies-Sports_Administration-Greater_Vancouver.html                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        1
+https://yandex.ru/clck/jsredir?bu=uniq1511315817715248280&from=yandex.ru%3Bsearch%2F%3Bweb%3B%3B&text=&etext=1612.h83gEIagd--OuX-mqRdXT6Rxhb_zX-HBz3nL-jGlAXW1F6gNe3uVl_mJt35lCQlE.7ff8fec6f06d675690a4bb106902366b7d073101&uuid=&state=PEtFfuTeVD5kpHnK9lio9dFa2ePbDzX7fH_cbK-eu2V8J4cbFpzDXVHZJKQvpytSIkjSZ4Cc6zu0NMQINCoRdw,,&&cst=AiuY0DBWFJ5Hyx_fyvalFMFDXTTInnybgPMvlFBmh7Zc-VcW3nOENe-dpz_JnpdQm2HDmO9uvaK9kJUPJfCNnzo-B6k-bzGv5Jw6LXhfQowg0svzQFdRFs8YOEdDomiMSYKKTTT453Vx2Qf5l9Rchxb6d5iMjOGxwQ4cw5e-Fs_vtEsuk4h5GxoNILryTnNfcorrGPZkFZ5uIHiDsmyIeUsbGi4kbC3nxHuoqj4F7_qW3LFe6A8gjA,,&data=UlNrNmk5WktYejY4cHFySjRXSWhXQjNIYmFDQVdZTVZnb1FaSU1mSV9oN0ZUeG9pdTVObFdxZVNoeTJzTUdNUWdISWdoRkYtUUlzVThiak1MZFUwNllURG9rV2pES0tD&sign=d49504c9d71104d62bd56355972420bd&keyno=0&b64e=2&ref=orjY4mGPRjk5boDnW0uvlrrd71vZw9kpUDn16eKbki5cC7lDmmhsX_I31xmF76AGjmFeFTwaLvHNuC9RBhPCIXE4QCrNfsfaOjBlTP0sfrS_-3J-BfFoH84i4rrf4QMO2iucCm01XFgearblg8jmYQq5bFm8XhLdbeM6mo35L5g,&l10n=ru&cts=1511317386851&mc=2.3219280948873626      1
+http://www.so.com/link?m=avpzKCExm%2Bji%2BtK4qqPTtoKp2UCn6T%2FNKeSUNn1SF9FuvdKhxDg%2Bqs8uB45iYCE4f13jUuX0qS%2BExaJNcsIjYtLchKlmcMExi0kLW30FLIBzeju4IVhkHX%2FqfgdZp56z3C2NEbbZIGUeGp9OjTuE3Cw%3D%3D                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              1
+https://r.search.yahoo.com/_ylt=AwrgEZG6TpFb6aUAMEkXFwx.;_ylu=X3oDMTByb2lvbXVuBGNvbG8DZ3ExBHBvcwMxBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1536278331/RO=10/RU=https%3a%2f%2fwww.twu.ca%2f/RK=2/RS=rtiJN1xASWVd234UYc8leaFcV5g-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             1
+https://mail.google.com/mail/mu/mp/680/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         1
+http://www.google.com/url?q=http%3A%2F%2Fgo.twu.ca%2Fe%2F334791%2Fundergraduate%2Fyf2v%2F23190866&sa=D&sntz=1&usg=AFQjCNGxrczOzFYh8V4Term0STLJJ263Rg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            1
+https://results.searchlock.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 1
+https://www.charismamag.com/spirit/supernatural/14935-10-ways-to-release-gods-healing-power                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1
+http://info.twu.ca/yougotthis/?gclid=CjwKEAjwqIfLBRCk6vH_rJq7yD0SJACG18frVPjcabj1P5t8HvsvBQgP4NDwRb8Y2XySSCs4Ii4E4xoC1Z3w_wcB                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   1
+https://mail.qq.com/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            1
+https://www.google.bg/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          1
+https://mail.google.com/mail/u/0/?hl=en/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        1
+https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwiQw7CY0JzbAhWPn4MKHeLiCiAQFghBMAA&url=https%3A%2F%2Fwww.twu.ca%2Facademics%2Fschool-graduate-studies%2Fcounselling-psychology-ma&usg=AOvVaw2RSpM5KQkhh90U7aa88LHm                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1
+https://www.google.ba/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          1
+http://www.cpa.ca/students/resources/canadianuniversities/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      1
+https://www.mastersportal.eu/studies/134024/leadership-health.html?attempt=1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+https://r.search.yahoo.com/_ylt=A0SO8yiSmitaBssAoRNx.9w4;_ylu=X3oDMTByb2lvbXVuBGNvbG8DZ3ExBHBvcwMxBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1512835858/RO=10/RU=https%3a%2f%2fwww.twu.ca%2f/RK=2/RS=ZqKLxS7DgqFLODCRqKLy7aMYedI-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             1
+https://mail.qq.com/cgi-bin/readtemplate?t=safety&check=false&gourl=https%3A%2F%2Fgo.twu.ca%2Fe%2F334791%2Fapply-twu%2F3mf7h%2F38848037&subtemplate=gray&evil=0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 1
+http://info.twu.ca/yougotthis/?gclid=CLS55eLApNUCFUW5wAodYp4Nxw                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 1
+http://www.google.com/url?q=http%3A%2F%2Fgo.twu.ca%2Fe%2F334791%2Fapply-twu%2Fyp3v%2F9303907&sa=D&sntz=1&usg=AFQjCNG5rD-fMiVbNH1e3SLE6PIhiS8Ymg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 1
+http://www.canadianbusiness.com/schools/trinity-western-mba/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+https://r.search.yahoo.com/_ylt=AwrSbl1NJapZn_8AvGoxLCM5;_ylu=X3oDMTBya2cwZmh2BGNvbG8DZ3ExBHBvcwM1BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1504351693/RO=10/RU=https%3a%2f%2fwww.twu.ca%2fundergraduate%2fadmitted-students%2fcourse-registration%2f/RK=1/RS=cHUMZsaXkzSgnvsYh6BuOkZSazM-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   1
+https://www.google.com.ar/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      1
+http://www.ciptaoxford.ac.id/home/universities/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 1
+http://www.universitystudy.ca/search-programs/?k=Sports&program_level_merged=Bachelor%27s%2FFirst+professional+degree&program_language=ENGLISH                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  1
+Name: pi__first_touch_url__c, Length: 286, dtype: int64
+--------------------------------------------------------------------------------
+2018-06-11 17:09:08    4
+2018-06-11 17:08:55    2
+2018-10-18 21:04:24    2
+2018-05-17 17:12:39    1
+2018-06-11 06:03:48    1
+2018-12-22 06:58:29    1
+2018-02-27 23:24:07    1
+2018-03-04 17:50:52    1
+2017-09-27 19:14:37    1
+2018-04-27 19:29:06    1
+2018-03-08 13:36:50    1
+2017-12-11 20:24:02    1
+2018-05-22 21:57:13    1
+2018-03-07 00:59:54    1
+2018-02-04 07:32:12    1
+2018-06-14 07:59:27    1
+2018-09-06 17:07:23    1
+2018-12-03 23:08:43    1
+2018-10-24 07:48:15    1
+2018-05-17 14:38:24    1
+2018-09-12 03:42:41    1
+2018-02-06 23:40:16    1
+2017-10-19 21:31:58    1
+2018-08-29 16:56:43    1
+2018-10-27 05:31:11    1
+2018-06-04 06:30:12    1
+2018-05-14 03:11:14    1
+2018-04-04 18:15:45    1
+2017-08-03 22:02:42    1
+2017-11-02 18:43:13    1
+                      ..
+2018-01-26 20:25:22    1
+2018-06-26 14:18:52    1
+2018-11-05 19:50:35    1
+2018-05-14 06:19:18    1
+2018-06-01 22:23:37    1
+2018-08-07 00:27:47    1
+2017-11-18 00:42:55    1
+2018-11-16 17:06:07    1
+2018-04-13 06:15:59    1
+2018-05-17 21:47:42    1
+2018-02-27 19:10:05    1
+2017-10-31 03:55:37    1
+2018-10-18 21:07:50    1
+2018-02-19 20:34:18    1
+2017-12-22 14:35:41    1
+2018-02-08 00:37:19    1
+2018-03-15 20:40:17    1
+2018-07-25 17:25:21    1
+2018-05-30 13:12:13    1
+2018-02-20 19:42:07    1
+2018-06-02 11:33:15    1
+2018-09-10 22:36:44    1
+2018-06-18 21:05:48    1
+2017-09-03 13:23:07    1
+2018-04-25 16:24:43    1
+2018-03-09 20:39:37    1
+2018-08-15 18:32:13    1
+2018-03-31 08:07:16    1
+2017-10-26 18:07:41    1
+2018-10-20 09:10:34    1
+Name: pi__last_activity__c, Length: 4519, dtype: int64
+--------------------------------------------------------------------------------
+0    8634
+1     579
+Name: pi__pardot_hard_bounced__c, dtype: int64
+--------------------------------------------------------------------------------
+-50.0      1655
+-47.0       543
+-44.0       405
+-150.0      313
+-250.0      306
+-41.0       272
+-38.0       227
+ 50.0       225
+-32.0       137
+-35.0       130
+ 54.0       111
+-147.0       98
+-29.0        86
+ 55.0        83
+-26.0        80
+-23.0        61
+-144.0       60
+-141.0       54
+ 56.0        54
+ 100.0       51
+-20.0        48
+ 57.0        45
+-138.0       39
+ 3.0         39
+-14.0        38
+ 58.0        38
+ 25.0        37
+ 6.0         35
+ 0.0         34
+ 60.0        34
+           ... 
+ 232.0        1
+ 297.0        1
+ 637.0        1
+ 203.0        1
+ 425.0        1
+ 335.0        1
+ 209.0        1
+ 518.0        1
+ 385.0        1
+-58.0         1
+ 898.0        1
+-350.0        1
+ 357.0        1
+ 214.0        1
+ 412.0        1
+ 465.0        1
+ 427.0        1
+-78.0         1
+ 444.0        1
+-84.0         1
+ 406.0        1
+-98.0         1
+-184.0        1
+ 739.0        1
+ 514.0        1
+ 655.0        1
+ 262.0        1
+ 1005.0       1
+ 462.0        1
+ 272.0        1
+Name: pi__score__c, Length: 525, dtype: int64
+--------------------------------------------------------------------------------
+http://pi.pardot.com/prospect/read?id=22566380    1
+http://pi.pardot.com/prospect/read?id=19601989    1
+http://pi.pardot.com/prospect/read?id=19607616    1
+http://pi.pardot.com/prospect/read?id=428677      1
+http://pi.pardot.com/prospect/read?id=17367605    1
+http://pi.pardot.com/prospect/read?id=19457807    1
+http://pi.pardot.com/prospect/read?id=26510702    1
+http://pi.pardot.com/prospect/read?id=22776534    1
+http://pi.pardot.com/prospect/read?id=929851      1
+http://pi.pardot.com/prospect/read?id=425397      1
+http://pi.pardot.com/prospect/read?id=22575382    1
+http://pi.pardot.com/prospect/read?id=17380729    1
+http://pi.pardot.com/prospect/read?id=40630669    1
+http://pi.pardot.com/prospect/read?id=23811578    1
+http://pi.pardot.com/prospect/read?id=22373934    1
+http://pi.pardot.com/prospect/read?id=20338337    1
+http://pi.pardot.com/prospect/read?id=23563936    1
+http://pi.pardot.com/prospect/read?id=19948293    1
+http://pi.pardot.com/prospect/read?id=17380473    1
+http://pi.pardot.com/prospect/read?id=16847927    1
+http://pi.pardot.com/prospect/read?id=404497      1
+http://pi.pardot.com/prospect/read?id=23910034    1
+http://pi.pardot.com/prospect/read?id=26867801    1
+http://pi.pardot.com/prospect/read?id=20383637    1
+http://pi.pardot.com/prospect/read?id=19582073    1
+http://pi.pardot.com/prospect/read?id=26639742    1
+http://pi.pardot.com/prospect/read?id=17380615    1
+http://pi.pardot.com/prospect/read?id=16844245    1
+http://pi.pardot.com/prospect/read?id=20341663    1
+http://pi.pardot.com/prospect/read?id=26600548    1
+                                                 ..
+http://pi.pardot.com/prospect/read?id=394201      1
+http://pi.pardot.com/prospect/read?id=20346453    1
+http://pi.pardot.com/prospect/read?id=40644855    1
+http://pi.pardot.com/prospect/read?id=20315263    1
+http://pi.pardot.com/prospect/read?id=23811268    1
+http://pi.pardot.com/prospect/read?id=22796942    1
+http://pi.pardot.com/prospect/read?id=26975961    1
+http://pi.pardot.com/prospect/read?id=18286283    1
+http://pi.pardot.com/prospect/read?id=257295      1
+http://pi.pardot.com/prospect/read?id=22698606    1
+http://pi.pardot.com/prospect/read?id=19949329    1
+http://pi.pardot.com/prospect/read?id=412905      1
+http://pi.pardot.com/prospect/read?id=20572022    1
+http://pi.pardot.com/prospect/read?id=16876027    1
+http://pi.pardot.com/prospect/read?id=403775      1
+http://pi.pardot.com/prospect/read?id=47229845    1
+http://pi.pardot.com/prospect/read?id=412951      1
+http://pi.pardot.com/prospect/read?id=405151      1
+http://pi.pardot.com/prospect/read?id=19451833    1
+http://pi.pardot.com/prospect/read?id=393935      1
+http://pi.pardot.com/prospect/read?id=19607374    1
+http://pi.pardot.com/prospect/read?id=409397      1
+http://pi.pardot.com/prospect/read?id=22743288    1
+http://pi.pardot.com/prospect/read?id=23460008    1
+http://pi.pardot.com/prospect/read?id=22776226    1
+http://pi.pardot.com/prospect/read?id=17966297    1
+http://pi.pardot.com/prospect/read?id=42260103    1
+http://pi.pardot.com/prospect/read?id=23440474    1
+http://pi.pardot.com/prospect/read?id=404229      1
+http://pi.pardot.com/prospect/read?id=19581803    1
+Name: pi__url__c, Length: 9148, dtype: int64
+--------------------------------------------------------------------------------
+Series([], Name: Term_old, dtype: int64)
+--------------------------------------------------------------------------------
+Fall 2018      7946
+Spring 2018     608
+Summer 2018     440
+Fall 2017       217
+Summer 2017       2
+Name: Term_new, dtype: int64
+--------------------------------------------------------------------------------
+Fall      8163
+Spring     608
+Summer     442
+Name: Term_semester, dtype: int64
+--------------------------------------------------------------------------------
+2018    8994
+2017     219
+Name: Term_year, dtype: int64

@@ -1,0 +1,758 @@
+﻿pcw_id,week_number,dashboard_date,counsellor,region,inq,sub,com,adm,dep,pre,pay,act
+1,1,Nov 25,Stephanie Beugelink,Transfer,125,140,46,42,13,0,0,0
+2,1,Nov 25,Josh Brown,Valley,201,9,2,-1,-3,0,0,0
+3,1,Nov 25,Sarah Buckham,Prairies,73,-39,-5,-6,0,0,0,0
+4,1,Nov 25,Carrie Carey,California,456,38,24,24,-2,0,0,0
+5,1,Nov 25,Susanne Driedger,GBC,357,-28,-11,-12,-4,0,0,0
+6,1,Nov 25,Liz EssonE,East,-1,-18,1,0,0,0,0,0
+7,1,Nov 25,Liz EssonNF,North Fraser,22,-20,-9,-10,-2,0,0,0
+8,1,Nov 25,Chett Fitchett,GBC,196,-13,-4,-6,-3,0,0,0
+9,1,Nov 25,Sarah Gregory,Surrey,117,1,-8,-8,-3,0,0,0
+10,1,Nov 25,Elaine Johnston,International,-202,-38,-1,-2,-1,0,0,0
+11,1,Nov 25,Charles Lee,International,112,-2,-1,-1,-1,0,0,0
+12,1,Nov 25,Palmer Muntz,Washington,214,15,8,9,-2,0,0,0
+13,1,Nov 25,Lisa Neufeldt,Transfer,11,15,-1,0,0,0,0,0
+14,1,Nov 25,Susie Strait,USA,788,8,0,1,-2,0,0,0
+15,1,Nov 25,Stu Talene,Washington,169,15,9,9,-2,0,0,0
+16,1,Nov 25,Rachel Tung,Langley/Surrey,147,-1,0,-7,-1,0,0,0
+17,1,Nov 25,Chris Wong,Vancouver,201,-12,2,0,-2,0,0,0
+18,1,Nov 25,Total,NULL,3113,68,52,32,-22,0,0,0
+19,2,Dec 2,Stephanie Beugelink,Transfer,266,232,121,116,49,0,0,0
+20,2,Dec 2,Josh Brown,Valley,217,13,4,2,-3,0,0,0
+21,2,Dec 2,Sarah Buckham,Prairies,81,-37,-5,-9,-1,0,0,0
+22,2,Dec 2,Carrie Carey,"California, Hawaii",465,46,32,23,-3,0,0,0
+23,2,Dec 2,Susanne Driedger,GBC,350,-29,-12,-13,-5,0,0,0
+24,2,Dec 2,Liz EssonE,East,264,-19,0,3,3,0,0,0
+25,2,Dec 2,Liz EssonNF,North Fraser,17,-20,-9,-11,-2,0,0,0
+26,2,Dec 2,Chett Fitchett,GBC,186,-11,0,-7,-3,0,0,0
+27,2,Dec 2,Sarah Gregory,Surrey,103,3,-11,-9,-3,0,0,0
+28,2,Dec 2,Elaine Johnston,International,-101,-43,-4,-3,-1,0,0,0
+29,2,Dec 2,Charles Lee,International,113,-3,-2,-1,-1,0,0,0
+30,2,Dec 2,Palmer Muntz,Washington,205,15,9,9,-3,0,0,0
+31,2,Dec 2,Lisa Neufeldt,Transfer,99,10,9,6,7,0,0,0
+32,2,Dec 2,Susie Strait,USA,790,6,1,0,-3,0,0,0
+33,2,Dec 2,Stu Talene,Washington,169,13,9,9,-3,0,0,0
+34,2,Dec 2,Rachel Tung,Langley/Surrey,150,1,-2,-10,-1,0,0,0
+35,2,Dec 2,Chris Wong,Vancouver,196,-14,-1,-2,-3,0,0,0
+36,2,Dec 2,Total,NULL,3213,67,44,13,-26,0,0,0
+37,3,Dec 8,Stephanie Beugelink,Transfer,254,219,109,107,48,0,0,0
+38,3,Dec 8,Josh Brown,Valley,220,13,7,6,-4,0,0,0
+39,3,Dec 8,Sarah Buckham,Prairies,88,-37,-6,-11,-1,0,0,0
+40,3,Dec 8,Carrie Carey,"California, Hawaii",569,47,28,29,-3,0,0,0
+41,3,Dec 8,Susanne Driedger,GBC,359,-30,-11,-16,-5,0,0,0
+42,3,Dec 8,Liz EssonE,East,261,-25,-3,-1,3,0,0,0
+43,3,Dec 8,Liz EssonNF,North Fraser,12,-21,-4,-10,-2,0,0,0
+44,3,Dec 8,Chett Fitchett,GBC,182,-8,-4,-7,-3,0,0,0
+45,3,Dec 8,Sarah Gregory,Surrey,126,-1,-12,-11,-3,0,0,0
+46,3,Dec 8,Elaine Johnston,International,-86,-46,-2,-4,-1,0,0,0
+47,3,Dec 8,Charles Lee,International,119,-3,-3,-3,-1,0,0,0
+48,3,Dec 8,Palmer Muntz,Washington,199,16,9,10,-3,0,0,0
+49,3,Dec 8,Lisa Neufeldt,Transfer,92,3,6,6,8,0,0,0
+50,3,Dec 8,Susie Strait,USA,778,5,0,0,-3,0,0,0
+51,3,Dec 8,Stu Talene,Washington,229,11,9,9,-3,0,0,0
+52,3,Dec 8,Rachel Tung,Langley/Surrey,152,0,-4,-10,0,0,0,0
+53,3,Dec 8,Chris Wong,Vancouver,200,-14,2,-3,-3,0,0,0
+54,3,Dec 8,Total,NULL,3410,37,29,0,-27,0,0,0
+55,4,Dec 15,Stephanie Beugelink,Transfer,251,216,101,98,47,0,0,0
+56,4,Dec 15,Josh Brown,Valley,230,19,9,8,-4,0,0,0
+57,4,Dec 15,Sarah Buckham,Prairies,81,-39,-9,-12,-1,0,0,0
+58,4,Dec 15,Carrie Carey,"California, Hawaii",565,47,29,27,-3,0,0,0
+59,4,Dec 15,Susanne Driedger,GBC,399,-30,-5,-12,-6,0,0,0
+60,4,Dec 15,Liz EssonE,East,266,-21,-3,-3,3,0,0,0
+61,4,Dec 15,Liz EssonNF,North Fraser,4,-23,-7,-8,-2,0,0,0
+62,4,Dec 15,Chett Fitchett,GBC,179,-4,5,0,-4,0,0,0
+63,4,Dec 15,Sarah Gregory,Surrey,132,-3,-9,-13,-4,0,0,0
+64,4,Dec 15,Elaine Johnston,International,-125,-48,-3,-4,-2,0,0,0
+65,4,Dec 15,Charles Lee,International,119,-2,-2,-3,-2,0,0,0
+66,4,Dec 15,Palmer Muntz,Washington,184,19,9,9,-3,0,0,0
+67,4,Dec 15,Lisa Neufeldt,Transfer,88,-2,6,3,8,0,0,0
+68,4,Dec 15,Susie Strait,USA,770,5,1,-1,-3,0,0,0
+69,4,Dec 15,Stu Talene,Washington,228,9,8,8,-3,0,0,0
+70,4,Dec 15,Rachel Tung,Langley/Surrey,150,2,3,-17,0,0,0,0
+71,4,Dec 15,Chris Wong,Vancouver,248,-12,8,-6,-3,0,0,0
+72,4,Dec 15,Total,NULL,3439,40,53,-13,-32,0,0,0
+73,5,Jan 3,Stephanie Beugelink,Transfer,241,202,93,89,48,0,0,0
+74,5,Jan 3,Josh Brown,Valley,230,23,14,4,-4,0,0,0
+75,5,Jan 3,Sarah Buckham,Prairies,58,-40,-11,-14,-1,0,0,0
+76,5,Jan 3,Carrie Carey,"California, Hawaii",551,46,33,27,-4,0,0,0
+77,5,Jan 3,Susanne Driedger,GBC,387,-25,-5,-13,-6,0,0,0
+78,5,Jan 3,Liz EssonE,East,240,-27,4,-5,2,0,0,0
+79,5,Jan 3,Liz EssonNF,North Fraser,-16,-27,-10,-11,-3,0,0,0
+80,5,Jan 3,Chett Fitchett,GBC,155,-7,9,0,-5,0,0,0
+81,5,Jan 3,Sarah Gregory,Surrey,122,-3,-1,-12,-4,0,0,0
+82,5,Jan 3,Elaine Johnston,International,-144,-47,-7,-4,-1,0,0,0
+83,5,Jan 3,Charles Lee,International,116,-4,-3,-2,-2,0,0,0
+84,5,Jan 3,Palmer Muntz,Washington,167,23,16,12,-4,0,0,0
+85,5,Jan 3,Lisa Neufeldt,Transfer,82,-8,2,3,8,0,0,0
+86,5,Jan 3,Susie Strait,USA,814,5,-1,-2,-4,0,0,0
+87,5,Jan 3,Stu Talene,Washington,226,13,10,8,-4,0,0,0
+88,5,Jan 3,Rachel Tung,Langley/Surrey,137,6,8,-9,-1,0,0,0
+89,5,Jan 3,Chris Wong,Vancouver,230,-8,11,-1,-3,0,0,0
+90,5,Jan 3,Total,NULL,3234,33,79,-16,-34,0,0,0
+91,6,Jan 6,Stephanie Beugelink,Transfer,230,195,89,84,46,0,0,0
+92,6,Jan 6,Josh Brown,Valley,228,20,9,10,-4,0,0,0
+93,6,Jan 6,Sarah Buckham,Prairies,96,-41,-18,-18,-1,0,0,0
+94,6,Jan 6,Carrie Carey,"California, Hawaii",574,45,36,34,-4,0,0,0
+95,6,Jan 6,Susanne Driedger,GBC,378,-29,-2,-11,-5,0,0,0
+96,6,Jan 6,Liz EssonE,East,237,-31,-1,-1,3,0,0,0
+97,6,Jan 6,Liz EssonNF,North Fraser,-26,-26,-11,-14,-3,0,0,0
+98,6,Jan 6,Chett Fitchett,GBC,150,-7,6,8,-5,0,0,0
+99,6,Jan 6,Sarah Gregory,Surrey,114,-2,-1,-9,-4,0,0,0
+100,6,Jan 6,Elaine Johnston,International,-153,-51,-5,-3,0,0,0,0
+101,6,Jan 6,Charles Lee,International,117,-5,-3,-3,-2,0,0,0
+102,6,Jan 6,Palmer Muntz,Washington,175,23,16,13,-5,0,0,0
+103,6,Jan 6,Lisa Neufeldt,Transfer,77,-10,1,0,7,0,0,0
+104,6,Jan 6,Susie Strait,USA,968,3,-4,-2,-4,0,0,0
+105,6,Jan 6,Stu Talene,Washington,230,11,6,6,-4,0,0,0
+106,6,Jan 6,Rachel Tung,Langley/Surrey,125,-1,7,-3,-2,0,0,0
+107,6,Jan 6,Chris Wong,Vancouver,228,-9,1,-7,-4,0,0,0
+108,6,Jan 6,Total,NULL,3383,-2,42,0,-37,0,0,0
+109,7,Jan 13,Stephanie Beugelink,Transfer,219,181,82,81,46,0,0,0
+110,7,Jan 13,Josh Brown,Valley,229,24,9,9,-5,0,0,0
+111,7,Jan 13,Sarah Buckham,Prairies,99,-36,-17,-24,-1,0,0,0
+112,7,Jan 13,Carrie Carey,"California, Hawaii",578,44,36,34,-4,0,0,0
+113,7,Jan 13,Susanne Driedger,GBC,386,-28,-7,-10,-6,0,0,0
+114,7,Jan 13,Liz EssonE,East,235,-30,-7,-7,3,0,0,0
+115,7,Jan 13,Liz EssonNF,North Fraser,-31,-25,-11,-13,-4,0,0,0
+116,7,Jan 13,Chett Fitchett,GBC,148,-10,7,8,-5,0,0,0
+117,7,Jan 13,Sarah Gregory,Surrey,118,-5,-8,-8,-5,0,0,0
+118,7,Jan 13,Elaine Johnston,International,-153,-60,-7,-3,-1,0,0,0
+119,7,Jan 13,Charles Lee,International,132,-3,-1,-1,-2,0,0,0
+120,7,Jan 13,Palmer Muntz,Washington,170,22,13,17,-5,0,0,0
+121,7,Jan 13,Lisa Neufeldt,Transfer,74,-10,3,2,7,0,0,0
+122,7,Jan 13,Susie Strait,USA,1001,8,-4,-2,-4,0,0,0
+123,7,Jan 13,Stu Talene,Washington,232,9,6,6,-4,0,0,0
+124,7,Jan 13,Rachel Tung,Langley/Surrey,124,1,2,-3,-1,0,0,0
+125,7,Jan 13,Chris Wong,Vancouver,271,-12,0,-4,-5,0,0,0
+126,7,Jan 13,Total,NULL,3484,-12,17,1,-42,0,0,0
+127,8,Jan 19,Stephanie Beugelink,Transfer,210,171,77,75,47,0,0,0
+128,8,Jan 19,Josh Brown,Valley,225,21,9,10,-5,0,0,0
+129,8,Jan 19,Sarah Buckham,Prairies,102,-40,-23,-22,-1,0,0,0
+130,8,Jan 19,Carrie Carey,"California, Hawaii",574,43,34,35,-5,0,0,0
+131,8,Jan 19,Susanne Driedger,GBC,377,-30,-10,-9,-8,0,0,0
+132,8,Jan 19,Liz EssonE,East,245,-33,-8,-7,3,0,0,0
+133,8,Jan 19,Liz EssonNF,North Fraser,-38,-25,-10,-13,-4,0,0,0
+134,8,Jan 19,Chett Fitchett,GBC,147,-7,11,6,-6,0,0,0
+135,8,Jan 19,Sarah Gregory,Surrey,120,-11,-12,-11,-7,0,0,0
+136,8,Jan 19,Elaine Johnston,International,-153,-61,-10,-6,-1,0,0,0
+137,8,Jan 19,Charles Lee,International,131,-4,-1,-1,-2,0,0,0
+138,8,Jan 19,Palmer Muntz,Washington,162,23,17,16,-5,0,0,0
+139,8,Jan 19,Lisa Neufeldt,Transfer,72,-17,-2,0,6,0,0,0
+140,8,Jan 19,Susie Strait,USA,986,6,-4,0,-5,0,0,0
+141,8,Jan 19,Stu Talene,Washington,228,9,6,5,-5,0,0,0
+142,8,Jan 19,Rachel Tung,Langley/Surrey,131,-3,4,0,-2,0,0,0
+143,8,Jan 19,Chris Wong,Vancouver,275,-9,6,0,-6,0,0,0
+144,8,Jan 19,Total,NULL,3460,-50,2,0,-47,0,0,0
+145,9,Feb 17,Stephanie Beugelink,Transfer,-61,-32,-2,6,-11,0,0,0
+146,9,Feb 17,Josh BrownH,Homeschool,50,9,-3,-4,-3,0,0,0
+147,9,Feb 17,Josh BrownV,Valley,119,20,12,9,0,0,0,0
+148,9,Feb 17,Sarah Buckham,Prairies,121,-28,-19,-20,6,0,0,0
+149,9,Feb 17,Carrie Carey,"California, Hawaii",229,19,23,24,-3,0,0,0
+150,9,Feb 17,Susanne Driedger,GBC,266,-15,-7,-14,-2,0,0,0
+151,9,Feb 17,Liz EssonE,East,272,29,36,32,18,0,0,0
+152,9,Feb 17,Liz EssonNF,North Fraser,-103,-9,-10,-12,-1,0,0,0
+153,9,Feb 17,Chett Fitchett,GBC,113,-3,3,4,-3,0,0,0
+154,9,Feb 17,Sarah Gregory,Surrey,63,-7,-15,-16,1,0,0,0
+155,9,Feb 17,Elaine Johnston,International,-18,-15,8,3,9,0,0,0
+156,9,Feb 17,Charles Lee,International,100,1,6,4,0,0,0,0
+157,9,Feb 17,Palmer Muntz,Washington,15,19,22,22,-6,0,0,0
+158,9,Feb 17,Lisa Neufeldt,Transfer,-88,-44,-14,-13,-11,0,0,0
+159,9,Feb 17,Susie Strait,USA,874,15,3,8,-5,0,0,0
+160,9,Feb 17,Stu Talene,Washington,53,0,5,4,-6,0,0,0
+161,9,Feb 17,Rachel Tung,Langley/Surrey,114,-5,0,-12,6,0,0,0
+162,9,Feb 17,Chris Wong,Vancouver,206,-2,9,3,-2,0,0,0
+163,9,Feb 17,Total,NULL,2062,-99,20,-5,-40,0,0,0
+164,10,Feb 24,Stephanie Beugelink,Transfer,-111,-66,-29,-20,-56,0,0,0
+165,10,Feb 24,Josh BrownH,Homeschool,51,9,-2,-3,-4,0,0,0
+166,10,Feb 24,Josh BrownV,Valley,121,18,17,17,0,0,0,0
+167,10,Feb 24,Sarah Buckham,Prairies,118,-25,-14,-17,5,0,0,0
+168,10,Feb 24,Carrie Carey,"California, Hawaii",209,18,24,26,-3,0,0,0
+169,10,Feb 24,Susanne Driedger,GBC,258,-20,-6,-13,-4,0,0,0
+170,10,Feb 24,Liz EssonE,East,271,30,30,34,18,0,0,0
+171,10,Feb 24,Liz EssonNF,North Fraser,34,-10,-8,-12,-2,0,0,0
+172,10,Feb 24,Chett Fitchett,GBC,107,-7,2,3,-3,0,0,0
+173,10,Feb 24,Sarah Gregory,Surrey,56,-12,-12,-6,0,0,0,0
+174,10,Feb 24,Elaine Johnston,International,-19,-10,11,9,10,0,0,0
+175,10,Feb 24,Charles Lee,International,93,1,7,5,0,0,0,0
+176,10,Feb 24,Palmer Muntz,Washington,6,20,23,24,-5,0,0,0
+177,10,Feb 24,Susie Strait,USA,850,18,4,9,-4,0,0,0
+178,10,Feb 24,Stu Talene,Washington,45,0,2,4,-7,0,0,0
+179,10,Feb 24,Rachel Tung,Langley/Surrey,113,-2,0,-7,7,0,0,0
+180,10,Feb 24,Chris Wong,Vancouver,204,-6,17,14,-4,0,0,0
+181,10,Feb 24,Total,NULL,1834,-200,-8,1,-89,0,0,0
+182,11,Mar 3,Stephanie Beugelink,Transfer,-103,-53,-20,-16,-57,0,0,0
+183,11,Mar 3,Josh BrownH,Homeschool,49,11,0,-2,-4,0,0,0
+184,11,Mar 3,Josh BrownV,Valley,125,10,18,17,-1,0,0,0
+185,11,Mar 3,Sarah Buckham,Prairies,130,-25,-10,-9,5,0,0,0
+186,11,Mar 3,Carrie Carey,"California, Hawaii",193,17,25,27,-4,0,0,0
+187,11,Mar 3,Susanne Driedger,GBC,280,-6,1,-3,-4,0,0,0
+188,11,Mar 3,Liz EssonE,East,274,20,25,27,16,0,0,0
+189,11,Mar 3,Liz EssonNF,North Fraser,36,-11,-10,-13,-2,0,0,0
+190,11,Mar 3,Chett Fitchett,GBC,111,-7,3,4,-4,0,0,0
+191,11,Mar 3,Sarah Gregory,Surrey,63,0,1,-4,0,0,0,0
+192,11,Mar 3,Elaine Johnston,International,33,-13,23,13,9,0,0,0
+193,11,Mar 3,Charles Lee,International,85,-3,9,9,0,0,0,0
+194,11,Mar 3,Palmer Muntz,Washington,4,25,24,24,-6,0,0,0
+195,11,Mar 3,Susie Strait,USA,893,23,8,11,-3,0,0,0
+196,11,Mar 3,Stu Talene,Washington,38,4,4,5,-7,0,0,0
+197,11,Mar 3,Rachel Tung,Langley/Surrey,123,0,0,-6,6,0,0,0
+198,11,Mar 3,Chris Wong,Vancouver,209,-21,22,17,-7,0,0,0
+199,11,Mar 3,Total,NULL,1978,-192,51,31,-103,0,0,0
+200,12,Mar 10,Stephanie BeugelinkR,Re-Enrollees,-10,-9,-7,-7,-8,-3,-3,-3
+201,12,Mar 10,Stephanie BeugelinkT,Transfer,-63,-24,9,16,-10,-16,-14,-12
+202,12,Mar 10,Stephanie BeugelinkTNUB,Transfer Non - BC,-43,-13,4,7,-1,0,0,0
+203,12,Mar 10,Josh BrownH,Homeschool,49,10,0,0,-2,0,0,0
+204,12,Mar 10,Josh BrownV,Valley,125,11,13,15,-4,0,0,0
+205,12,Mar 10,Sarah Buckham,Prairies,128,-27,-13,-10,3,0,0,0
+206,12,Mar 10,Carrie Carey,"California, Hawaii",173,14,24,25,-1,0,0,0
+207,12,Mar 10,Susanne Driedger,GBC,285,-4,-1,-3,-3,0,0,0
+208,12,Mar 10,Liz EssonE,East,154,1,8,13,11,0,0,0
+209,12,Mar 10,Liz EssonNF,North Fraser,37,-12,-12,-12,-3,0,0,0
+210,12,Mar 10,Chett Fitchett,GBC,102,-9,-1,1,-2,0,0,0
+211,12,Mar 10,Sarah Gregory,Surrey,60,-3,-8,-1,-2,0,0,0
+212,12,Mar 10,Elaine Johnston,International,98,-6,18,14,9,0,0,0
+213,12,Mar 10,Charles Lee,International,84,-3,11,8,-1,0,0,0
+214,12,Mar 10,Palmer Muntz,Washington,-2,24,27,27,-3,0,0,0
+215,12,Mar 10,Susie Strait,USA,975,23,12,15,-4,0,0,0
+216,12,Mar 10,Stu Talene,Washington,32,3,5,7,-9,0,0,0
+217,12,Mar 10,Rachel Tung,Langley/Surrey,124,-3,-3,-7,3,0,0,0
+218,12,Mar 10,Chris Wong,Vancouver,205,-27,10,12,-9,0,0,0
+219,12,Mar 10,Total,NULL,2216,-90,70,97,-62,0,0,0
+220,13,Mar 17,Lauren Antoniuk,Re-Enrollees,-8,-8,-6,-6,-5,0,0,0
+221,13,Mar 17,Stephanie BeugelinkT,Transfer,-55,-14,14,22,-9,0,0,0
+222,13,Mar 17,Stephanie BeugelinkTNUB,Transfer Non - BC,-47,24,17,17,8,0,0,0
+223,13,Mar 17,Josh BrownH,Homeschool,49,11,1,1,-1,0,0,0
+224,13,Mar 17,Josh BrownV,Valley,122,8,11,15,-6,0,0,0
+225,13,Mar 17,Sarah Buckham,Prairies,129,-27,-14,-11,1,0,0,0
+226,13,Mar 17,Carrie Carey,"California, Hawaii",226,15,21,24,1,0,0,0
+227,13,Mar 17,Susanne Driedger,GBC,273,-10,-2,-3,-5,0,0,0
+228,13,Mar 17,Liz EssonE,East,147,-3,1,8,10,0,0,0
+229,13,Mar 17,Liz EssonNF,North Fraser,32,-14,-16,-15,-4,0,0,0
+230,13,Mar 17,Chett Fitchett,GBC,99,-12,0,2,-1,0,0,0
+231,13,Mar 17,Sarah Gregory,Surrey,61,0,-11,-3,-3,0,0,0
+232,13,Mar 17,Elaine Johnston,International,38,-2,24,17,8,0,0,0
+233,13,Mar 17,Charles Lee,International,106,-2,2,3,-5,0,0,0
+234,13,Mar 17,Palmer Muntz,Washington,-10,22,27,27,0,0,0,0
+235,13,Mar 17,Susie Strait,USA,1052,26,16,21,-2,0,0,0
+236,13,Mar 17,Stu Talene,Washington,25,2,6,8,-11,0,0,0
+237,13,Mar 17,Rachel Tung,Langley/Surrey,120,-4,-7,-7,6,0,0,0
+238,13,Mar 17,Chris Wong,Vancouver,202,-25,7,9,-6,0,0,0
+239,13,Mar 17,Total,NULL,2256,-84,57,101,-51,0,0,0
+240,14,Mar 18,Lauren Antoniuk,Re-Enrollees,-8,-8,-6,-6,-5,0,0,0
+241,14,Mar 18,Stephanie BeugelinkT,Transfer,-56,-15,13,21,-9,0,0,0
+242,14,Mar 18,Stephanie BeugelinkTNUB,Transfer Non - BC,-18,53,19,19,8,0,0,0
+243,14,Mar 18,Josh BrownH,Homeschool,48,10,1,1,-1,0,0,0
+244,14,Mar 18,Josh BrownV,Valley,122,8,11,15,-6,0,0,0
+245,14,Mar 18,Sarah Buckham,Prairies,129,-27,-14,-11,1,0,0,0
+246,14,Mar 18,Carrie Carey,"California, Hawaii",226,15,21,24,1,0,0,0
+247,14,Mar 18,Susanne Driedger,GBC,275,-9,-1,-2,-5,0,0,0
+248,14,Mar 18,Liz EssonE,East,147,-3,1,8,10,0,0,0
+249,14,Mar 18,Liz EssonNF,North Fraser,32,-14,-16,-15,-4,0,0,0
+250,14,Mar 18,Chett Fitchett,GBC,99,-12,0,2,-1,0,0,0
+251,14,Mar 18,Sarah Gregory,Surrey,61,0,-11,-3,-3,0,0,0
+252,14,Mar 18,Elaine Johnston,International,38,-2,24,17,8,0,0,0
+253,14,Mar 18,Charles Lee,International,77,-31,0,1,-5,0,0,0
+254,14,Mar 18,Palmer Muntz,Washington,-10,22,27,27,0,0,0,0
+255,14,Mar 18,Susie Strait,USA,1052,26,16,21,-2,0,0,0
+256,14,Mar 18,Stu Talene,Washington,25,2,6,8,-11,0,0,0
+257,14,Mar 18,Rachel Tung,Langley/Surrey,119,-4,-7,-7,6,0,0,0
+258,14,Mar 18,Chris Wong,Vancouver,202,-25,7,9,-6,0,0,0
+259,14,Mar 18,Total,NULL,2255,-85,57,101,-51,0,0,0
+260,15,Mar 24,Lauren Antoniuk,Re-Enrollees,-6,-6,-3,-5,-3,0,0,0
+261,15,Mar 24,Stephanie BeugelinkT,Transfer,-58,-17,18,21,-9,0,0,0
+262,15,Mar 24,Stephanie BeugelinkTNUB,Transfer Non - BC,-51,22,16,16,10,0,0,0
+263,15,Mar 24,Josh BrownH,Homeschool,50,12,3,3,-1,0,0,0
+264,15,Mar 24,Josh BrownV,Valley,118,8,11,13,-5,0,0,0
+265,15,Mar 24,Sarah Buckham,Prairies,170,-26,-18,-15,-2,0,0,0
+266,15,Mar 24,Carrie Carey,"California, Hawaii",208,16,21,23,1,0,0,0
+267,15,Mar 24,Susanne Driedger,GBC,268,-12,-2,-3,-4,0,0,0
+268,15,Mar 24,Liz EssonE,East,144,-4,0,7,13,0,0,0
+269,15,Mar 24,Liz EssonNF,North Fraser,29,-13,-17,-16,-5,0,0,0
+270,15,Mar 24,Chett Fitchett,GBC,96,-14,-1,1,0,0,0,0
+271,15,Mar 24,Sarah Gregory,Surrey,59,2,-12,-7,-3,0,0,0
+272,15,Mar 24,Elaine Johnston,International,35,2,25,19,9,0,0,0
+273,15,Mar 24,Charles Lee,International,104,-5,1,2,-5,0,0,0
+274,15,Mar 24,Palmer Muntz,Washington,34,22,28,26,-2,0,0,0
+275,15,Mar 24,Susie Strait,USA,1051,27,15,19,-2,0,0,0
+276,15,Mar 24,Stu Talene,Washington,24,1,5,7,-9,0,0,0
+277,15,Mar 24,Rachel Tung,Langley/Surrey,118,-6,-8,-7,6,0,0,0
+278,15,Mar 24,Chris Wong,Vancouver,200,-27,4,9,-2,0,0,0
+279,15,Mar 24,Total,NULL,2311,-85,54,86,-39,0,0,0
+280,16,Mar 31,Lauren Antoniuk,Re-Enrollees,-6,-5,-3,-5,-3,0,0,0
+281,16,Mar 31,Stephanie BeugelinkT,Transfer,-56,-14,22,27,-6,0,0,0
+282,16,Mar 31,Stephanie BeugelinkTNUB,Transfer Non - BC,-45,28,23,23,12,0,0,0
+283,16,Mar 31,Josh BrownH,Homeschool,51,12,4,4,-1,0,0,0
+284,16,Mar 31,Josh BrownV,Valley,119,8,9,13,-4,0,0,0
+285,16,Mar 31,Sarah Buckham,Prairies,181,-24,-14,-10,-3,0,0,0
+286,16,Mar 31,Carrie Carey,"California, Hawaii",200,13,20,22,3,0,0,0
+287,16,Mar 31,Susanne Driedger,GBC,264,-13,-3,-3,-4,0,0,0
+288,16,Mar 31,Liz EssonE,East,144,-7,-2,5,12,0,0,0
+289,16,Mar 31,Liz EssonNF,North Fraser,28,-13,-16,-16,-3,0,0,0
+290,16,Mar 31,Chett Fitchett,GBC,91,-14,-1,1,-1,0,0,0
+291,16,Mar 31,Sarah Gregory,Surrey,62,2,-13,-6,-2,0,0,0
+292,16,Mar 31,Elaine Johnston,International,77,2,26,20,9,0,0,0
+293,16,Mar 31,Charles Lee,International,116,9,12,15,6,0,0,0
+294,16,Mar 31,Palmer Muntz,Washington,40,21,28,28,-1,0,0,0
+295,16,Mar 31,Susie Strait,USA,1145,29,16,21,0,0,0,0
+296,16,Mar 31,Stu Talene,Washington,47,0,5,8,-6,0,0,0
+297,16,Mar 31,Rachel Tung,Langley/Surrey,119,-5,-7,-4,7,0,0,0
+298,16,Mar 31,Chris Wong,Vancouver,205,-25,2,7,-5,0,0,0
+299,16,Mar 31,Total,NULL,2581,-58,78,125,-13,0,0,0
+300,17,Apr 7,Lauren Antoniuk,Re-Enrollees,-4,-3,-1,-2,0,0,0,0
+301,17,Apr 7,Stephanie BeugelinkT,Transfer,-54,-12,22,30,-8,0,0,0
+302,17,Apr 7,Stephanie BeugelinkTNUB,Transfer Non - BC,-49,24,23,23,13,0,0,0
+303,17,Apr 7,Josh BrownH,Homeschool,50,13,5,4,0,0,0,0
+304,17,Apr 7,Josh BrownV,Valley,117,7,8,14,-6,0,0,0
+305,17,Apr 7,Sarah Buckham,Prairies,185,-25,-15,-10,-1,0,0,0
+306,17,Apr 7,Carrie Carey,"California, Hawaii",187,12,20,22,4,0,0,0
+307,17,Apr 7,Susanne Driedger,GBC,267,-14,-5,-4,-3,0,0,0
+308,17,Apr 7,Liz EssonE,East,144,-10,-5,2,9,0,0,0
+309,17,Apr 7,Liz EssonNF,North Fraser,30,-13,-17,-16,-4,0,0,0
+310,17,Apr 7,Chett Fitchett,GBC,93,-15,-2,0,-2,0,0,0
+311,17,Apr 7,Sarah Gregory,Surrey,63,3,-11,-4,-7,0,0,0
+312,17,Apr 7,Elaine Johnston,International,110,3,24,24,12,0,0,0
+313,17,Apr 7,Charles Lee,International,118,11,12,15,7,0,0,0
+314,17,Apr 7,Palmer Muntz,Washington,37,20,27,28,0,0,0,0
+315,17,Apr 7,Susie Strait,USA,1180,35,21,27,0,0,0,0
+316,17,Apr 7,Stu Talene,Washington,45,0,6,9,-6,0,0,0
+317,17,Apr 7,Rachel Tung,Langley/Surrey,123,-6,-9,-5,6,0,0,0
+318,17,Apr 7,Chris Wong,Vancouver,210,-26,1,7,-6,0,0,0
+319,17,Apr 7,Total,NULL,2686,-58,74,139,-14,0,0,0
+320,18,Apr 14,Lauren Antoniuk,Re-Enrollees,-4,-3,-1,-1,0,0,0,0
+321,18,Apr 14,Stephanie BeugelinkT,Transfer,-63,-17,19,27,-8,0,0,0
+322,18,Apr 14,Stephanie BeugelinkTNUB,Transfer Non - BC,-55,21,20,23,12,0,0,0
+323,18,Apr 14,Josh BrownH,Homeschool,51,13,3,3,0,0,0,0
+324,18,Apr 14,Josh BrownV,Valley,118,8,8,12,-1,0,0,0
+325,18,Apr 14,Sarah Buckham,Prairies,185,-24,-14,-9,-3,0,0,0
+326,18,Apr 14,Carrie Carey,"California, Hawaii",171,13,20,22,6,0,0,0
+327,18,Apr 14,Susanne Driedger,GBC,269,-13,-6,-5,-5,0,0,0
+328,18,Apr 14,Liz EssonE,East,142,-11,-5,2,9,0,0,0
+329,18,Apr 14,Liz EssonNF,North Fraser,24,-15,-18,-17,-4,0,0,0
+330,18,Apr 14,Chett Fitchett,GBC,91,-16,-3,0,-2,0,0,0
+331,18,Apr 14,Sarah Gregory,Surrey,59,1,-12,-3,-3,0,0,0
+332,18,Apr 14,Elaine Johnston,International,99,0,19,22,11,0,0,0
+333,18,Apr 14,Charles Lee,International,121,10,9,14,7,0,0,0
+334,18,Apr 14,Palmer Muntz,Washington,32,18,25,26,-1,0,0,0
+335,18,Apr 14,Susie Strait,USA,1157,34,26,30,1,0,0,0
+336,18,Apr 14,Stu Talene,Washington,37,0,5,8,-7,0,0,0
+337,18,Apr 14,Rachel Tung,Langley/Surrey,118,-10,-10,-5,9,0,0,0
+338,18,Apr 14,Chris Wong,Vancouver,203,-30,-2,5,-4,0,0,0
+339,18,Apr 14,Total,NULL,2603,-80,53,130,-4,0,0,0
+340,19,Apr 21,Lauren Antoniuk,Re-Enrollees,-5,-3,-2,-2,0,0,0,0
+341,19,Apr 21,Stephanie BeugelinkT,Transfer,-61,-18,19,24,-7,0,0,0
+342,19,Apr 21,Stephanie BeugelinkTNUB,Transfer Non - BC,-55,21,20,21,13,0,0,0
+343,19,Apr 21,Josh BrownH,Homeschool,52,13,3,3,0,0,0,0
+344,19,Apr 21,Josh BrownV,Valley,114,5,8,12,0,0,0,0
+345,19,Apr 21,Sarah Buckham,Prairies,180,-28,-14,-9,-4,0,0,0
+346,19,Apr 21,Carrie Carey,"California, Hawaii",151,10,19,21,5,0,0,0
+347,19,Apr 21,Susanne Driedger,GBC,267,-15,-8,-7,-5,0,0,0
+348,19,Apr 21,Liz EssonE,East,140,-9,-6,0,9,0,0,0
+349,19,Apr 21,Liz EssonNF,North Fraser,22,-14,-19,-17,-5,0,0,0
+350,19,Apr 21,Chett Fitchett,GBC,86,-18,-5,-3,-4,0,0,0
+351,19,Apr 21,Sarah Gregory,Surrey,63,2,-13,-4,0,0,0,0
+352,19,Apr 21,Elaine Johnston,International,92,3,18,17,9,0,0,0
+353,19,Apr 21,Charles Lee,International,120,11,8,11,6,0,0,0
+354,19,Apr 21,Palmer Muntz,Washington,21,16,24,25,-1,0,0,0
+355,19,Apr 21,Susie Strait,USA,1145,34,26,31,2,0,0,0
+356,19,Apr 21,Stu Talene,Washington,29,0,4,7,-7,0,0,0
+357,19,Apr 21,Rachel Tung,Langley/Surrey,116,-11,-12,-8,8,0,0,0
+358,19,Apr 21,Chris Wong,Vancouver,199,-33,-4,1,0,0,0,0
+359,19,Apr 21,Total,NULL,2536,-90,38,100,0,0,0,0
+360,20,Apr 28,Lauren Antoniuk,Re-Enrollees,-4,-3,-1,-1,0,0,0,0
+361,20,Apr 28,Stephanie BeugelinkT,Transfer,-65,-18,18,24,-9,0,0,0
+362,20,Apr 28,Stephanie BeugelinkTNUB,Transfer Non - BC,-61,19,18,19,12,0,0,0
+363,20,Apr 28,Josh BrownH,Homeschool,50,13,3,3,-1,0,0,0
+364,20,Apr 28,Josh BrownV,Valley,117,6,8,11,3,0,0,0
+365,20,Apr 28,Sarah Buckham,Prairies,179,-31,-14,-8,-3,0,0,0
+366,20,Apr 28,Carrie Carey,"California, Hawaii",148,10,18,20,5,0,0,0
+367,20,Apr 28,Susanne Driedger,GBC,264,-15,-5,-5,-4,0,0,0
+368,20,Apr 28,Liz EssonE,East,136,-10,-5,0,13,0,0,0
+369,20,Apr 28,Liz EssonNF,North Fraser,19,-16,-17,-17,-5,0,0,0
+370,20,Apr 28,Chett Fitchett,GBC,82,-19,-7,-4,-6,0,0,0
+371,20,Apr 28,Sarah Gregory,Surrey,65,3,-12,-3,0,0,0,0
+372,20,Apr 28,Elaine Johnston,International,91,2,19,15,10,0,0,0
+373,20,Apr 28,Charles Lee,International,121,12,8,10,7,0,0,0
+374,20,Apr 28,Palmer Muntz,Washington,27,15,22,23,-1,0,0,0
+375,20,Apr 28,Susie Strait,USA,1379,42,27,32,4,0,0,0
+376,20,Apr 28,Stu Talene,Washington,27,0,5,8,-7,0,0,0
+377,20,Apr 28,Rachel Tung,Langley/Surrey,114,-10,-15,-11,5,0,0,0
+378,20,Apr 28,Chris Wong,Vancouver,194,-36,-7,0,0,0,0,0
+379,20,Apr 28,Total,NULL,2762,-90,36,92,5,0,0,0
+380,21,May 5,Lauren Antoniuk,Re-Enrollees,-1,-1,0,0,1,0,0,0
+381,21,May 5,Stephanie BeugelinkT,Transfer,-71,-16,25,26,-2,0,0,0
+382,21,May 5,Stephanie BeugelinkTNUB,Transfer Non - BC,-64,18,19,20,15,0,0,0
+383,21,May 5,Josh BrownH,Homeschool,48,12,2,2,-2,0,0,0
+384,21,May 5,Josh BrownV,Valley,119,6,7,10,-1,0,0,0
+385,21,May 5,Sarah Buckham,Prairies,179,-28,-15,-8,-3,0,0,0
+386,21,May 5,Carrie Carey,"California, Hawaii",162,8,17,19,8,0,0,0
+387,21,May 5,Susanne Driedger,GBC,260,-15,-7,-7,-6,0,0,0
+388,21,May 5,Liz EssonE,East,134,-12,-5,0,8,0,0,0
+389,21,May 5,Liz EssonNF,North Fraser,16,-16,-19,-17,-6,0,0,0
+390,21,May 5,Chett Fitchett,GBC,79,-21,-8,-5,-6,0,0,0
+391,21,May 5,Sarah Gregory,Surrey,64,1,-14,-4,-10,0,0,0
+392,21,May 5,Elaine Johnston,International,101,-1,18,16,12,0,0,0
+393,21,May 5,Charles Lee,International,125,17,9,12,8,0,0,0
+394,21,May 5,Palmer Muntz,Washington,21,14,20,22,0,0,0,0
+395,21,May 5,Susie Strait,USA,1478,49,28,32,7,0,0,0
+396,21,May 5,Stu Talene,Washington,18,-2,5,9,-5,0,0,0
+397,21,May 5,Rachel Tung,Langley/Surrey,111,-9,-17,-11,9,0,0,0
+398,21,May 5,Chris Wong,Vancouver,195,-37,-5,0,3,0,0,0
+399,21,May 5,Total,NULL,2864,-85,36,94,12,0,0,0
+400,22,May 12,Lauren Antoniuk,Re-Enrollees,0,-1,0,0,1,0,0,0
+401,22,May 12,Stephanie BeugelinkT,Transfer,-75,-16,20,25,-3,0,0,0
+402,22,May 12,Stephanie BeugelinkTNUB,Transfer Non - BC,-68,15,18,19,13,0,0,0
+403,22,May 12,Josh BrownH,Homeschool,49,13,2,2,-2,0,0,0
+404,22,May 12,Josh BrownV,Valley,119,10,10,12,-1,0,0,0
+405,22,May 12,Sarah Buckham,Prairies,178,-27,-15,-9,-8,0,0,0
+406,22,May 12,Carrie Carey,"California, Hawaii",180,7,20,22,7,0,0,0
+407,22,May 12,Susanne Driedger,GBC,254,-16,-8,-6,-5,0,0,0
+408,22,May 12,Liz EssonE,East,124,-12,-6,-2,7,0,0,0
+409,22,May 12,Liz EssonNF,North Fraser,13,-17,-19,-16,-8,0,0,0
+410,22,May 12,Chett Fitchett,GBC,76,-21,-9,-6,-8,0,0,0
+411,22,May 12,Sarah Gregory,Surrey,64,3,-15,-5,-14,0,0,0
+412,22,May 12,Elaine Johnston,International,102,1,21,16,10,0,0,0
+413,22,May 12,Charles Lee,International,126,19,9,11,10,0,0,0
+414,22,May 12,Palmer Muntz,Washington,12,13,20,22,1,0,0,0
+415,22,May 12,Susie Strait,USA,1593,65,32,35,7,0,0,0
+416,22,May 12,Stu Talene,Washington,12,-2,4,8,-4,0,0,0
+417,22,May 12,Rachel Tung,Langley/Surrey,108,-10,-19,-14,3,0,0,0
+418,22,May 12,Chris Wong,Vancouver,195,-37,-5,-1,0,0,0,0
+419,22,May 12,Total,NULL,2961,-63,38,93,-12,0,0,0
+420,23,May 19,Lauren Antoniuk,Re-Enrollees,-2,-3,-1,0,0,0,0,0
+421,23,May 19,Stephanie BeugelinkT,Transfer,-79,-16,14,19,-6,0,0,0
+422,23,May 19,Stephanie BeugelinkTNUB,Transfer Non - BC,-70,13,18,17,11,0,0,0
+423,23,May 19,Josh BrownH,Homeschool,51,13,4,2,-2,0,0,0
+424,23,May 19,Josh BrownV,Valley,127,12,12,14,3,0,0,0
+425,23,May 19,Sarah Buckham,Prairies,175,-29,-13,-7,-4,0,0,0
+426,23,May 19,Carrie Carey,"California, Hawaii",161,7,19,20,9,0,0,0
+427,23,May 19,Susanne Driedger,GBC,259,-17,-10,-8,-6,0,0,0
+428,23,May 19,Liz EssonE,East,121,-14,-5,-2,6,0,0,0
+429,23,May 19,Liz EssonNF,North Fraser,16,-18,-20,-18,-9,0,0,0
+430,23,May 19,Chett Fitchett,GBC,73,-22,-11,-8,-9,0,0,0
+431,23,May 19,Sarah Gregory,Surrey,66,1,-16,-7,-14,0,0,0
+432,23,May 19,Elaine Johnston,International,106,3,27,20,11,0,0,0
+433,23,May 19,Charles Lee,International,128,20,9,9,10,0,0,0
+434,23,May 19,Palmer Muntz,Washington,21,13,22,20,0,0,0,0
+435,23,May 19,Susie Strait,USA,1607,72,33,35,7,0,0,0
+436,23,May 19,Stu Talene,Washington,25,-4,3,6,-5,0,0,0
+437,23,May 19,Rachel Tung,Langley/Surrey,111,-12,-12,-13,0,0,0,0
+438,23,May 19,Chris Wong,Vancouver,197,-36,-4,-1,1,0,0,0
+439,23,May 19,Total,NULL,2996,-62,47,80,-11,0,0,0
+440,24,May 26,Lauren Antoniuk,Re-Enrollees,-2,-3,0,0,0,0,0,0
+441,24,May 26,Stephanie BeugelinkT,Transfer,-83,-19,15,21,-9,0,0,0
+442,24,May 26,Stephanie BeugelinkTNUB,Transfer Non - BC,-74,11,18,16,11,0,0,0
+443,24,May 26,Josh BrownH,Homeschool,47,12,1,2,-3,0,0,0
+444,24,May 26,Josh BrownV,Valley,124,10,10,13,3,0,0,0
+445,24,May 26,Sarah Buckham,Prairies,169,-30,-12,-8,-4,0,0,0
+446,24,May 26,Carrie Carey,"California, Hawaii",130,6,17,19,9,0,0,0
+447,24,May 26,Susanne Driedger,GBC,263,-14,-9,-9,-7,0,0,0
+448,24,May 26,Liz EssonE,East,117,-17,-8,-3,6,0,0,0
+449,24,May 26,Liz EssonNF,North Fraser,16,-18,-19,-17,-9,0,0,0
+450,24,May 26,Chett Fitchett,GBC,67,-24,-12,-9,-9,0,0,0
+451,24,May 26,Sarah Gregory,Surrey,65,-2,-18,-8,-14,0,0,0
+452,24,May 26,Elaine Johnston,International,88,2,27,21,10,0,0,0
+453,24,May 26,Charles Lee,International,125,20,7,7,7,0,0,0
+454,24,May 26,Palmer Muntz,Washington,10,12,20,22,1,0,0,0
+455,24,May 26,Susie Strait,USA,1598,72,40,39,7,0,0,0
+456,24,May 26,Stu Talene,Washington,18,-5,1,5,-7,0,0,0
+457,24,May 26,Rachel Tung,Langley/Surrey,111,-13,-13,-10,-1,0,0,0
+458,24,May 26,Chris Wong,Vancouver,196,-36,-6,-1,0,0,0,0
+459,24,May 26,Total,NULL,2900,-79,41,80,-22,0,0,0
+460,25,Jun 2,Lauren Antoniuk,Re-Enrollees,-1,-2,0,0,1,0,0,0
+461,25,Jun 2,Stephanie BeugelinkT,Transfer,-91,-21,10,16,-10,0,0,0
+462,25,Jun 2,Stephanie BeugelinkTNUB,Transfer Non - BC,-76,10,17,16,11,0,0,0
+463,25,Jun 2,Josh BrownH,Homeschool,46,11,1,1,-3,0,0,0
+464,25,Jun 2,Josh BrownV,Valley,122,11,9,12,2,0,0,0
+465,25,Jun 2,Sarah Buckham,Prairies,163,-31,-13,-7,-7,0,0,0
+466,25,Jun 2,Carrie Carey,"California, Hawaii",108,5,16,19,8,0,0,0
+467,25,Jun 2,Susanne Driedger,GBC,259,-15,-9,-10,-6,0,0,0
+468,25,Jun 2,Liz EssonE,East,113,-14,-10,-5,5,0,0,0
+469,25,Jun 2,Liz EssonNF,North Fraser,11,-14,-19,-16,-9,0,0,0
+470,25,Jun 2,Chett Fitchett,GBC,63,-23,-12,-9,-10,0,0,0
+471,25,Jun 2,Sarah Gregory,Surrey,65,-2,-21,-11,-16,0,0,0
+472,25,Jun 2,Elaine Johnston,International,78,3,27,24,11,0,0,0
+473,25,Jun 2,Charles Lee,International,128,19,7,8,7,0,0,0
+474,25,Jun 2,Palmer Muntz,Washington,0,11,18,20,0,0,0,0
+475,25,Jun 2,Susie Strait,USA,1589,78,40,42,6,0,0,0
+476,25,Jun 2,Stu Talene,Washington,7,-7,0,4,-8,0,0,0
+477,25,Jun 2,Rachel Tung,Langley/Surrey,104,-17,-17,-11,-1,0,0,0
+478,25,Jun 2,Chris Wong,Vancouver,194,-36,-8,-3,3,0,0,0
+479,25,Jun 2,Total,NULL,2810,-73,19,74,-26,0,0,0
+480,26,Jun 9,Lauren Antoniuk,Re-Enrollees,-2,-2,0,1,2,0,0,0
+481,26,Jun 9,Stephanie BeugelinkT,Transfer,-94,-25,14,15,-12,0,0,0
+482,26,Jun 9,Stephanie BeugelinkTNUB,Transfer Non - BC,-82,7,15,15,14,0,0,0
+483,26,Jun 9,Josh BrownH,Homeschool,47,13,0,1,-3,0,0,0
+484,26,Jun 9,Josh BrownV,Valley,119,10,9,12,1,0,0,0
+485,26,Jun 9,Sarah Buckham,Prairies,167,-29,-12,-6,-7,0,0,0
+486,26,Jun 9,Carrie Carey,"California, Hawaii",88,2,19,22,10,0,0,0
+487,26,Jun 9,Susanne Driedger,GBC,255,-14,-9,-10,-6,0,0,0
+488,26,Jun 9,Liz EssonE,East,111,-14,-12,-7,4,0,0,0
+489,26,Jun 9,Liz EssonNF,North Fraser,8,-16,-19,-17,-9,0,0,0
+490,26,Jun 9,Chett Fitchett,GBC,60,-24,-12,-9,-9,0,0,0
+491,26,Jun 9,Sarah Gregory,Surrey,59,-5,-23,-13,-18,0,0,0
+492,26,Jun 9,Elaine Johnston,International,71,-2,28,26,12,0,0,0
+493,26,Jun 9,Charles Lee,International,130,20,7,7,7,0,0,0
+494,26,Jun 9,Palmer Muntz,Washington,-6,9,17,18,0,0,0,0
+495,26,Jun 9,Susie Strait,USA,1581,77,44,46,10,0,0,0
+496,26,Jun 9,Stu Talene,Washington,1,-8,0,3,-8,0,0,0
+497,26,Jun 9,Rachel Tung,Langley/Surrey,102,-18,-17,-12,-2,0,0,0
+498,26,Jun 9,Chris Wong,Vancouver,192,-40,-10,-4,2,0,0,0
+499,26,Jun 9,Total,NULL,2751,-96,24,76,-25,0,0,0
+500,27,Jun 16,Lauren Antoniuk,Re-Enrollees,-1,-1,2,2,4,0,0,0
+501,27,Jun 16,Stephanie BeugelinkT,Transfer,-99,-24,15,14,-13,0,0,0
+502,27,Jun 16,Stephanie BeugelinkTNUB,Transfer Non - BC,-85,4,13,13,13,0,0,0
+503,27,Jun 16,Josh BrownH,Homeschool,46,12,0,1,-3,0,0,0
+504,27,Jun 16,Josh BrownV,Valley,118,9,9,13,2,0,0,0
+505,27,Jun 16,Sarah Buckham,Prairies,162,-33,-13,-8,-9,0,0,0
+506,27,Jun 16,Carrie Carey,"California, Hawaii",71,0,17,21,10,0,0,0
+507,27,Jun 16,Susanne Driedger,GBC,264,-14,-9,-9,-8,0,0,0
+508,27,Jun 16,Liz EssonE,East,115,-12,-12,-6,3,0,0,0
+509,27,Jun 16,Liz EssonNF,North Fraser,7,-16,-18,-17,-8,0,0,0
+510,27,Jun 16,Chett Fitchett,GBC,56,-26,-14,-11,-10,0,0,0
+511,27,Jun 16,Sarah Gregory,Surrey,59,-7,-24,-14,-19,0,0,0
+512,27,Jun 16,Elaine Johnston,International,46,-2,27,27,14,0,0,0
+513,27,Jun 16,Charles Lee,International,132,21,7,7,7,0,0,0
+514,27,Jun 16,Palmer Muntz,Washington,-12,8,16,17,0,0,0,0
+515,27,Jun 16,Susie Strait,USA,1570,77,43,45,9,0,0,0
+516,27,Jun 16,Stu Talene,Washington,-2,-9,0,2,-9,0,0,0
+517,27,Jun 16,Rachel Tung,Langley/Surrey,101,-17,-19,-13,-1,0,0,0
+518,27,Jun 16,Chris Wong,Vancouver,192,-39,-11,-5,1,0,0,0
+519,27,Jun 16,Total,NULL,2700,-103,15,66,-29,6,0,0
+520,28,Jun 23,Lauren Antoniuk,Re-Enrollees,0,0,2,3,5,0,0,0
+521,28,Jun 23,Stephanie BeugelinkT,Transfer,-103,-25,15,15,-14,0,0,0
+522,28,Jun 23,Stephanie BeugelinkTNUB,Transfer Non - BC,-87,4,11,10,12,0,0,0
+523,28,Jun 23,Josh BrownH,Homeschool,45,12,0,1,-4,0,0,0
+524,28,Jun 23,Josh BrownV,Valley,117,9,8,12,2,0,0,0
+525,28,Jun 23,Sarah Buckham,Prairies,160,-34,-14,-8,-7,0,0,0
+526,28,Jun 23,Carrie Carey,"California, Hawaii",55,-3,18,20,10,0,0,0
+527,28,Jun 23,Susanne Driedger,GBC,261,-14,-9,-9,-8,0,0,0
+528,28,Jun 23,Liz EssonE,East,113,-12,-9,-5,2,0,0,0
+529,28,Jun 23,Liz EssonNF,North Fraser,8,-15,-16,-14,-8,0,0,0
+530,28,Jun 23,Chett Fitchett,GBC,52,-27,-14,-12,-10,0,0,0
+531,28,Jun 23,Sarah Gregory,Surrey,59,-4,-24,-14,-20,0,0,0
+532,28,Jun 23,Elaine Johnston,International,35,-7,25,26,12,0,0,0
+533,28,Jun 23,Charles Lee,International,132,21,8,7,8,0,0,0
+534,28,Jun 23,Palmer Muntz,Washington,-25,8,18,17,0,0,0,0
+535,28,Jun 23,Susie Strait,USA,1553,75,44,45,9,0,0,0
+536,28,Jun 23,Stu Talene,Washington,-9,-9,-1,2,-9,0,0,0
+537,28,Jun 23,Rachel Tung,Langley/Surrey,101,-19,-20,-14,0,0,0,0
+538,28,Jun 23,Chris Wong,Vancouver,190,-39,-11,-4,0,0,0,0
+539,28,Jun 23,Total,NULL,2630,-112,17,65,-32,-4,0,0
+540,29,Jun 30,Lauren Antoniuk,Re-Enrollees,0,-1,2,2,4,1,0,0
+541,29,Jun 30,Stephanie BeugelinkT,Transfer,-105,-27,11,13,-16,-12,0,0
+542,29,Jun 30,Stephanie BeugelinkTNUB,Transfer Non - BC,-89,4,13,12,12,10,0,0
+543,29,Jun 30,Josh BrownH,Homeschool,43,11,0,1,-4,-5,0,0
+544,29,Jun 30,Josh BrownV,Valley,116,9,9,13,2,4,0,0
+545,29,Jun 30,Sarah Buckham,Prairies,161,-31,-12,-7,-5,-4,0,0
+546,29,Jun 30,Carrie Carey,"California, Hawaii",53,-4,19,21,12,10,0,0
+547,29,Jun 30,Susanne Driedger,GBC,261,-14,-10,-10,-9,-6,0,0
+548,29,Jun 30,Liz EssonE,East,113,-12,-10,-3,2,6,0,0
+549,29,Jun 30,Liz EssonNF,North Fraser,7,-16,-17,-15,-7,-5,0,0
+550,29,Jun 30,Chett Fitchett,GBC,48,-29,-15,-13,-10,-6,0,0
+551,29,Jun 30,Sarah Gregory,Surrey,58,-4,-23,-14,-21,-17,0,0
+552,29,Jun 30,Elaine Johnston,International,29,-9,29,28,14,16,0,0
+553,29,Jun 30,Charles Lee,International,129,20,7,6,8,9,0,0
+554,29,Jun 30,Palmer Muntz,Washington,-32,7,17,17,0,-1,0,0
+555,29,Jun 30,Susie Strait,USA,1543,73,45,46,10,5,0,0
+556,29,Jun 30,Stu Talene,Washington,-17,-11,-3,0,-11,-9,0,0
+557,29,Jun 30,Rachel Tung,Langley/Surrey,102,-20,-21,-15,0,2,0,0
+558,29,Jun 30,Chris Wong,Vancouver,187,-42,-12,-4,2,4,0,0
+559,29,Jun 30,Total,NULL,2589,-125,15,68,-29,-4,0,0
+560,30,Jul 7,Lauren Antoniuk,Re-Enrollees,-1,-1,1,1,2,2,0,0
+561,30,Jul 7,Stephanie BeugelinkT,Transfer,-107,-29,8,10,-18,-12,0,0
+562,30,Jul 7,Stephanie BeugelinkTNUB,Transfer Non - BC,-90,3,12,12,12,11,0,0
+563,30,Jul 7,Josh BrownH,Homeschool,43,11,0,1,-4,-5,0,0
+564,30,Jul 7,Josh BrownV,Valley,115,8,9,13,4,4,0,0
+565,30,Jul 7,Sarah Buckham,Prairies,162,-32,-13,-8,-4,-2,0,0
+566,30,Jul 7,Carrie Carey,"California, Hawaii",27,-6,18,22,12,11,0,0
+567,30,Jul 7,Susanne Driedger,GBC,258,-14,-9,-9,-8,-6,0,0
+568,30,Jul 7,Liz EssonE,East,112,-13,-9,-2,1,6,0,0
+569,30,Jul 7,Liz EssonNF,North Fraser,8,-15,-17,-15,-7,-4,0,0
+570,30,Jul 7,Chett Fitchett,GBC,44,-30,-16,-14,-11,-6,0,0
+571,30,Jul 7,Sarah Gregory,Surrey,56,-4,-24,-14,-21,-18,0,0
+572,30,Jul 7,Elaine Johnston,International,14,-12,31,28,13,18,0,0
+573,30,Jul 7,Charles Lee,International,126,18,5,6,7,9,0,0
+574,30,Jul 7,Palmer Muntz,Washington,-41,5,16,16,0,-1,0,0
+575,30,Jul 7,Susie Strait,USA,1532,72,43,45,9,5,0,0
+576,30,Jul 7,Stu Talene,Washington,-24,-12,-4,0,-11,-9,0,0
+577,30,Jul 7,Rachel Tung,Langley/Surrey,102,-19,-23,-17,-1,2,0,0
+578,30,Jul 7,Chris Wong,Vancouver,187,-41,-11,-3,2,4,0,0
+579,30,Jul 7,Total,NULL,2514,-138,6,61,-33,-2,0,0
+580,31,Jul 14,Lauren Antoniuk,Re-Enrollees,-3,-3,1,1,1,0,0,0
+581,31,Jul 14,Stephanie BeugelinkT,Transfer,-108,-32,4,5,-19,-15,0,0
+582,31,Jul 14,Stephanie BeugelinkTNUB,Transfer Non - BC,-94,1,12,10,11,8,0,0
+583,31,Jul 14,Josh BrownH,Homeschool,42,11,0,1,-3,-4,0,0
+584,31,Jul 14,Josh BrownV,Valley,113,8,10,14,3,5,0,0
+585,31,Jul 14,Sarah Buckham,Prairies,162,-33,-14,-9,-5,-2,0,0
+586,31,Jul 14,Carrie Carey,"California, Hawaii",19,-7,16,20,12,11,0,0
+587,31,Jul 14,Susanne Driedger,GBC,255,-15,-10,-10,-9,-6,0,0
+588,31,Jul 14,Liz EssonE,East,112,-14,-9,-3,1,5,0,0
+589,31,Jul 14,Liz EssonNF,North Fraser,8,-16,-18,-15,-7,-5,0,0
+590,31,Jul 14,Chett Fitchett,GBC,41,-31,-17,-15,-11,-6,0,0
+591,31,Jul 14,Sarah Gregory,Surrey,55,-7,-25,-16,-21,-20,0,0
+592,31,Jul 14,Elaine Johnston,International,14,-10,31,30,14,17,0,0
+593,31,Jul 14,Charles Lee,International,123,17,6,8,8,9,0,0
+594,31,Jul 14,Palmer Muntz,Washington,-44,5,15,15,0,-1,0,0
+595,31,Jul 14,Susie Strait,USA,1566,71,43,45,9,6,0,0
+596,31,Jul 14,Stu Talene,Washington,-31,-13,-5,-1,-12,-10,0,0
+597,31,Jul 14,Rachel Tung,Langley/Surrey,99,-22,-24,-19,-2,1,0,0
+598,31,Jul 14,Chris Wong,Vancouver,183,-42,-10,-2,2,4,0,0
+599,31,Jul 14,Total,NULL,2513,-157,-2,52,-36,-8,0,0
+600,32,Jul 21,Lauren Antoniuk,Re-Enrollees,-5,-5,0,0,0,-1,0,0
+601,32,Jul 21,Stephanie BeugelinkT,Transfer,-112,-30,0,2,-24,-16,0,0
+602,32,Jul 21,Stephanie BeugelinkTNUB,Transfer Non - BC,-95,1,9,8,9,7,0,0
+603,32,Jul 21,Josh BrownH,Homeschool,43,10,0,0,-3,-4,0,0
+604,32,Jul 21,Josh BrownV,Valley,115,8,9,14,3,6,0,0
+605,32,Jul 21,Sarah Buckham,Prairies,163,-33,-15,-9,-6,-3,0,0
+606,32,Jul 21,Carrie Carey,"California, Hawaii",8,-9,16,20,12,11,0,0
+607,32,Jul 21,Susanne Driedger,GBC,254,-16,-10,-10,-9,-6,0,0
+608,32,Jul 21,Liz EssonE,East,112,-15,-10,-3,1,5,0,0
+609,32,Jul 21,Liz EssonNF,North Fraser,6,-16,-19,-16,-7,-5,0,0
+610,32,Jul 21,Chett Fitchett,GBC,35,-33,-19,-17,-13,-8,0,0
+611,32,Jul 21,Sarah Gregory,Surrey,57,-7,-26,-16,-21,-20,0,0
+612,32,Jul 21,Elaine Johnston,International,92,-12,30,30,14,17,0,0
+613,32,Jul 21,Charles Lee,International,123,15,5,8,9,8,0,0
+614,32,Jul 21,Palmer Muntz,Washington,-7,5,15,15,0,-2,0,0
+615,32,Jul 21,Susie Strait,USA,1584,71,42,44,9,6,0,0
+616,32,Jul 21,Stu Talene,Washington,0,-13,-5,-1,-12,-11,0,0
+617,32,Jul 21,Rachel Tung,Langley/Surrey,98,-23,-25,-20,-5,0,0,0
+618,32,Jul 21,Chris Wong,Vancouver,186,-43,-11,-2,1,4,0,0
+619,32,Jul 21,Total,NULL,2671,-167,-21,39,-48,-20,0,0
+620,33,Jul 28,Lauren Antoniuk,Re-Enrollees,-7,-7,-3,-2,-3,-1,0,0
+621,33,Jul 28,Stephanie BeugelinkT,Transfer,-117,-35,-2,0,-26,-20,0,0
+622,33,Jul 28,Stephanie BeugelinkTNUB,Transfer Non - BC,-91,-3,5,5,5,2,0,0
+623,33,Jul 28,Josh BrownH,Homeschool,46,12,0,1,-3,-4,0,0
+624,33,Jul 28,Josh BrownV,Valley,108,5,8,13,2,3,0,0
+625,33,Jul 28,Sarah Buckham,Prairies,163,-34,-17,-11,-6,-4,0,0
+626,33,Jul 28,Carrie Carey,"California, Hawaii",-2,-10,15,19,12,11,0,0
+627,33,Jul 28,Susanne Driedger,GBC,256,-16,-9,-9,-8,-5,0,0
+628,33,Jul 28,Liz EssonE,East,111,-15,-11,-4,1,5,0,0
+629,33,Jul 28,Liz EssonNF,North Fraser,2,-17,-19,-16,-8,-5,0,0
+630,33,Jul 28,Sarah GregoryGBC,GBC,34,-33,-19,-16,-12,-7,0,0
+631,33,Jul 28,Sarah GregoryS,Surrey,50,-9,-20,-13,-24,-22,0,0
+632,33,Jul 28,Elaine Johnston,International,90,-18,28,27,13,17,0,0
+633,33,Jul 28,Charles Lee,International,117,7,4,8,12,13,0,0
+634,33,Jul 28,Palmer Muntz,Washington,-12,6,16,17,0,0,0,0
+635,33,Jul 28,Susie Strait,USA,1418,59,35,35,6,3,0,0
+636,33,Jul 28,Stu Talene,Washington,168,0,2,6,-8,-8,0,0
+637,33,Jul 28,Rachel Tung,Langley/Surrey,92,-23,-21,-19,-5,-1,0,0
+638,33,Jul 28,Chris Wong,Vancouver,172,-45,-12,-3,1,4,0,0
+639,33,Jul 28,Total,NULL,2595,-185,-19,38,-53,-22,0,0
+640,34,Aug 4,Lauren Antoniuk,Re-Enrollees,-7,-7,-3,-2,-4,-4,0,0
+641,34,Aug 4,Stephanie BeugelinkT,Transfer,-118,-36,1,7,-23,-20,0,0
+642,34,Aug 4,Stephanie BeugelinkTNUB,Transfer Non - BC,-93,-4,6,5,6,2,0,0
+643,34,Aug 4,Josh BrownH,Homeschool,42,10,0,2,-2,-3,0,0
+644,34,Aug 4,Josh BrownV,Valley,104,7,6,11,1,4,0,0
+645,34,Aug 4,Sarah Buckham,Prairies,165,-34,-16,-11,-7,-6,0,0
+646,34,Aug 4,Carrie Carey,"California, Hawaii",-19,-12,14,18,12,11,0,0
+647,34,Aug 4,Susanne Driedger,GBC,255,-16,-10,-10,-8,-5,0,0
+648,34,Aug 4,Liz EssonE,East,113,-14,-11,-4,0,3,0,0
+649,34,Aug 4,Liz EssonNF,North Fraser,2,-17,-22,-20,-9,-5,0,0
+650,34,Aug 4,Sarah GregoryGBC,GBC,31,-35,-21,-19,-12,-8,0,0
+651,34,Aug 4,Sarah GregoryS,Surrey,54,-8,-22,-14,-22,-22,0,0
+652,34,Aug 4,Elaine Johnston,International,87,-22,24,27,12,16,0,0
+653,34,Aug 4,Charles Lee,International,115,5,1,7,10,9,0,0
+654,34,Aug 4,Palmer Muntz,Washington,-17,4,15,16,0,0,0,0
+655,34,Aug 4,Susie Strait,USA,1406,57,34,35,6,2,0,0
+656,34,Aug 4,Stu Talene,Washington,160,-1,1,6,-9,-8,0,0
+657,34,Aug 4,Rachel Tung,Langley/Surrey,90,-25,-23,-17,-5,-2,0,0
+658,34,Aug 4,Chris Wong,Vancouver,170,-47,-16,-5,1,4,0,0
+659,34,Aug 4,Total,NULL,2543,-204,-45,27,-57,-39,0,0
+660,35,Aug 11,Lauren Antoniuk,Re-Enrollees,-7,-6,-2,-3,-2,-4,0,0
+661,35,Aug 11,Stephanie BeugelinkT,Transfer,-110,-25,11,14,-14,-10,0,0
+662,35,Aug 11,Stephanie BeugelinkTNUB,Transfer Non - BC,-96,-5,4,4,6,2,0,0
+663,35,Aug 11,Josh BrownH,Homeschool,41,10,0,1,-3,-4,0,0
+664,35,Aug 11,Josh BrownV,Valley,111,12,10,14,2,5,0,0
+665,35,Aug 11,Sarah Buckham,Prairies,165,-35,-15,-9,-6,-6,0,0
+666,35,Aug 11,Carrie Carey,"California, Hawaii",-36,-14,12,16,11,12,0,0
+667,35,Aug 11,Susanne Driedger,GBC,250,-18,-12,-12,-9,-7,0,0
+668,35,Aug 11,Liz EssonE,East,112,-14,-10,-3,0,1,0,0
+669,35,Aug 11,Liz EssonNF,North Fraser,2,-17,-21,-19,-9,-6,0,0
+670,35,Aug 11,Sarah GregoryGBC,GBC,27,-36,-22,-20,-13,-8,0,0
+671,35,Aug 11,Sarah GregoryS,Surrey,52,-9,-23,-14,-24,-24,0,0
+672,35,Aug 11,Elaine Johnston,International,99,-21,24,25,9,12,0,0
+673,35,Aug 11,Charles Lee,International,105,-3,-6,-3,0,0,0,0
+674,35,Aug 11,Palmer Muntz,Washington,-25,3,14,15,0,-1,0,0
+675,35,Aug 11,Susie Strait,USA,1394,55,32,33,5,2,0,0
+676,35,Aug 11,Stu Talene,Washington,153,-1,1,5,-10,-8,0,0
+677,35,Aug 11,Rachel Tung,Langley/Surrey,92,-26,-23,-18,-6,-3,0,0
+678,35,Aug 11,Chris Wong,Vancouver,169,-47,-16,-8,1,3,0,0
+679,35,Aug 11,Total,NULL,2515,-210,-44,17,-66,-51,0,0
+680,36,Aug 18,Lauren Antoniuk,Re-Enrollees,-9,-9,-5,-5,-4,-3,0,0
+681,36,Aug 18,Stephanie BeugelinkT,Transfer,-114,-27,7,11,-15,-10,0,0
+682,36,Aug 18,Stephanie BeugelinkTNUB,Transfer Non - BC,-99,-6,3,3,5,2,0,0
+683,36,Aug 18,Josh BrownH,Homeschool,41,9,0,1,-3,-4,0,0
+684,36,Aug 18,Josh BrownV,Valley,110,11,9,14,4,7,0,0
+685,36,Aug 18,Sarah Buckham,Prairies,166,-34,-14,-8,-6,-6,0,0
+686,36,Aug 18,Carrie Carey,"California, Hawaii",-51,-16,11,15,11,11,0,0
+687,36,Aug 18,Susanne Driedger,GBC,251,-17,-12,-12,-10,-7,0,0
+688,36,Aug 18,Liz EssonE,East,112,-14,-10,-3,0,3,0,0
+689,36,Aug 18,Liz EssonNF,North Fraser,2,-16,-20,-19,-10,-7,0,0
+690,36,Aug 18,Sarah GregoryGBC,GBC,25,-37,-23,-20,-13,-9,0,0
+691,36,Aug 18,Sarah GregoryS,Surrey,50,-11,-23,-15,-25,-25,0,0
+692,36,Aug 18,Elaine Johnston,International,100,-19,23,23,11,9,0,0
+693,36,Aug 18,Charles Lee,International,106,-3,-7,-2,0,1,0,0
+694,36,Aug 18,Palmer Muntz,Washington,-35,2,14,14,1,0,0,0
+695,36,Aug 18,Susie Strait,USA,1381,53,31,33,5,2,0,0
+696,36,Aug 18,Stu Talene,Washington,150,-1,0,4,-10,-8,0,0
+697,36,Aug 18,Rachel Tung,Langley/Surrey,88,-25,-21,-16,-4,-2,0,0
+698,36,Aug 18,Chris Wong,Vancouver,164,-49,-17,-7,0,2,0,0
+699,36,Aug 18,Total,NULL,2461,-218,-57,7,-66,-49,0,0
+700,37,Aug 25,Lauren Antoniuk,Re-Enrollees,-9,-8,-4,-4,-3,-4,0,0
+701,37,Aug 25,Stephanie BeugelinkT,Transfer,-341,-228,-157,-142,-76,-66,0,0
+702,37,Aug 25,Stephanie BeugelinkTNUB,Transfer Non - BC,123,190,167,156,66,57,0,0
+703,37,Aug 25,Josh BrownH,Homeschool,40,9,0,1,-3,-4,0,0
+704,37,Aug 25,Josh BrownV,Valley,108,10,10,15,5,6,0,0
+705,37,Aug 25,Sarah Buckham,Prairies,166,-34,-15,-9,-5,-4,0,0
+706,37,Aug 25,Carrie Carey,"California, Hawaii",-68,-17,11,15,11,10,0,0
+707,37,Aug 25,Susanne Driedger,GBC,252,-18,-12,-12,-10,-7,0,0
+708,37,Aug 25,Liz EssonE,East,113,-14,-10,-3,0,2,0,0
+709,37,Aug 25,Liz EssonNF,North Fraser,0,-16,-21,-20,-11,-8,0,0
+710,37,Aug 25,Sarah GregoryGBC,GBC,22,-38,-23,-21,-13,-9,0,0
+711,37,Aug 25,Sarah GregoryS,Surrey,50,-11,-24,-14,-23,-23,0,0
+712,37,Aug 25,Elaine Johnston,International,104,-21,25,23,11,11,0,0
+713,37,Aug 25,Charles Lee,International,105,-3,-7,-3,0,1,0,0
+714,37,Aug 25,Palmer Muntz,Washington,-43,1,13,14,1,0,0,0
+715,37,Aug 25,Susie Strait,USA,1374,56,31,32,5,2,0,0
+716,37,Aug 25,Stu Talene,Washington,143,-2,0,4,-10,-9,0,0
+717,37,Aug 25,Rachel Tung,Langley/Surrey,89,-24,-20,-14,-5,-1,0,0
+718,37,Aug 25,Chris Wong,Vancouver,162,-51,-18,-7,2,2,0,0
+719,37,Aug 25,Total,NULL,2425,-226,-59,5,-63,-46,0,0
+720,38,Sept 1,Lauren Antoniuk,Re-Enrollees,-10,-9,-5,-5,-4,-4,2,2
+721,38,Sept 1,Stephanie BeugelinkT,Transfer,-253,-228,-159,-144,-78,-68,-55,-52
+722,38,Sept 1,Stephanie BeugelinkTNUB,Transfer Non - BC,122,192,170,161,69,60,46,48
+723,38,Sept 1,Josh BrownH,Homeschool,42,10,0,0,-3,-4,-5,-5
+724,38,Sept 1,Josh BrownV,Valley,108,10,9,15,6,7,10,11
+725,38,Sept 1,Sarah Buckham,Prairies,170,-32,-14,-8,-5,-4,-10,-9
+726,38,Sept 1,Carrie Carey,"California, Hawaii",-84,-17,10,16,11,10,4,4
+727,38,Sept 1,Susanne Driedger,GBC,249,-18,-12,-12,-10,-7,-8,-8
+728,38,Sept 1,Liz EssonE,East,114,-14,-9,-2,0,2,3,4
+729,38,Sept 1,Liz EssonNF,North Fraser,-1,-16,-21,-19,-10,-8,-8,-7
+730,38,Sept 1,Sarah GregoryGBC,GBC,19,-40,-24,-22,-14,-9,-7,-8
+731,38,Sept 1,Sarah GregoryS,Surrey,50,-10,-24,-14,-23,-23,-21,-19
+732,38,Sept 1,Elaine Johnston,International,104,-23,22,22,8,9,7,8
+733,38,Sept 1,Charles Lee,International,105,-5,-9,-5,-2,-1,2,1
+734,38,Sept 1,Susie Strait,USA,1366,55,34,35,5,3,-1,-1
+735,38,Sept 1,Stu Talene,Washington,84,-4,12,17,-9,-9,-14,-13
+736,38,Sept 1,Rachel Tung,Langley/Surrey,85,-27,-21,-15,-4,-1,-3,-3
+737,38,Sept 1,Chris Wong,Vancouver,158,-51,-19,-8,1,4,-3,-2
+738,38,Sept 1,Total,NULL,2378,-237,-64,5,-66,-48,-65,-54
+739,39,Sept 8,Lauren Antoniuk,Re-Enrollees,-10,-9,-5,-5,-4,-4,0,0
+740,39,Sept 8,Stephanie BeugelinkT,Transfer,-257,-232,-161,-147,-81,-70,-58,-56
+741,39,Sept 8,Stephanie BeugelinkTNUB,Transfer Non - BC,124,193,173,161,70,61,52,54
+742,39,Sept 8,Josh BrownH,Homeschool,41,10,0,0,-4,-5,-6,-6
+743,39,Sept 8,Josh BrownV,Valley,108,10,9,15,6,7,11,11
+744,39,Sept 8,Sarah Buckham,Prairies,170,-32,-14,-9,-5,-4,-9,-8
+745,39,Sept 8,Carrie Carey,"California, Hawaii",-102,-19,10,14,10,10,4,4
+746,39,Sept 8,Susanne Driedger,GBC,249,-18,-13,-12,-10,-7,-7,-8
+747,39,Sept 8,Liz EssonE,East,113,-14,-10,-3,0,1,2,2
+748,39,Sept 8,Liz EssonNF,North Fraser,-2,-17,-21,-20,-11,-8,-10,-9
+749,39,Sept 8,Sarah GregoryGBC,GBC,15,-40,-26,-24,-15,-10,-8,-9
+750,39,Sept 8,Sarah GregoryS,Surrey,52,-9,-22,-12,-22,-22,-20,-19
+751,39,Sept 8,Elaine Johnston,International,103,-23,22,22,9,9,7,8
+752,39,Sept 8,Charles Lee,International,103,-5,-9,-5,-2,-2,0,0
+753,39,Sept 8,Susie Strait,USA,1354,53,34,35,5,3,0,0
+754,39,Sept 8,Stu Talene,Washington,73,-6,11,16,-10,-10,-11,-11
+755,39,Sept 8,Rachel Tung,Langley/Surrey,84,-26,-20,-14,-3,0,0,0
+756,39,Sept 8,Chris Wong,Vancouver,173,-37,-4,6,15,17,12,12
+757,39,Sept 8,Total,NULL,2351,-230,-50,15,-54,-36,-41,-35

@@ -1,0 +1,112 @@
+#!/usr/bin/env ruby
+
+class JUS
+	def list # List methods.
+		puts JUS.instance_methods.take_while {|m| m != :nil?}
+	end
+	def ipynbcode(filename) # Get source code cells from ipynb file.
+		require 'json'
+		s = File.readlines(filename)
+		json = JSON.parse(s.join)
+		cells = json['cells']
+		cells.each do |cell|
+			puts cell['source']
+		end
+	end
+	def getfields(object) # Get the field names from the object.csv in all subfolders.
+		versions = {}
+
+		# Prepare folder and outfile.
+		rootdir = "/home/jus/pssst/fields/#{object}"
+		outfile = File.new("#{rootdir}/combined.txt", "w")
+
+		# Write all the fields as header.
+		allfields = File.new("#{rootdir}/allfields.txt").readlines.map{|x| x.chomp}
+		fieldcounts = Array.new(allfields.size)
+		fieldcounts.fill(0)
+		outfile.puts "version," + allfields.map{|x| x.chomp}.join(',')
+
+		# Write a row for each version.
+		Dir.entries(rootdir).select{|x| x =~ /20.*/}.sort.each do |f|
+			versionname = f.split('.')[0]
+			versionfields = File.new("#{rootdir}/#{f}").readlines.map{|x| x.chomp}
+			fields = []
+			allfields.each_index do |i|
+				if versionfields.include?(allfields[i])
+					fields.push("1")
+					fieldcounts[i] = fieldcounts[i] + 1
+				else
+					fields.push("0")
+				end
+			end
+			versions[versionname] = fields
+			outfile.puts "#{versionname}," + fields.join(',')
+		end
+		outfile.puts "totals," + fieldcounts.join(',')
+		outfile.close
+
+		# Write field counts.
+		outfile = File.new("#{rootdir}/counts.txt", "w")
+		allfields.each_index do |i|
+			outfile.puts "#{allfields[i]},#{fieldcounts[i]}"
+		end
+		outfile.close
+	end
+	def jsonEmoji(htmlfile) # Convert emoji html into json.
+		require 'nokogiri'
+		require 'json'
+
+		e = {}
+		x = File.open(htmlfile) { |f| Nokogiri::XML(f) }
+		x.css("ul").each do |l|
+			e[l.attr("id").to_s] = []
+		end
+		puts e
+	end
+	def processGutenberg(folder) # Strip project gutenberg preamble and postscript from all txt files in folder and concat them.
+		outfile = File.open("#{folder}.txt", 'w')
+		Dir.chdir(folder)
+		Dir.entries('.').select{|f| File.file?(f)}.sort_by{|x| x.split('-')[0].to_i}.each do |f|
+			s = File.open(f).readlines()
+
+			# Find start of content.
+			preamble = s.index{|l| l =~ /^\*\*\* START OF/} + 3
+			
+			# Find end of content.
+			postscript = s.index{|l| l =~ /^\*\*\* END OF/} - 1
+
+			# Strip preamble and postscript.
+			puts "#{f} [#{preamble}..#{postscript}]"
+			outfile.puts(s[preamble..postscript])
+		end
+		outfile.close()
+	end
+	def danboorutags(file) # Grab tags from danbooru metadata.
+		require 'json'
+		File.open(file).each_line do |l|
+			x = JSON.parse(l)
+			if x['rating'] == 's'
+				x['tags'].each do |t|
+					puts t['name']
+				end
+			end
+		end
+	end
+	def danboorunonsafe(file) # List non-safe files.
+		require 'json'
+		File.open(file).each_line do |l|
+			x = JSON.parse(l)
+			if x['rating'] != 's' and x['is_deleted'] == false
+				puts x['id']
+			end
+		end
+	end
+end
+
+if ARGV.empty?
+	puts "Usage: #{0} <app> [params]"
+	puts "       #{0} list"
+else
+	j = JUS.new
+	j.send(ARGV[0], *ARGV[1..-1])
+end

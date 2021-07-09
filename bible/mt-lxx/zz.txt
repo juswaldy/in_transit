@@ -1,0 +1,5 @@
+http://ccat.sas.upenn.edu/gopher/text/religion/biblical/parallel/00.ReadMe.txt
+http://ccat.sas.upenn.edu/gopher/text/religion/biblical/parallel/00.ReadReParallel.txt
+http://ccat.sas.upenn.edu/gopher/text/religion/biblical/parallel/00.UserDec.txt
+http://ccat.sas.upenn.edu/gopher/text/religion/biblical/parallel/00.betacode.txt
+http://ccat.sas.upenn.edu/gopher/text/religion/biblical/parallel/00.user-declaration.txt
